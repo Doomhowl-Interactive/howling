@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['registerluafunction_45',['registerLuaFunction',['../classhowling_1_1LuaMachine.html#a0cdf60528a683ad1e7bc32160c5b2759',1,'howling::LuaMachine']]],
-  ['registerluaplugin_46',['registerLuaPlugin',['../classhowling_1_1GuiPrimitives.html#a887da0edd92764df67b1d64d6f8519ca',1,'howling::GuiPrimitives::registerLuaPlugin()'],['../classhowling_1_1LuaPlugin.html#a8925456ecd0f43bc69e53609efd23326',1,'howling::LuaPlugin::registerLuaPlugin()'],['../classhowling_1_1LuaMachine.html#ad4c569338f6e9136382a9aa6081402d3',1,'howling::LuaMachine::registerLuaPlugin()']]],
-  ['registerscript_47',['registerScript',['../classhowling_1_1LuaDesktopReloader.html#a0c3fcf57db72433bcba35e30f498a4d6',1,'howling::LuaDesktopReloader::registerScript()'],['../classhowling_1_1LuaReloader.html#adf6754e8c10b2290ce08b009f2312d75',1,'howling::LuaReloader::registerScript()']]],
-  ['runscript_48',['runScript',['../classhowling_1_1LuaMachine.html#a9a64038fde337632fa3da5ac39908611',1,'howling::LuaMachine']]]
+  ['registerluafunction_45',['registerLuaFunction',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['registerluaplugin_46',['registerLuaPlugin',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html#adc7437fd610379cea2cf183ae6b7aee2',1,'HOWLING_NAMESPACE::GuiPrimitives::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a80878cca375373c0198e4c9c393fce61',1,'HOWLING_NAMESPACE::LuaPlugin::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8',1,'HOWLING_NAMESPACE::LuaMachine::registerLuaPlugin()']]],
+  ['registerscript_47',['registerScript',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#ad811162186e750d25caf16eb8f094925',1,'HOWLING_NAMESPACE::LuaDesktopReloader::registerScript()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#ad6d98f17e62c93caf0f2b11038320e87',1,'HOWLING_NAMESPACE::LuaReloader::registerScript()']]],
+  ['runscript_48',['runScript',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102',1,'HOWLING_NAMESPACE::LuaMachine']]]
 ];

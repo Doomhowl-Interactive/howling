@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['update_54',['update',['../classhowling_1_1LuaDesktopReloader.html#adda23918743d98bff0c860203b2a7194',1,'howling::LuaDesktopReloader::update()'],['../classhowling_1_1LuaReloader.html#a1505c03306cfd95e2b22d8b63a175d4b',1,'howling::LuaReloader::update()'],['../classhowling_1_1LuaMachine.html#ad0101c70f6f4bd146fe1c11c393ef486',1,'howling::LuaMachine::update()']]],
-  ['utils_2ehh_55',['utils.hh',['../utils_8hh.html',1,'']]]
+  ['update_56',['update',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#a7a2b00cb51fffe43cb93a2d0e3d84e3f',1,'HOWLING_NAMESPACE::LuaDesktopReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a90be470be38a217cf9e3b60d51fdf4e5',1,'HOWLING_NAMESPACE::LuaReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a24cace0b933e9097e00ecafa9035ec6f',1,'HOWLING_NAMESPACE::LuaMachine::update()']]],
+  ['utils_2ehh_57',['utils.hh',['../utils_8hh.html',1,'']]]
 ];

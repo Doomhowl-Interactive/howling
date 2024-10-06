@@ -1,4 +1,4 @@
 var logging_8cc =
 [
-    [ "setupLogging", "logging_8cc.html#a3fe1dd9fd79e1624bbb938e9c9b780fb", null ]
+    [ "setupLogging", "logging_8cc.html#a0b2c329932588df5b50f6df19b367d5e", null ]
 ];

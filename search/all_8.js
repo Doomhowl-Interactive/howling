@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['operator_3c_3d_3e_39',['operator&lt;=&gt;',['../structhowling_1_1Point3D.html#a74566cd8d927bd425b78fbac2d63a0e1',1,'howling::Point3D']]],
-  ['operator_5b_5d_40',['operator[]',['../structhowling_1_1Point3D.html#a2655e3c474a5f5cd684fae74c19587e3',1,'howling::Point3D']]]
+  ['operator_3c_3d_3e_39',['operator&lt;=&gt;',['../structHOWLING__NAMESPACE_1_1Point3D.html#ac3963f65a47355ed8076fec86b39181d',1,'HOWLING_NAMESPACE::Point3D']]],
+  ['operator_5b_5d_40',['operator[]',['../structHOWLING__NAMESPACE_1_1Point3D.html#a37e350e7f1cf044ebd9091a26973a33b',1,'HOWLING_NAMESPACE::Point3D']]]
 ];

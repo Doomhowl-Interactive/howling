@@ -7,14 +7,14 @@ var annotated_dup =
     [ "howl", "namespacehowl.html", [
       [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ]
     ] ],
-    [ "howling", "namespacehowling.html", [
-      [ "GuiPrimitives", "classhowling_1_1GuiPrimitives.html", "classhowling_1_1GuiPrimitives" ],
-      [ "LuaConfig", "classhowling_1_1LuaConfig.html", "classhowling_1_1LuaConfig" ],
-      [ "LuaDesktopReloader", "classhowling_1_1LuaDesktopReloader.html", "classhowling_1_1LuaDesktopReloader" ],
-      [ "LuaPlugin", "classhowling_1_1LuaPlugin.html", "classhowling_1_1LuaPlugin" ],
-      [ "LuaReloader", "classhowling_1_1LuaReloader.html", "classhowling_1_1LuaReloader" ],
-      [ "LuaMachine", "classhowling_1_1LuaMachine.html", "classhowling_1_1LuaMachine" ],
-      [ "MeshBuilder", "classhowling_1_1MeshBuilder.html", "classhowling_1_1MeshBuilder" ],
-      [ "Point3D", "structhowling_1_1Point3D.html", "structhowling_1_1Point3D" ]
+    [ "HOWLING_NAMESPACE", "namespaceHOWLING__NAMESPACE.html", [
+      [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ],
+      [ "LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", "classHOWLING__NAMESPACE_1_1LuaConfig" ],
+      [ "LuaDesktopReloader", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader" ],
+      [ "LuaPlugin", "classHOWLING__NAMESPACE_1_1LuaPlugin.html", "classHOWLING__NAMESPACE_1_1LuaPlugin" ],
+      [ "LuaReloader", "classHOWLING__NAMESPACE_1_1LuaReloader.html", "classHOWLING__NAMESPACE_1_1LuaReloader" ],
+      [ "LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", "classHOWLING__NAMESPACE_1_1LuaMachine" ],
+      [ "MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", "classHOWLING__NAMESPACE_1_1MeshBuilder" ],
+      [ "Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", "structHOWLING__NAMESPACE_1_1Point3D" ]
     ] ]
 ];

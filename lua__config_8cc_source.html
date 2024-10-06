@@ -88,26 +88,26 @@ $(document).ready(function(){initNavTree('lua__config_8cc_source.html',''); init
 <div class="contents">
 <a href="lua__config_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lua__config_8hh.html">lua_config.hh</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacehowling.html">howling</a></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classhowling_1_1LuaConfig.html#a23230aaceabe49e5804a0a823242af22">    6</a></span>&#160;<a class="code" href="classhowling_1_1LuaConfig.html#a23230aaceabe49e5804a0a823242af22">LuaConfig::LuaConfig</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">    6</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">LuaConfig::LuaConfig</a>(<span class="keyword">const</span> std::string&amp; scriptPath)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sInstance = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classhowling_1_1LuaMachine.html#a9a64038fde337632fa3da5ac39908611">runScript</a>(ASSETS_DIR <span class="stringliteral">&quot;scripts/config.lua&quot;</span>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102">runScript</a>(scriptPath);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classhowling_1_1LuaConfig.html#aba027caf28b21d23c86bb4514c3c2ae4">   12</a></span>&#160;<a class="code" href="classhowling_1_1LuaConfig.html#aba027caf28b21d23c86bb4514c3c2ae4">LuaConfig::~LuaConfig</a>()</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">   12</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">LuaConfig::~LuaConfig</a>()</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    sInstance = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="ttc" id="aclasshowling_1_1LuaConfig_html_a23230aaceabe49e5804a0a823242af22"><div class="ttname"><a href="classhowling_1_1LuaConfig.html#a23230aaceabe49e5804a0a823242af22">howling::LuaConfig::LuaConfig</a></div><div class="ttdeci">LuaConfig()</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00006">lua_config.cc:6</a></div></div>
-<div class="ttc" id="aclasshowling_1_1LuaConfig_html_aba027caf28b21d23c86bb4514c3c2ae4"><div class="ttname"><a href="classhowling_1_1LuaConfig.html#aba027caf28b21d23c86bb4514c3c2ae4">howling::LuaConfig::~LuaConfig</a></div><div class="ttdeci">~LuaConfig()</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00012">lua_config.cc:12</a></div></div>
-<div class="ttc" id="aclasshowling_1_1LuaMachine_html_a9a64038fde337632fa3da5ac39908611"><div class="ttname"><a href="classhowling_1_1LuaMachine.html#a9a64038fde337632fa3da5ac39908611">howling::LuaMachine::runScript</a></div><div class="ttdeci">bool runScript(const std::string &amp;scriptPath, bool hotReload=true)</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8cc_source.html#l00030">lua_machine.cc:30</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a297385d86455f1bca06fa11d87690dc6"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">HOWLING_NAMESPACE::LuaConfig::~LuaConfig</a></div><div class="ttdeci">~LuaConfig()</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00012">lua_config.cc:12</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a66417437d3a4c056937a811570c6fd30"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">HOWLING_NAMESPACE::LuaConfig::LuaConfig</a></div><div class="ttdeci">LuaConfig(const std::string &amp;scriptPath)</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00006">lua_config.cc:6</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html_a224163e458680dc7f219a09abfc8a102"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102">HOWLING_NAMESPACE::LuaMachine::runScript</a></div><div class="ttdeci">bool runScript(const std::string &amp;scriptPath, bool hotReload=true)</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8cc_source.html#l00042">lua_machine.cc:42</a></div></div>
 <div class="ttc" id="alua__config_8hh_html"><div class="ttname"><a href="lua__config_8hh.html">lua_config.hh</a></div></div>
-<div class="ttc" id="anamespacehowling_html"><div class="ttname"><a href="namespacehowling.html">howling</a></div><div class="ttdef"><b>Definition:</b> <a href="gui__primitives_8cc_source.html#l00004">gui_primitives.cc:5</a></div></div>
+<div class="ttc" id="anamespaceHOWLING__NAMESPACE_html"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div><div class="ttdef"><b>Definition:</b> <a href="gui__primitives_8cc_source.html#l00004">gui_primitives.cc:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

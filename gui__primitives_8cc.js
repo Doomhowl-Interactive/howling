@@ -1,5 +1,5 @@
 var gui__primitives_8cc =
 [
-    [ "LuaRectangle", "gui__primitives_8cc.html#a3211a1f91d55124cbba39a2efb44814b", null ],
-    [ "luaRect", "gui__primitives_8cc.html#a91f38e1cc14f28d95843df446954bbb2", null ]
+    [ "LuaRectangle", "gui__primitives_8cc.html#a552879888248435c19b1a14fdeb86bd8", null ],
+    [ "luaRect", "gui__primitives_8cc.html#a558e275715f6da8d89c89725b7563c94", null ]
 ];

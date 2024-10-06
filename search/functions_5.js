@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['luaconfig_101',['LuaConfig',['../classhowling_1_1LuaConfig.html#a23230aaceabe49e5804a0a823242af22',1,'howling::LuaConfig']]],
-  ['luamachine_102',['LuaMachine',['../classhowling_1_1LuaMachine.html#a729beaa9be3f79a26fdcfc911442c588',1,'howling::LuaMachine::LuaMachine()'],['../classhowling_1_1LuaMachine.html#a2c8e30ad2a746fc2836982e2d69ccbac',1,'howling::LuaMachine::LuaMachine(const std::initializer_list&lt; LuaPlugin * &gt; &amp;plugins)']]],
-  ['luarect_103',['luaRect',['../namespacehowling.html#a91f38e1cc14f28d95843df446954bbb2',1,'howling']]]
+  ['luaconfig_103',['LuaConfig',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30',1,'HOWLING_NAMESPACE::LuaConfig']]],
+  ['luamachine_104',['LuaMachine',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a4490c8a6c5a5b8ea7dd8c2917d738d65',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a54e56649015b438ca2d335b09b77e1d9',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine(const std::initializer_list&lt; LuaPlugin * &gt; &amp;plugins)']]],
+  ['luarect_105',['luaRect',['../namespaceHOWLING__NAMESPACE.html#a558e275715f6da8d89c89725b7563c94',1,'HOWLING_NAMESPACE']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['callvoidfunc_91',['callVoidFunc',['../classhowling_1_1LuaMachine.html#a0b80d5688b38c3c297a4b7dc9a601b76',1,'howling::LuaMachine']]],
-  ['cmalloc_92',['cmalloc',['../namespacehowling.html#afff2135f7cd443f3437597aa81305421',1,'howling']]],
-  ['colorisequal_93',['colorIsEqual',['../namespacehowling.html#aaac9ce3aecb60092856fd2947f20ce86',1,'howling']]],
-  ['colortovec3_94',['colorToVec3',['../namespacehowling.html#a59eeb05d500e8d0c4a2688d52559445b',1,'howling']]]
+  ['callvoidfunc_93',['callVoidFunc',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a5ab47cdabf8990a6df93b8525bf659ee',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['cmalloc_94',['cmalloc',['../namespaceHOWLING__NAMESPACE.html#a9fd2495f517c4c747365fc57b4b76e98',1,'HOWLING_NAMESPACE']]],
+  ['colorisequal_95',['colorIsEqual',['../namespaceHOWLING__NAMESPACE.html#a6503b09a4c63ef776581168568b241a2',1,'HOWLING_NAMESPACE']]],
+  ['colortovec3_96',['colorToVec3',['../namespaceHOWLING__NAMESPACE.html#a65ecf154ab52db4e60f985e0a27adf24',1,'HOWLING_NAMESPACE']]]
 ];

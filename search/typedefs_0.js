@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['luarectangle_126',['LuaRectangle',['../namespacehowling.html#a3211a1f91d55124cbba39a2efb44814b',1,'howling']]]
+  ['luarectangle_130',['LuaRectangle',['../namespaceHOWLING__NAMESPACE.html#a552879888248435c19b1a14fdeb86bd8',1,'HOWLING_NAMESPACE']]]
 ];

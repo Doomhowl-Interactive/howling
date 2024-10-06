@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['howl_73',['howl',['../namespacehowl.html',1,'']]],
-  ['howling_74',['howling',['../namespacehowling.html',1,'']]]
+  ['howl_75',['howl',['../namespacehowl.html',1,'']]],
+  ['howling_5fnamespace_76',['HOWLING_NAMESPACE',['../namespaceHOWLING__NAMESPACE.html',1,'']]]
 ];
