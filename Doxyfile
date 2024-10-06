@@ -2,7 +2,7 @@
 
 # Project-related settings
 PROJECT_NAME           = "Howling"
-PROJECT_BRIEF          = "Shared code of our apps"
+PROJECT_BRIEF          = "Doomhowl Interactive shared app code"
 PROJECT_LOGO           = ""
 OUTPUT_DIRECTORY       = docs
 GENERATE_LATEX         = NO
