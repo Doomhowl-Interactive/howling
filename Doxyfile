@@ -31,7 +31,7 @@ CLASS_DIAGRAMS         = YES     # Generate class diagrams
 
 # Source browser options
 SOURCE_BROWSER         = YES     # Enable source browsing (clickable links to source code)
-INLINE_SOURCES         = YES     # Show source code in the documentation
+INLINE_SOURCES         = NO      # Show source code in the documentation
 
 # Warnings and errors
 WARNINGS               = YES     # Enable warnings in Doxygen output
