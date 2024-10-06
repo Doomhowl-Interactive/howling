@@ -4,6 +4,8 @@
 
 Shared code of our apps (after Vortex)
 
+[Doxygen API](https://doomhowl-interactive.github.io/howling/)
+
 ## Features
 - Lua helper classes
 - Convenient fmt formatters
