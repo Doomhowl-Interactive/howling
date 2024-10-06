@@ -3,7 +3,7 @@
 
 #include <vector>
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 /**
  * Constructed Mesh

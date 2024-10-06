@@ -10,7 +10,7 @@
 
 #include "logging.hh"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 class LuaMachine;
@@ -63,6 +63,9 @@ public:
     LuaMachine();
     LuaMachine(const std::initializer_list<LuaPlugin*>& plugins);
 
+    void setScriptsFolder(const std::string& folder);
+    static void setDefaultScriptsFolder(const std::string& scriptsFolder);
+
     bool runScript(const std::string& scriptPath, bool hotReload = true);
 
     void update(float delta)
@@ -104,9 +107,10 @@ public:
     void registerLuaPlugin(LuaMachine& machine) override;
 
     sol::state state {};
-
 private:
     std::weak_ptr<LuaReloader> mReload;
+    std::string mScriptsFolder;
+    static inline std::string sDefaultScriptsFolder{};
 };
 
 }

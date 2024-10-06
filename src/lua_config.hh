@@ -2,13 +2,13 @@
 #include "lua_machine.hh"
 #include <string>
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 class LuaConfig : public LuaMachine
 {
 public:
-    LuaConfig();
+    LuaConfig(const std::string& scriptPath);
     ~LuaConfig();
 
     template<typename T>

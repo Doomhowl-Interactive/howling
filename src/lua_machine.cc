@@ -3,10 +3,12 @@
 
 #include <cassert>
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 LuaMachine::LuaMachine(const std::initializer_list<LuaPlugin*>& plugins)
+    : mReload(LuaReloader::getInstance())
+    , mScriptsFolder(sDefaultScriptsFolder)
 {
     state.open_libraries(sol::lib::base, sol::lib::math, sol::lib::table);
 
@@ -19,12 +21,22 @@ LuaMachine::LuaMachine(const std::initializer_list<LuaPlugin*>& plugins)
         plugin->registerLuaPlugin(*this);
     }
 
-    mReload = LuaReloader::getInstance();
+    ;
 }
 
 LuaMachine::LuaMachine()
     : LuaMachine({})
 {
+}
+
+void LuaMachine::setScriptsFolder(const std::string& folder)
+{
+    mScriptsFolder = folder;
+}
+
+void LuaMachine::setDefaultScriptsFolder(const std::string& scriptsFolder)
+{
+    sDefaultScriptsFolder = scriptsFolder;
 }
 
 bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
@@ -60,7 +72,7 @@ void LuaMachine::registerLuaPlugin(LuaMachine& machine)
                                 { spdlog::debug("lua: {}", msg); });
 
     machine.registerLuaFunction("include", [this](std::string file)
-                                { runScript(fmt::format(ASSETS_DIR "scripts/{}", file)); });
+                                { runScript(fmt::format("{}/{}",mScriptsFolder, file)); });
 }
 
 }

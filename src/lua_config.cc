@@ -1,12 +1,12 @@
 #include "lua_config.hh"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
-LuaConfig::LuaConfig()
+LuaConfig::LuaConfig(const std::string& scriptPath)
 {
     sInstance = this;
-    runScript(ASSETS_DIR "scripts/config.lua");
+    runScript(scriptPath);
 }
 
 LuaConfig::~LuaConfig()

@@ -5,7 +5,7 @@
 #include <cassert>
 #include <stdexcept>
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 void MeshBuilder::pushVertex(Vector3 pos, Vector3 normal)

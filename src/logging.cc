@@ -2,7 +2,7 @@
 #include "raylib.h"
 // #include "spdlog/sinks/android_sink.h"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 static int logTypeLevel = 0;

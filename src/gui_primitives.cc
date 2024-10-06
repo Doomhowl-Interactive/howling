@@ -1,7 +1,7 @@
 #include "gui_primitives.hh"
 #include "raylib.h"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 using LuaRectangle = sol::table;

@@ -6,7 +6,7 @@
 #include <filesystem>
 #include <unordered_map>
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 class LuaDesktopReloader : public LuaReloader

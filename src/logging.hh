@@ -41,6 +41,11 @@ public:
     }
 };
 
+}
+
+namespace HOWLING_NAMESPACE
+{
+
 void setupLogging(const std::string& gameName);
 
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "lua_machine.hh"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 class GuiPrimitives : public LuaPlugin

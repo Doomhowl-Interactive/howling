@@ -3,7 +3,9 @@ project(howling C CXX)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-option(HOWLING_ASSETS_DIR "Path to assets directory" "${CMAKE_SOURCE_DIR}/assets")
+
+option(HOWLING_NAMESPACE "Custom namespace to use. Same as the game for ease of use." "howling")
+
 set(BUILD_SHARED_LIBS OFF)
 
 if (MSVC)
@@ -37,13 +39,20 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
   ${LUA_LIBRARIES}
 )
 
+set(HOWLING_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_include_directories(${PROJECT_NAME} PUBLIC
-  ${CMAKE_CURRENT_LIST_DIR}/src
+  ${HOWLING_HEADERS}
   ${LUA_INCLUDE_DIR}
 )
 
+if (NOT HOWLING_NAMESPACE)
+  set(HOWLING_NAMESPACE "howling")
+endif()
+
+message("Using namespace ${HOWLING_NAMESPACE}")
+
 target_compile_definitions(${PROJECT_NAME} PRIVATE
-  ASSETS_DIR="${HOWLING_ASSETS_DIR}/"
+  HOWLING_NAMESPACE=${HOWLING_NAMESPACE}
 )
 
 if (HOWLING_DOXYGEN)

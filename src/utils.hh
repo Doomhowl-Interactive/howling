@@ -5,7 +5,7 @@
 #include "raylib.h"
 #include "raymath.h"
 
-namespace howling
+namespace HOWLING_NAMESPACE
 {
 
 template<typename T>
