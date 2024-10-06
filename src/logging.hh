@@ -2,6 +2,9 @@
 #include <filesystem>
 #include <spdlog/spdlog.h>
 #include <stdexcept>
+#include <vector>
+#include <string>
+#include <sstream>
 
 // blursed templates for logging
 
@@ -45,6 +48,20 @@ public:
 
 namespace HOWLING_NAMESPACE
 {
+
+template <typename T>
+std::string stringifyVector(const std::vector<T>& vec) {
+    std::ostringstream oss;
+    oss << "[";
+    for (std::size_t i = 0; i < vec.size(); ++i) {
+        oss << vec[i];
+        if (i != vec.size() - 1) {
+            oss << ", ";
+        }
+    }
+    oss << "]";
+    return oss.str();
+}
 
 void setupLogging(const std::string& gameName);
 

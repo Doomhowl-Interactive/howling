@@ -2,7 +2,9 @@
 
 #include <cassert>
 #include <memory>
+#include <optional>
 #include <string>
+#include <vector>
 #define SOL_ALL_SAFETIES_ON 1
 #include <boost/core/noncopyable.hpp>
 #include <initializer_list>
@@ -63,8 +65,8 @@ public:
     LuaMachine();
     LuaMachine(const std::initializer_list<LuaPlugin*>& plugins);
 
-    void setScriptsFolder(const std::string& folder);
-    static void setDefaultScriptsFolder(const std::string& scriptsFolder);
+    void addLuaIncludeDirs(const std::initializer_list<std::string>& dirs);
+    static void setDefaultLuaIncludeDirs(const std::initializer_list<std::string>& dirs);
 
     bool runScript(const std::string& scriptPath, bool hotReload = true);
 
@@ -108,9 +110,11 @@ public:
 
     sol::state state {};
 private:
+    [[nodiscard]] std::optional<std::string> resolveLuaFile(const std::string& scriptPath) const;
+
     std::weak_ptr<LuaReloader> mReload;
-    std::string mScriptsFolder;
-    static inline std::string sDefaultScriptsFolder{};
+    std::vector<std::string> mLuaIncludeDirs;
+    static inline std::vector<std::string> sDefaultLuaIncludeDirs{};
 };
 
 }

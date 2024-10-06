@@ -39,7 +39,9 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
   ${LUA_LIBRARIES}
 )
 
-set(HOWLING_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(HOWLING_HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/src" CACHE INTERNAL "")
+set(HOWLING_ASSETS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/assets" CACHE INTERNAL "")
+
 target_include_directories(${PROJECT_NAME} PUBLIC
   ${HOWLING_HEADERS}
   ${LUA_INCLUDE_DIR}
@@ -51,7 +53,7 @@ endif()
 
 message("Using namespace ${HOWLING_NAMESPACE}")
 
-target_compile_definitions(${PROJECT_NAME} PRIVATE
+target_compile_definitions(${PROJECT_NAME} PUBLIC
   HOWLING_NAMESPACE=${HOWLING_NAMESPACE}
 )
 
