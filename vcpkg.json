@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "boost-core",
+    "magic-enum",
+    "rmlui",
+    "sol2",
+    "spdlog",
+    "lua"
+  ]
+}

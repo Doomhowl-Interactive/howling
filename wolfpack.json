@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "libs": {
+        "metayeti/mINI": {
+            "tag": "master"
+        },
+        "raysan5/raylib": {
+            "tag": "master"
+        }
+    }
+}
