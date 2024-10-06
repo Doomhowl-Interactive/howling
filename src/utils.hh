@@ -48,7 +48,8 @@ inline void drawSolidBoundingBox(BoundingBox bounds, Color color)
 inline bool colorIsEqual(Color a, Color b, bool checkAlpha = true)
 {
     bool eq = a.r == b.r && a.g == b.g && a.b == b.b;
-    if (eq && checkAlpha) {
+    if (eq && checkAlpha)
+    {
         eq = a.a == b.a;
     }
     return eq;

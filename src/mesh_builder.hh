@@ -20,8 +20,9 @@ private:
     std::vector<Vector2> mTexCoords {};
     std::vector<unsigned short> mIndices {};
 
-    template <typename T, typename U>
-    void copyIntoBuffer(const std::vector<T>& vec, U* dest) {
+    template<typename T, typename U>
+    void copyIntoBuffer(const std::vector<T>& vec, U* dest)
+    {
         std::memcpy(dest, vec.data(), sizeof(T) * vec.size());
     }
 };

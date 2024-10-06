@@ -1,6 +1,6 @@
 #pragma once
-#include <string>
 #include "lua_machine.hh"
+#include <string>
 
 namespace howling
 {
@@ -12,11 +12,13 @@ public:
     ~LuaConfig();
 
     template<typename T>
-    T getConfigValue(const std::string& name, T defaultValue) {
+    T getConfigValue(const std::string& name, T defaultValue)
+    {
         return state["config"][name].get_or<T>(defaultValue);
     }
 
-    bool getConfigBool(const std::string& name) {
+    bool getConfigBool(const std::string& name)
+    {
         return getConfigValue<bool>(name, false);
     }
 

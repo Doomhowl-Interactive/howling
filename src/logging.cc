@@ -7,9 +7,10 @@ namespace howling
 
 static int logTypeLevel = 0;
 
-static void passToSpdlog(int logType, const char *text, va_list args)
+static void passToSpdlog(int logType, const char* text, va_list args)
 {
-    if (logType < logTypeLevel) {
+    if (logType < logTypeLevel)
+    {
         return;
     }
 
@@ -18,24 +19,25 @@ static void passToSpdlog(int logType, const char *text, va_list args)
 
     switch (logType)
     {
-        case LOG_INFO:
-            spdlog::info(buffer);
-            break;
-        case LOG_WARNING:
-            spdlog::warn(buffer);
-            break;
-        case LOG_ERROR:
-            spdlog::error(buffer);
-            break;
-        case LOG_DEBUG:
-            spdlog::debug(buffer);
-            break;
-        default:
-            spdlog::info(buffer);
-            break;
+    case LOG_INFO:
+        spdlog::info(buffer);
+        break;
+    case LOG_WARNING:
+        spdlog::warn(buffer);
+        break;
+    case LOG_ERROR:
+        spdlog::error(buffer);
+        break;
+    case LOG_DEBUG:
+        spdlog::debug(buffer);
+        break;
+    default:
+        spdlog::info(buffer);
+        break;
     }
 
-    if (logType == LOG_FATAL) {
+    if (logType == LOG_FATAL)
+    {
         throw howl::formatted_error("Logged FATAL :: {}", buffer);
     }
 }
@@ -56,7 +58,7 @@ void setupLogging(const std::string& gameName)
     spdlog::set_default_logger(androidLogger);
     */
 
-    spdlog::set_pattern(fmt::format("[{}:%^%l%$:%oms] %v",gameName));
+    spdlog::set_pattern(fmt::format("[{}:%^%l%$:%oms] %v", gameName));
 
     SetTraceLogCallback(passToSpdlog);
 }

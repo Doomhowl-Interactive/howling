@@ -7,6 +7,7 @@ namespace howling
 class GuiPrimitives : public LuaPlugin
 {
     using LuaRectangle = sol::table;
+
 public:
     void registerLuaPlugin(LuaMachine& machine) override;
 };

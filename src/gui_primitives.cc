@@ -34,9 +34,8 @@ static void draw_text_button(LuaRectangle ldest, std::string text)
 void GuiPrimitives::registerLuaPlugin(LuaMachine& machine)
 {
     machine.registerLuaFunction("draw_text_button", draw_text_button);
-    machine.registerLuaFunction("get_screen_size", [&machine]() {
-        return get_screen_size(machine.state);
-    });
+    machine.registerLuaFunction("get_screen_size", [&machine]()
+                                { return get_screen_size(machine.state); });
 }
 
 }

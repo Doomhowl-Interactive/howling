@@ -13,7 +13,8 @@ LuaMachine::LuaMachine(const std::initializer_list<LuaPlugin*>& plugins)
     // register core plugin
     registerLuaPlugin(*this);
 
-    for (LuaPlugin* plugin: plugins) {
+    for (LuaPlugin* plugin : plugins)
+    {
         assert(plugin);
         plugin->registerLuaPlugin(*this);
     }
@@ -33,8 +34,10 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
         state.safe_script_file(scriptPath);
         spdlog::info("Loaded lua script {}", scriptPath);
 
-        if (hotReload) {
-            if (auto reload = LuaReloader::getInstance().lock()) {
+        if (hotReload)
+        {
+            if (auto reload = LuaReloader::getInstance().lock())
+            {
                 reload->registerScript(scriptPath);
             }
         }
@@ -51,16 +54,13 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
 void LuaMachine::registerLuaPlugin(LuaMachine& machine)
 {
     // callable functions from lua
-    machine.registerLuaFunction("info", [](std::string msg) {
-        spdlog::info("lua: {}", msg);
-    });
-    machine.registerLuaFunction("debug", [](std::string msg) {
-        spdlog::debug("lua: {}", msg);
-    });
+    machine.registerLuaFunction("info", [](std::string msg)
+                                { spdlog::info("lua: {}", msg); });
+    machine.registerLuaFunction("debug", [](std::string msg)
+                                { spdlog::debug("lua: {}", msg); });
 
-    machine.registerLuaFunction("include", [this](std::string file) {
-        runScript(fmt::format(ASSETS_DIR "scripts/{}", file));
-    });
+    machine.registerLuaFunction("include", [this](std::string file)
+                                { runScript(fmt::format(ASSETS_DIR "scripts/{}", file)); });
 }
 
 }
