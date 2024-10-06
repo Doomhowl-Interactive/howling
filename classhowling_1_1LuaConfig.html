@@ -172,12 +172,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__config_8cc_source.html#l00006">6</a> of file <a class="el" href="lua__config_8cc_source.html">lua_config.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sInstance = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classhowling_1_1LuaMachine.html#a9a64038fde337632fa3da5ac39908611">runScript</a>(ASSETS_DIR <span class="stringliteral">&quot;scripts/config.lua&quot;</span>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="aclasshowling_1_1LuaMachine_html_a9a64038fde337632fa3da5ac39908611"><div class="ttname"><a href="classhowling_1_1LuaMachine.html#a9a64038fde337632fa3da5ac39908611">howling::LuaMachine::runScript</a></div><div class="ttdeci">bool runScript(const std::string &amp;scriptPath, bool hotReload=true)</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8cc_source.html#l00030">lua_machine.cc:30</a></div></div>
-</div><!-- fragment --><div class="dynheader">
+<div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classhowling_1_1LuaConfig_a23230aaceabe49e5804a0a823242af22_cgraph.png" border="0" usemap="#aclasshowling_1_1LuaConfig_a23230aaceabe49e5804a0a823242af22_cgraph" alt=""/></div>
@@ -206,10 +201,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__config_8cc_source.html#l00012">12</a> of file <a class="el" href="lua__config_8cc_source.html">lua_config.cc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    sInstance = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -238,10 +230,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__config_8hh_source.html#l00020">20</a> of file <a class="el" href="lua__config_8hh_source.html">lua_config.hh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> getConfigValue&lt;bool&gt;(name, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a795dfcdf3f965d29d51a638a7129603d"></a>
@@ -281,11 +270,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__config_8hh_source.html#l00015">15</a> of file <a class="el" href="lua__config_8hh_source.html">lua_config.hh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classhowling_1_1LuaMachine.html#a248b27b35d5c4f66b919882543b5dafd">state</a>[<span class="stringliteral">&quot;config&quot;</span>][name].get_or&lt;T&gt;(defaultValue);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
-<div class="ttc" id="aclasshowling_1_1LuaMachine_html_a248b27b35d5c4f66b919882543b5dafd"><div class="ttname"><a href="classhowling_1_1LuaMachine.html#a248b27b35d5c4f66b919882543b5dafd">howling::LuaMachine::state</a></div><div class="ttdeci">sol::state state</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00106">lua_machine.hh:106</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

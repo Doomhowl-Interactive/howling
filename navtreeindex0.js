@@ -1,6 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[0,0,0],
 "annotated.html":[1,0],
 "classes.html":[1,1],
 "classhowl_1_1formatted__error.html":[1,0,1,0],
@@ -116,5 +115,6 @@ var NAVTREEINDEX0 =
 "utils_8hh.html#ab9a6dc7008902dfaeeaa7d22dfe4f725":[2,0,0,11,9],
 "utils_8hh.html#afdc9b6fc856d4ea406f64eaf79e85c13":[2,0,0,11,3],
 "utils_8hh.html#afff2135f7cd443f3437597aa81305421":[2,0,0,11,4],
-"utils_8hh_source.html":[2,0,0,11]
+"utils_8hh_source.html":[2,0,0,11],
+"":[0,0,0]
 };

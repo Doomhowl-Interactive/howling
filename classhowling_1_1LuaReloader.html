@@ -174,10 +174,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00048">48</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> sInstance;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-</div><!-- fragment --><div class="dynheader">
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classhowling_1_1LuaReloader_ad82ff77dee5368979f579d101dc4f502_icgraph.png" border="0" usemap="#aclasshowling_1_1LuaReloader_ad82ff77dee5368979f579d101dc4f502_icgraph" alt=""/></div>
@@ -228,16 +225,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00032">32</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        mTimer += delta;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (mTimer &gt; CHECK_TIME)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            mTimer = 0.f;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="classhowling_1_1LuaReloader.html#a1505c03306cfd95e2b22d8b63a175d4b">update</a>(machine);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="ttc" id="aclasshowling_1_1LuaReloader_html_a1505c03306cfd95e2b22d8b63a175d4b"><div class="ttname"><a href="classhowling_1_1LuaReloader.html#a1505c03306cfd95e2b22d8b63a175d4b">howling::LuaReloader::update</a></div><div class="ttdeci">virtual void update(LuaMachine &amp;machine)=0</div></div>
-</div><!-- fragment --><div class="dynheader">
+<div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classhowling_1_1LuaReloader_a01dff65bd8a5abd4c87095342db80adf_cgraph.png" border="0" usemap="#aclasshowling_1_1LuaReloader_a01dff65bd8a5abd4c87095342db80adf_cgraph" alt=""/></div>
@@ -302,11 +290,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00042">42</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        assert(!sInstance &amp;&amp; <span class="stringliteral">&quot;LuaReloader instance already set&quot;</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        sInstance = std::shared_ptr&lt;LuaReloader&gt;(reloader);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a1505c03306cfd95e2b22d8b63a175d4b"></a>
