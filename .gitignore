@@ -1,5 +1,7 @@
 *.*~
+*~
 build
 vcpkg_installed
 .wolfpack
 .vscode
+docs

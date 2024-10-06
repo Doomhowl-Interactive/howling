@@ -1,0 +1,45 @@
+# Doxyfile for Doxygen configuration
+
+# Project-related settings
+PROJECT_NAME           = "Howling"
+PROJECT_BRIEF          = "Shared code of our apps"
+PROJECT_LOGO           = ""
+OUTPUT_DIRECTORY       = docs
+GENERATE_LATEX         = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+GENERATE_XML           = NO
+
+# Input-related settings
+INPUT                  = ./src   # Point this to your source code directory
+FILE_PATTERNS          = *.hh *.cc  # File patterns for headers and source files
+RECURSIVE              = YES     # Scan subdirectories recursively
+EXCLUDE                =         # Specify files or directories to exclude
+
+# Documentation generation options
+GENERATE_HTML          = YES     # Generate HTML documentation
+HTML_OUTPUT            = .       # Output HTML in the current directory inside 'docs'
+
+# Dot-related settings (for class diagrams, etc.)
+HAVE_DOT               = YES     # Enable if you want diagrams generated
+DOT_PATH               =         # Path to the dot executable, usually found by default
+DOT_GRAPH_MAX_NODES    = 50      # Limit nodes in generated diagrams (helps avoid clutter)
+MAX_DOT_GRAPH_DEPTH    = 0       # Set to 0 for unlimited depth
+CALL_GRAPH             = YES     # Enable call graphs
+CALLER_GRAPH           = YES     # Enable caller graphs
+CLASS_DIAGRAMS         = YES     # Generate class diagrams
+
+# Source browser options
+SOURCE_BROWSER         = YES     # Enable source browsing (clickable links to source code)
+INLINE_SOURCES         = YES     # Show source code in the documentation
+
+# Warnings and errors
+WARNINGS               = YES     # Enable warnings in Doxygen output
+WARN_IF_UNDOCUMENTED   = YES     # Warn if functions/classes are undocumented
+WARN_IF_DOC_ERROR      = YES     # Warn about potential documentation issues
+WARN_NO_PARAMDOC       = YES     # Warn if function parameters are undocumented
+
+# Miscellaneous
+EXTRACT_ALL            = YES     # Extract documentation from all source files
+OPTIMIZE_OUTPUT_FOR_C  = NO      # Set to YES if working with C instead of C++
+GENERATE_TREEVIEW      = YES     # Enable navigation tree in HTML output
