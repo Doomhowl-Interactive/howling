@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['getconfigbool_13',['getConfigBool',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a056fb76f792cefa5ec70beab2b3c1daf',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['getconfigvalue_14',['getConfigValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a5d0288396b98c73bb1d2f37d69246eb6',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['getinstance_15',['getInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['gui_5fprimitives_2ecc_16',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
-  ['gui_5fprimitives_2ehh_17',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]],
-  ['guiprimitives_18',['GuiPrimitives',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html',1,'HOWLING_NAMESPACE']]]
+  ['format_10',['format',['../structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html#acb01c911bfb094e2114c2212a1e16317',1,'fmt::formatter&lt; std::filesystem::path &gt;::format()'],['../structfmt_1_1formatter_3_01std_1_1exception_01_4.html#a2ffb3121156a5756e57c7fac1d3e12bc',1,'fmt::formatter&lt; std::exception &gt;::format()']]],
+  ['formatted_5ferror_11',['formatted_error',['../classhowl_1_1formatted__error.html#a681b462e817a475584e9bf1aa7d521ad',1,'howl::formatted_error::formatted_error()'],['../classhowl_1_1formatted__error.html',1,'howl::formatted_error']]],
+  ['formatter_3c_20std_3a_3aexception_20_3e_12',['formatter&lt; std::exception &gt;',['../structfmt_1_1formatter_3_01std_1_1exception_01_4.html',1,'fmt']]],
+  ['formatter_3c_20std_3a_3afilesystem_3a_3apath_20_3e_13',['formatter&lt; std::filesystem::path &gt;',['../structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html',1,'fmt']]]
 ];

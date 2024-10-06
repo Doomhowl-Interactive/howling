@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['setdefaultscriptsfolder_117',['setDefaultScriptsFolder',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#aa7703d573da3ef2461bbe425a367eb3c',1,'HOWLING_NAMESPACE::LuaMachine']]],
-  ['setinstance_118',['setInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a4eee2c10e273e1fc7b93dbb34847e54a',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['setscriptsfolder_119',['setScriptsFolder',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#aa26a499a3909ee1341a41da0e3a96c6f',1,'HOWLING_NAMESPACE::LuaMachine']]],
-  ['setuplogging_120',['setupLogging',['../namespaceHOWLING__NAMESPACE.html#a0b2c329932588df5b50f6df19b367d5e',1,'HOWLING_NAMESPACE']]],
-  ['sign_121',['sign',['../namespaceHOWLING__NAMESPACE.html#a104f8d9b4a5d7c371c3ef3578dcead0c',1,'HOWLING_NAMESPACE']]]
+  ['registerluafunction_115',['registerLuaFunction',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['registerluaplugin_116',['registerLuaPlugin',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html#adc7437fd610379cea2cf183ae6b7aee2',1,'HOWLING_NAMESPACE::GuiPrimitives::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a80878cca375373c0198e4c9c393fce61',1,'HOWLING_NAMESPACE::LuaPlugin::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8',1,'HOWLING_NAMESPACE::LuaMachine::registerLuaPlugin()']]],
+  ['registerscript_117',['registerScript',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#ad811162186e750d25caf16eb8f094925',1,'HOWLING_NAMESPACE::LuaDesktopReloader::registerScript()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#ad6d98f17e62c93caf0f2b11038320e87',1,'HOWLING_NAMESPACE::LuaReloader::registerScript()']]],
+  ['runscript_118',['runScript',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102',1,'HOWLING_NAMESPACE::LuaMachine']]]
 ];

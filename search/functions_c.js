@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['_7eluaconfig_123',['~LuaConfig',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['_7eluaplugin_124',['~LuaPlugin',['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a03062d06268e31ac0faa193efbc03977',1,'HOWLING_NAMESPACE::LuaPlugin']]],
-  ['_7eluareloader_125',['~LuaReloader',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a314f174fa40a74fdcf6c4d55f38a220e',1,'HOWLING_NAMESPACE::LuaReloader']]]
+  ['update_124',['update',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#a7a2b00cb51fffe43cb93a2d0e3d84e3f',1,'HOWLING_NAMESPACE::LuaDesktopReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a90be470be38a217cf9e3b60d51fdf4e5',1,'HOWLING_NAMESPACE::LuaReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a24cace0b933e9097e00ecafa9035ec6f',1,'HOWLING_NAMESPACE::LuaMachine::update()']]]
 ];
