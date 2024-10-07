@@ -5,7 +5,8 @@ var annotated_dup =
       [ "formatter< std::exception >", "structfmt_1_1formatter_3_01std_1_1exception_01_4.html", "structfmt_1_1formatter_3_01std_1_1exception_01_4" ]
     ] ],
     [ "howl", "namespacehowl.html", [
-      [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ]
+      [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ],
+      [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ]
     ] ],
     [ "HOWLING_NAMESPACE", "namespaceHOWLING__NAMESPACE.html", [
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],

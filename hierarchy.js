@@ -16,6 +16,7 @@ var hierarchy =
       [ "HOWLING_NAMESPACE::GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", null ]
     ] ],
+    [ "howl::ordered_vector< T >", "classhowl_1_1ordered__vector.html", null ],
     [ "HOWLING_NAMESPACE::Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", null ],
     [ "std::runtime_error", null, [
       [ "howl::formatted_error", "classhowl_1_1formatted__error.html", null ]

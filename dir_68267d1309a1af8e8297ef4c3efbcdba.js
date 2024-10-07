@@ -23,5 +23,8 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "mesh_builder.hh", "mesh__builder_8hh.html", [
       [ "MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", "classHOWLING__NAMESPACE_1_1MeshBuilder" ]
     ] ],
+    [ "ordered_vector.hh", "ordered__vector_8hh.html", [
+      [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ]
+    ] ],
     [ "utils.hh", "utils_8hh.html", "utils_8hh" ]
 ];
