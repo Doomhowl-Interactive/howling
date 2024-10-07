@@ -13,6 +13,7 @@ var hierarchy =
     ] ],
     [ "HOWLING_NAMESPACE::MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", null ],
     [ "boost::noncopyable", null, [
+      [ "HOWLING_NAMESPACE::GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", null ]
     ] ],
     [ "HOWLING_NAMESPACE::Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", null ],

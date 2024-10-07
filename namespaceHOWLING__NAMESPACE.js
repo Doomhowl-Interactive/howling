@@ -1,5 +1,6 @@
 var namespaceHOWLING__NAMESPACE =
 [
+    [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],
     [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ],
     [ "LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", "classHOWLING__NAMESPACE_1_1LuaConfig" ],
     [ "LuaDesktopReloader", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader" ],
