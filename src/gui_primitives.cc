@@ -28,6 +28,7 @@ static void draw_text_button(LuaRectangle ldest, std::string text)
 {
     Rectangle dest = luaRect(ldest);
     DrawRectangleRec(dest, LIGHTGRAY);
+    // Vector2 size = MeasureTextEx(
     DrawText(text.c_str(), dest.x + dest.width * 0.5f, dest.y + dest.height * 0.5f, 12, WHITE);
 }
 
