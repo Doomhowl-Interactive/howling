@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"":[0,0,0],
 "annotated.html":[1,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html":[1,0,2,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090":[1,0,2,0,1],
@@ -47,6 +48,7 @@ var NAVTREEINDEX0 =
 "classhowl_1_1ordered__vector.html#a83da6983abd10714873e2365fafa8ce6":[1,0,1,1,3],
 "classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304":[1,0,1,1,0],
 "classhowl_1_1ordered__vector.html#a9505da28db23346dd00f6c8ecfda57e7":[1,0,1,1,2],
+"classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284":[1,0,1,1,6],
 "classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a":[1,0,1,1,1],
 "dir_68267d1309a1af8e8297ef4c3efbcdba.html":[2,0,0],
 "files.html":[2,0],
@@ -136,6 +138,5 @@ var NAVTREEINDEX0 =
 "utils_8hh.html#aa38290de75fd54f6473dbc2d7d0a5d69":[2,0,0,14,2],
 "utils_8hh.html#ad22f0e024302609992135a2add749efe":[2,0,0,14,1],
 "utils_8hh.html#aeb15519754745ca698815d4f1655c151":[2,0,0,14,8],
-"utils_8hh_source.html":[2,0,0,14],
-"":[0,0,0]
+"utils_8hh_source.html":[2,0,0,14]
 };
