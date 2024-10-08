@@ -37,6 +37,10 @@ public:
         return mVec;
     }
 
+    void sortInplace() {
+        std::sort(mVec.begin(), mVec.end());
+    }
+
     /// read only access to vector
     const std::vector<T>& operator*() const {
         return mVec;
@@ -48,10 +52,6 @@ public:
     }
 
 private:
-    void sortInplace() {
-        std::sort(mVec.begin(), mVec.end());
-    }
-
     std::vector<T> mVec;
 };
 
