@@ -7,6 +7,8 @@
 namespace HOWLING_NAMESPACE
 {
 
+namespace fs = std::filesystem;
+
 LuaMachine::LuaMachine(const std::initializer_list<LuaPlugin*>& plugins)
     : mReload(LuaReloader::getInstance())
     , mLuaIncludeDirs(sDefaultLuaIncludeDirs)
@@ -40,16 +42,32 @@ void LuaMachine::setDefaultLuaIncludeDirs(const std::initializer_list<std::strin
 
 bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
 {
+    std::string resolved;
+    const fs::path path = fs::path(scriptPath);
+    if (path.is_relative() && !fs::exists(path))
+    {
+        if (auto res = resolveLuaFile(scriptPath)) {
+            resolved = *res;
+        } else {
+            assert(0 && "Failed to resolve script file");
+        }
+    }
+    else
+    {
+        resolved = scriptPath;
+    }
+
     try
     {
-        state.safe_script_file(scriptPath);
-        spdlog::info("Loaded lua script {}", scriptPath);
+
+        state.safe_script_file(resolved);
+        spdlog::info("Loaded lua script {}", resolved);
 
         if (hotReload)
         {
             if (auto reload = LuaReloader::getInstance().lock())
             {
-                reload->registerScript(scriptPath);
+                reload->registerScript(resolved);
             }
         }
         return true;
@@ -64,8 +82,6 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
 
 std::optional<std::string> LuaMachine::resolveLuaFile(const std::string& scriptPath) const
 {
-    namespace fs = std::filesystem;
-
     std::optional<std::string> result = {};
 
     if (mLuaIncludeDirs.size() == 1)
