@@ -26,5 +26,8 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "ordered_vector.hh", "ordered__vector_8hh.html", [
       [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ]
     ] ],
+    [ "ring_buffer.hh", "ring__buffer_8hh.html", [
+      [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
+    ] ],
     [ "utils.hh", "utils_8hh.html", "utils_8hh" ]
 ];

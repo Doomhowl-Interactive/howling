@@ -6,7 +6,8 @@ var annotated_dup =
     ] ],
     [ "howl", "namespacehowl.html", [
       [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ],
-      [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ]
+      [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ],
+      [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
     ] ],
     [ "HOWLING_NAMESPACE", "namespaceHOWLING__NAMESPACE.html", [
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],
