@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['registerluafunction_154',['registerLuaFunction',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea',1,'HOWLING_NAMESPACE::LuaMachine']]],
-  ['registerluaplugin_155',['registerLuaPlugin',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html#adc7437fd610379cea2cf183ae6b7aee2',1,'HOWLING_NAMESPACE::GuiPrimitives::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a80878cca375373c0198e4c9c393fce61',1,'HOWLING_NAMESPACE::LuaPlugin::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8',1,'HOWLING_NAMESPACE::LuaMachine::registerLuaPlugin()']]],
-  ['registerscript_156',['registerScript',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#ad811162186e750d25caf16eb8f094925',1,'HOWLING_NAMESPACE::LuaDesktopReloader::registerScript()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#ad6d98f17e62c93caf0f2b11038320e87',1,'HOWLING_NAMESPACE::LuaReloader::registerScript()']]],
-  ['runscript_157',['runScript',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102',1,'HOWLING_NAMESPACE::LuaMachine']]]
+  ['obtain_154',['obtain',['../classhowl_1_1ring__buffer.html#a7da9ca016a0cd3c40d06de8b08c4641b',1,'howl::ring_buffer']]],
+  ['operator_2a_155',['operator*',['../classhowl_1_1ordered__vector.html#a30de45d9fc1e1228199127adb147017a',1,'howl::ordered_vector']]],
+  ['operator_2d_3e_156',['operator-&gt;',['../classhowl_1_1ordered__vector.html#a5143cf05035630c5231f3adc31491645',1,'howl::ordered_vector']]],
+  ['operator_3c_3d_3e_157',['operator&lt;=&gt;',['../structHOWLING__NAMESPACE_1_1Point3D.html#ac3963f65a47355ed8076fec86b39181d',1,'HOWLING_NAMESPACE::Point3D']]],
+  ['operator_5b_5d_158',['operator[]',['../classhowl_1_1ring__buffer.html#aed43654ba52b0bccb6c0b9b079b3aa9b',1,'howl::ring_buffer::operator[](std::size_t index) const'],['../classhowl_1_1ring__buffer.html#afbf5c8468d7e9f4469ccdc601293ddb5',1,'howl::ring_buffer::operator[](std::size_t index)'],['../structHOWLING__NAMESPACE_1_1Point3D.html#a37e350e7f1cf044ebd9091a26973a33b',1,'HOWLING_NAMESPACE::Point3D::operator[]()']]],
+  ['ordered_5fvector_159',['ordered_vector',['../classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304',1,'howl::ordered_vector::ordered_vector(std::size_t size, T defaultValue={})'],['../classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a',1,'howl::ordered_vector::ordered_vector()=default']]]
 ];

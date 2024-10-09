@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['_7egameassets_165',['~GameAssets',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a7764224749794df6ce1382edcc93e8f2',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['_7eluaconfig_166',['~LuaConfig',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['_7eluaplugin_167',['~LuaPlugin',['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a03062d06268e31ac0faa193efbc03977',1,'HOWLING_NAMESPACE::LuaPlugin']]],
-  ['_7eluareloader_168',['~LuaReloader',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a314f174fa40a74fdcf6c4d55f38a220e',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['_7ering_5fbuffer_169',['~ring_buffer',['../classhowl_1_1ring__buffer.html#a72de824ba7a1853026755934cfad733d',1,'howl::ring_buffer']]]
+  ['setdefaultluaincludedirs_169',['setDefaultLuaIncludeDirs',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a75162237054c4aadea8724511b4190ce',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['setinstance_170',['setInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a4eee2c10e273e1fc7b93dbb34847e54a',1,'HOWLING_NAMESPACE::LuaReloader']]],
+  ['setuplogging_171',['setupLogging',['../namespaceHOWLING__NAMESPACE.html#a0b2c329932588df5b50f6df19b367d5e',1,'HOWLING_NAMESPACE']]],
+  ['sign_172',['sign',['../namespaceHOWLING__NAMESPACE.html#a104f8d9b4a5d7c371c3ef3578dcead0c',1,'HOWLING_NAMESPACE']]],
+  ['sortinplace_173',['sortInplace',['../classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284',1,'howl::ordered_vector']]],
+  ['stringifyvector_174',['stringifyVector',['../namespaceHOWLING__NAMESPACE.html#a7e7542876d05b895cfb91d23eab088d8',1,'HOWLING_NAMESPACE']]]
 ];

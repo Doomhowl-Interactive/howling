@@ -8,6 +8,7 @@ var utils_8hh =
     [ "colorIsEqual", "utils_8hh.html#a6503b09a4c63ef776581168568b241a2", null ],
     [ "colorToVec3", "utils_8hh.html#a65ecf154ab52db4e60f985e0a27adf24", null ],
     [ "drawSolidBoundingBox", "utils_8hh.html#a0994a6d377cd8c0d8762ebe524525b94", null ],
+    [ "isVector3Zero", "utils_8hh.html#ab7d6c65ce661b148fdf020ce0a4dbd66", null ],
     [ "mapValue", "utils_8hh.html#aeb15519754745ca698815d4f1655c151", null ],
     [ "sign", "utils_8hh.html#a104f8d9b4a5d7c371c3ef3578dcead0c", null ]
 ];

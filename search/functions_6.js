@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['loadfont_136',['loadFont',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['loadmodel_137',['loadModel',['../classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['loadtexture_138',['loadTexture',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['luaconfig_139',['LuaConfig',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['luamachine_140',['LuaMachine',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a4490c8a6c5a5b8ea7dd8c2917d738d65',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a54e56649015b438ca2d335b09b77e1d9',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine(const std::initializer_list&lt; LuaPlugin * &gt; &amp;plugins)']]],
-  ['luarect_141',['luaRect',['../namespaceHOWLING__NAMESPACE.html#a558e275715f6da8d89c89725b7563c94',1,'HOWLING_NAMESPACE']]]
+  ['getbool_141',['getBool',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a402c68a99849095e233dfa995427adb4',1,'HOWLING_NAMESPACE::LuaConfig']]],
+  ['getinstance_142',['getInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93',1,'HOWLING_NAMESPACE::LuaReloader']]],
+  ['getvalue_143',['getValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a871b352c0d2feb746d32684c14cf3c36',1,'HOWLING_NAMESPACE::LuaConfig']]],
+  ['getvector3_144',['getVector3',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601',1,'HOWLING_NAMESPACE::LuaConfig']]]
 ];

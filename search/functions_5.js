@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['getbool_133',['getBool',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a402c68a99849095e233dfa995427adb4',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['getinstance_134',['getInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['getvalue_135',['getValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a871b352c0d2feb746d32684c14cf3c36',1,'HOWLING_NAMESPACE::LuaConfig']]]
+  ['format_139',['format',['../structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html#acb01c911bfb094e2114c2212a1e16317',1,'fmt::formatter&lt; std::filesystem::path &gt;::format()'],['../structfmt_1_1formatter_3_01std_1_1exception_01_4.html#a2ffb3121156a5756e57c7fac1d3e12bc',1,'fmt::formatter&lt; std::exception &gt;::format()']]],
+  ['formatted_5ferror_140',['formatted_error',['../classhowl_1_1formatted__error.html#a681b462e817a475584e9bf1aa7d521ad',1,'howl::formatted_error']]]
 ];

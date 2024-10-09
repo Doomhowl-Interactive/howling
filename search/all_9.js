@@ -1,10 +1,20 @@
 var searchData=
 [
-  ['obtain_52',['obtain',['../classhowl_1_1ring__buffer.html#a7da9ca016a0cd3c40d06de8b08c4641b',1,'howl::ring_buffer']]],
-  ['operator_2a_53',['operator*',['../classhowl_1_1ordered__vector.html#a30de45d9fc1e1228199127adb147017a',1,'howl::ordered_vector']]],
-  ['operator_2d_3e_54',['operator-&gt;',['../classhowl_1_1ordered__vector.html#a5143cf05035630c5231f3adc31491645',1,'howl::ordered_vector']]],
-  ['operator_3c_3d_3e_55',['operator&lt;=&gt;',['../structHOWLING__NAMESPACE_1_1Point3D.html#ac3963f65a47355ed8076fec86b39181d',1,'HOWLING_NAMESPACE::Point3D']]],
-  ['operator_5b_5d_56',['operator[]',['../structHOWLING__NAMESPACE_1_1Point3D.html#a37e350e7f1cf044ebd9091a26973a33b',1,'HOWLING_NAMESPACE::Point3D']]],
-  ['ordered_5fvector_57',['ordered_vector',['../classhowl_1_1ordered__vector.html',1,'howl::ordered_vector&lt; T &gt;'],['../classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304',1,'howl::ordered_vector::ordered_vector(std::size_t size, T defaultValue={})'],['../classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a',1,'howl::ordered_vector::ordered_vector()=default']]],
-  ['ordered_5fvector_2ehh_58',['ordered_vector.hh',['../ordered__vector_8hh.html',1,'']]]
+  ['loadfont_33',['loadFont',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090',1,'HOWLING_NAMESPACE::GameAssets']]],
+  ['loadmodel_34',['loadModel',['../classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0',1,'HOWLING_NAMESPACE::GameAssets']]],
+  ['loadtexture_35',['loadTexture',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a',1,'HOWLING_NAMESPACE::GameAssets']]],
+  ['logging_2ecc_36',['logging.cc',['../logging_8cc.html',1,'']]],
+  ['logging_2ehh_37',['logging.hh',['../logging_8hh.html',1,'']]],
+  ['lua_5fconfig_2ecc_38',['lua_config.cc',['../lua__config_8cc.html',1,'']]],
+  ['lua_5fconfig_2ehh_39',['lua_config.hh',['../lua__config_8hh.html',1,'']]],
+  ['lua_5fdesktop_5freloader_2ehh_40',['lua_desktop_reloader.hh',['../lua__desktop__reloader_8hh.html',1,'']]],
+  ['lua_5fmachine_2ecc_41',['lua_machine.cc',['../lua__machine_8cc.html',1,'']]],
+  ['lua_5fmachine_2ehh_42',['lua_machine.hh',['../lua__machine_8hh.html',1,'']]],
+  ['luaconfig_43',['LuaConfig',['../classHOWLING__NAMESPACE_1_1LuaConfig.html',1,'HOWLING_NAMESPACE::LuaConfig'],['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30',1,'HOWLING_NAMESPACE::LuaConfig::LuaConfig()']]],
+  ['luadesktopreloader_44',['LuaDesktopReloader',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html',1,'HOWLING_NAMESPACE']]],
+  ['luamachine_45',['LuaMachine',['../classHOWLING__NAMESPACE_1_1LuaMachine.html',1,'HOWLING_NAMESPACE::LuaMachine'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a4490c8a6c5a5b8ea7dd8c2917d738d65',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a54e56649015b438ca2d335b09b77e1d9',1,'HOWLING_NAMESPACE::LuaMachine::LuaMachine(const std::initializer_list&lt; LuaPlugin * &gt; &amp;plugins)']]],
+  ['luaplugin_46',['LuaPlugin',['../classHOWLING__NAMESPACE_1_1LuaPlugin.html',1,'HOWLING_NAMESPACE']]],
+  ['luarect_47',['luaRect',['../namespaceHOWLING__NAMESPACE.html#a558e275715f6da8d89c89725b7563c94',1,'HOWLING_NAMESPACE']]],
+  ['luarectangle_48',['LuaRectangle',['../namespaceHOWLING__NAMESPACE.html#a552879888248435c19b1a14fdeb86bd8',1,'HOWLING_NAMESPACE']]],
+  ['luareloader_49',['LuaReloader',['../classHOWLING__NAMESPACE_1_1LuaReloader.html',1,'HOWLING_NAMESPACE']]]
 ];

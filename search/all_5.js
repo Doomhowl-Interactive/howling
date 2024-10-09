@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['game_5fassets_2ecc_16',['game_assets.cc',['../game__assets_8cc.html',1,'']]],
-  ['game_5fassets_2ehh_17',['game_assets.hh',['../game__assets_8hh.html',1,'']]],
-  ['gameassets_18',['GameAssets',['../classHOWLING__NAMESPACE_1_1GameAssets.html',1,'HOWLING_NAMESPACE']]],
-  ['getbool_19',['getBool',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a402c68a99849095e233dfa995427adb4',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['getinstance_20',['getInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['getvalue_21',['getValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a871b352c0d2feb746d32684c14cf3c36',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['gui_5fprimitives_2ecc_22',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
-  ['gui_5fprimitives_2ehh_23',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]],
-  ['guiprimitives_24',['GuiPrimitives',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html',1,'HOWLING_NAMESPACE']]]
+  ['format_15',['format',['../structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html#acb01c911bfb094e2114c2212a1e16317',1,'fmt::formatter&lt; std::filesystem::path &gt;::format()'],['../structfmt_1_1formatter_3_01std_1_1exception_01_4.html#a2ffb3121156a5756e57c7fac1d3e12bc',1,'fmt::formatter&lt; std::exception &gt;::format()']]],
+  ['formatted_5ferror_16',['formatted_error',['../classhowl_1_1formatted__error.html#a681b462e817a475584e9bf1aa7d521ad',1,'howl::formatted_error::formatted_error()'],['../classhowl_1_1formatted__error.html',1,'howl::formatted_error']]],
+  ['formatter_3c_20std_3a_3aexception_20_3e_17',['formatter&lt; std::exception &gt;',['../structfmt_1_1formatter_3_01std_1_1exception_01_4.html',1,'fmt']]],
+  ['formatter_3c_20std_3a_3afilesystem_3a_3apath_20_3e_18',['formatter&lt; std::filesystem::path &gt;',['../structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html',1,'fmt']]]
 ];
