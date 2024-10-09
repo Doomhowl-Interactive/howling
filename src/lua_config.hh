@@ -1,5 +1,6 @@
 #pragma once
 #include "lua_machine.hh"
+#include "raylib.h"
 
 #include <string>
 #include <cassert>
@@ -21,6 +22,8 @@ public:
     [[nodiscard]] static bool getBool(const std::string& name) {
         return ins().getValue<bool>(name, false);
     }
+
+    [[nodiscard]] static Vector3 getVector3(const std::string& name);
 
 private:
     static inline LuaConfig* sInstance {};

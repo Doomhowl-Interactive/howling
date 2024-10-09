@@ -118,4 +118,11 @@ inline Vector3 colorToVec3(Color color)
     };
 }
 
+inline bool isVector3Zero(Vector3 vec)
+{
+    return FloatEquals(vec.x, 0.f) &&
+        FloatEquals(vec.y, 0.f) &&
+        FloatEquals(vec.z, 0.f);
+}
+
 }
