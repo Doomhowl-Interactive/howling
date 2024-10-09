@@ -1,7 +1,5 @@
 <map id="HOWLING_NAMESPACE::LuaMachine::runScript" name="HOWLING_NAMESPACE::LuaMachine::runScript">
-<area shape="rect" id="node1" title=" " alt="" coords="509,71,691,112"/>
-<area shape="rect" id="node2" href="$classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30" title=" " alt="" coords="260,5,441,47"/>
-<area shape="rect" id="node3" href="$classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8" title=" " alt="" coords="240,71,461,112"/>
-<area shape="rect" id="node5" href="$classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#a7a2b00cb51fffe43cb93a2d0e3d84e3f" title=" " alt="" coords="260,137,441,193"/>
-<area shape="rect" id="node4" href="$classHOWLING__NAMESPACE_1_1LuaMachine.html#a54e56649015b438ca2d335b09b77e1d9" title=" " alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="235,43,416,84"/>
+<area shape="rect" id="node2" href="$classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node3" href="$classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#a7a2b00cb51fffe43cb93a2d0e3d84e3f" title=" " alt="" coords="5,71,187,127"/>
 </map>
