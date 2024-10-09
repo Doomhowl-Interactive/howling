@@ -59,7 +59,6 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
 
     try
     {
-
         state.safe_script_file(resolved);
         spdlog::info("Loaded lua script {}", resolved);
 
@@ -109,19 +108,29 @@ end:
     return result;
 }
 
+LUAFUNC static void info(std::string msg)
+{
+    spdlog::info("lua: {}", msg);
+}
+
+LUAFUNC static void debug(std::string msg)
+{
+    spdlog::debug("lua: {}", msg);
+}
+
+LUAFUNC void LuaMachine::include(std::string& file)
+{
+    if (auto resolved = resolveLuaFile(file); resolved) {
+        runScript(*resolved);
+    }
+}
+
 void LuaMachine::registerLuaPlugin(LuaMachine& machine)
 {
     // callable functions from lua
-    machine.registerLuaFunction("info", [](std::string msg)
-                                { spdlog::info("lua: {}", msg); });
-    machine.registerLuaFunction("debug", [](std::string msg)
-                                { spdlog::debug("lua: {}", msg); });
-
-    machine.registerLuaFunction("include", [this](std::string file) {
-        if (auto resolved = resolveLuaFile(file); resolved) {
-            runScript(*resolved);
-        }
-    });
+    machine.registerLuaFunction("info", info);
+    machine.registerLuaFunction("debug", debug);
+    machine.registerLuaFunction("include", [this](std::string file) { this->include(file); });
 }
 
 }

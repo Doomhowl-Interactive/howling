@@ -12,6 +12,8 @@
 
 #include "logging.hh"
 
+#define LUAFUNC
+
 namespace HOWLING_NAMESPACE
 {
 
@@ -111,6 +113,8 @@ public:
     sol::state state {};
 private:
     [[nodiscard]] std::optional<std::string> resolveLuaFile(const std::string& scriptPath) const;
+
+    LUAFUNC void include(std::string& file);
 
     std::weak_ptr<LuaReloader> mReload;
     std::vector<std::string> mLuaIncludeDirs;
