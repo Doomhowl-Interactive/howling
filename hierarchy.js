@@ -1,7 +1,11 @@
 var hierarchy =
 [
+    [ "fmt::formatter< Color >", "structfmt_1_1formatter_3_01Color_01_4.html", null ],
     [ "fmt::formatter< std::exception >", "structfmt_1_1formatter_3_01std_1_1exception_01_4.html", null ],
     [ "fmt::formatter< std::filesystem::path >", "structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html", null ],
+    [ "fmt::formatter< Vector2 >", "structfmt_1_1formatter_3_01Vector2_01_4.html", null ],
+    [ "fmt::formatter< Vector3 >", "structfmt_1_1formatter_3_01Vector3_01_4.html", null ],
+    [ "fmt::formatter< Vector4 >", "structfmt_1_1formatter_3_01Vector4_01_4.html", null ],
     [ "HOWLING_NAMESPACE::LuaPlugin", "classHOWLING__NAMESPACE_1_1LuaPlugin.html", [
       [ "HOWLING_NAMESPACE::GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", [

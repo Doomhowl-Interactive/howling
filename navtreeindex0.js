@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"":[0,0,0],
 "annotated.html":[1,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html":[1,0,2,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090":[1,0,2,0,1],
@@ -86,8 +87,8 @@ var NAVTREEINDEX0 =
 "logging_8cc.html#a0b2c329932588df5b50f6df19b367d5e":[2,0,0,4,0],
 "logging_8cc_source.html":[2,0,0,4],
 "logging_8hh.html":[2,0,0,5],
-"logging_8hh.html#a0b2c329932588df5b50f6df19b367d5e":[2,0,0,5,3],
-"logging_8hh.html#a7e7542876d05b895cfb91d23eab088d8":[2,0,0,5,4],
+"logging_8hh.html#a0b2c329932588df5b50f6df19b367d5e":[2,0,0,5,7],
+"logging_8hh.html#a7e7542876d05b895cfb91d23eab088d8":[2,0,0,5,8],
 "logging_8hh_source.html":[2,0,0,5],
 "lua__config_8cc.html":[2,0,0,6],
 "lua__config_8cc_source.html":[2,0,0,6],
@@ -139,6 +140,18 @@ var NAVTREEINDEX0 =
 "structHOWLING__NAMESPACE_1_1Point3D.html#ac3963f65a47355ed8076fec86b39181d":[1,0,2,8,3],
 "structHOWLING__NAMESPACE_1_1Point3D.html#ad1244940f1bf35cfeaacceee69c67874":[1,0,2,8,2],
 "structHOWLING__NAMESPACE_1_1Point3D.html#ae1130dccb09dd13ca7b4a49d8decf80d":[1,0,2,8,0],
+"structfmt_1_1formatter_3_01Color_01_4.html":[1,0,0,2],
+"structfmt_1_1formatter_3_01Color_01_4.html#ace19f29ff6d86b702fb1c05a9d94aa43":[1,0,0,2,1],
+"structfmt_1_1formatter_3_01Color_01_4.html#af19f650ce02db12de5c567687996e3f1":[1,0,0,2,0],
+"structfmt_1_1formatter_3_01Vector2_01_4.html":[1,0,0,3],
+"structfmt_1_1formatter_3_01Vector2_01_4.html#a42a4515ca9f24f96cf004542c1623913":[1,0,0,3,1],
+"structfmt_1_1formatter_3_01Vector2_01_4.html#a5323133be081f9e2c8da6a7808b909e4":[1,0,0,3,0],
+"structfmt_1_1formatter_3_01Vector3_01_4.html":[1,0,0,4],
+"structfmt_1_1formatter_3_01Vector3_01_4.html#a7409468e2d31ef811a3a5b563a944978":[1,0,0,4,0],
+"structfmt_1_1formatter_3_01Vector3_01_4.html#a941080fad69dcce575db10186067a9b4":[1,0,0,4,1],
+"structfmt_1_1formatter_3_01Vector4_01_4.html":[1,0,0,5],
+"structfmt_1_1formatter_3_01Vector4_01_4.html#a4f453f9010acbaedf1cb84a360c26fe3":[1,0,0,5,1],
+"structfmt_1_1formatter_3_01Vector4_01_4.html#a74f8146a84db03b3f5458449826e68cd":[1,0,0,5,0],
 "structfmt_1_1formatter_3_01std_1_1exception_01_4.html":[1,0,0,1],
 "structfmt_1_1formatter_3_01std_1_1exception_01_4.html#a2ffb3121156a5756e57c7fac1d3e12bc":[1,0,0,1,0],
 "structfmt_1_1formatter_3_01std_1_1exception_01_4.html#af4cd6c4742b5cf776990e1225ed13097":[1,0,0,1,1],
@@ -156,6 +169,5 @@ var NAVTREEINDEX0 =
 "utils_8hh.html#ab7d6c65ce661b148fdf020ce0a4dbd66":[2,0,0,15,8],
 "utils_8hh.html#ad22f0e024302609992135a2add749efe":[2,0,0,15,1],
 "utils_8hh.html#aeb15519754745ca698815d4f1655c151":[2,0,0,15,9],
-"utils_8hh_source.html":[2,0,0,15],
-"":[0,0,0]
+"utils_8hh_source.html":[2,0,0,15]
 };
