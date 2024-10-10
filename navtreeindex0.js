@@ -1,6 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[0,0,0],
 "annotated.html":[1,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html":[1,0,2,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090":[1,0,2,0,1],
@@ -157,5 +156,6 @@ var NAVTREEINDEX0 =
 "utils_8hh.html#ab7d6c65ce661b148fdf020ce0a4dbd66":[2,0,0,15,8],
 "utils_8hh.html#ad22f0e024302609992135a2add749efe":[2,0,0,15,1],
 "utils_8hh.html#aeb15519754745ca698815d4f1655c151":[2,0,0,15,9],
-"utils_8hh_source.html":[2,0,0,15]
+"utils_8hh_source.html":[2,0,0,15],
+"":[0,0,0]
 };
