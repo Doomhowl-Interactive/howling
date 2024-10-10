@@ -6,6 +6,8 @@
 #include <string>
 #include <sstream>
 
+#include "raylib.h"
+
 // blursed templates for logging
 
 template<>
@@ -27,6 +29,50 @@ struct fmt::formatter<std::exception>
     auto format(const std::exception& ex, FormatContext& ctx) const
     {
         return fmt::format_to(ctx.out(), "{}", ex.what());
+    }
+};
+
+template<>
+struct fmt::formatter<Color>
+{
+    constexpr auto parse(format_parse_context& ctx) { return ctx.begin(); }
+    template<typename FormatContext>
+    auto format(const Color& c, FormatContext& ctx) const
+    {
+        return fmt::format_to(ctx.out(), "(r={},g={},b={},a={})", c.r, c.g, c.b, c.a);
+    }
+};
+
+template<>
+struct fmt::formatter<Vector2>
+{
+    constexpr auto parse(format_parse_context& ctx) { return ctx.begin(); }
+    template<typename FormatContext>
+    auto format(const Vector2& v, FormatContext& ctx) const
+    {
+        return fmt::format_to(ctx.out(), "({},{})", v.x, v.y);
+    }
+};
+
+template<>
+struct fmt::formatter<Vector3>
+{
+    constexpr auto parse(format_parse_context& ctx) { return ctx.begin(); }
+    template<typename FormatContext>
+    auto format(const Vector3& v, FormatContext& ctx) const
+    {
+        return fmt::format_to(ctx.out(), "({},{},{})", v.x, v.y, v.z);
+    }
+};
+
+template<>
+struct fmt::formatter<Vector4>
+{
+    constexpr auto parse(format_parse_context& ctx) { return ctx.begin(); }
+    template<typename FormatContext>
+    auto format(const Vector4& v, FormatContext& ctx) const
+    {
+        return fmt::format_to(ctx.out(), "({},{},{},{})", v.x, v.y, v.z, v.w);
     }
 };
 
