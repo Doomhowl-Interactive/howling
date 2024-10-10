@@ -16,7 +16,7 @@ public:
     virtual ~ring_buffer() = default;
 
     T& obtain() {
-        T& it = &mBuffer[mCurrent];
+        T& it = mBuffer[mCurrent];
         assertObtainValid(it);
         mCurrent = (mCurrent + 1) % S;
         return it;
