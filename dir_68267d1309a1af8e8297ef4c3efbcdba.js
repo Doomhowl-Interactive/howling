@@ -19,6 +19,8 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     ] ],
     [ "lua_machine.cc", "lua__machine_8cc.html", null ],
     [ "lua_machine.hh", "lua__machine_8hh.html", "lua__machine_8hh" ],
+    [ "memory_profiler.cc", "memory__profiler_8cc.html", "memory__profiler_8cc" ],
+    [ "memory_profiler.hh", "memory__profiler_8hh.html", "memory__profiler_8hh" ],
     [ "mesh_builder.cc", "mesh__builder_8cc.html", null ],
     [ "mesh_builder.hh", "mesh__builder_8hh.html", [
       [ "MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", "classHOWLING__NAMESPACE_1_1MeshBuilder" ]

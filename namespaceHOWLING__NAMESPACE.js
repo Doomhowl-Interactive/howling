@@ -1,5 +1,11 @@
 var namespaceHOWLING__NAMESPACE =
 [
+    [ "memory", "namespaceHOWLING__NAMESPACE_1_1memory.html", [
+      [ "beginAllocationCount", "namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687", null ],
+      [ "endAllocationCount", "namespaceHOWLING__NAMESPACE_1_1memory.html#a2d8e9cc6a5788dad4d8326ca6747c362", null ],
+      [ "getAllocationsSinceStart", "namespaceHOWLING__NAMESPACE_1_1memory.html#a150149a2c578bdf1ff1df0c2aaf33a26", null ],
+      [ "getDeallocationsSinceStart", "namespaceHOWLING__NAMESPACE_1_1memory.html#a74dd18bdb62a641fd46673bfc771ae8d", null ]
+    ] ],
     [ "profiler", "namespaceHOWLING__NAMESPACE_1_1profiler.html", "namespaceHOWLING__NAMESPACE_1_1profiler" ],
     [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],
     [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ],
