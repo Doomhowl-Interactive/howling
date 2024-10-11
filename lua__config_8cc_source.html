@@ -86,47 +86,61 @@ $(document).ready(function(){initNavTree('lua__config_8cc_source.html',''); init
 <div class="title">lua_config.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="lua__config_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lua__config_8hh.html">lua_config.hh</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<a href="lua__config_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;spdlog/spdlog.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lua__config_8hh.html">lua_config.hh</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">    6</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">LuaConfig::LuaConfig</a>(<span class="keyword">const</span> std::string&amp; scriptPath)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sInstance = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102">runScript</a>(scriptPath);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">   12</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">LuaConfig::~LuaConfig</a>()</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    sInstance = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">   17</a></span>&#160;Vector3 <a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">LuaConfig::getVector3</a>(<span class="keyword">const</span> std::string&amp; name)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    Vector3 result {};</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (ins().<a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">state</a>[<span class="stringliteral">&quot;config&quot;</span>][name].get_type() == sol::type::table) {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        sol::table table = ins().<a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">state</a>[<span class="stringliteral">&quot;config&quot;</span>][name];</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [key,value] : table) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">auto</span> keyStr = key.as&lt;std::string&gt;();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;x&quot;</span>) {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                result.x = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;y&quot;</span>) {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                result.y = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;z&quot;</span>) {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                result.z = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a297385d86455f1bca06fa11d87690dc6"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">HOWLING_NAMESPACE::LuaConfig::~LuaConfig</a></div><div class="ttdeci">~LuaConfig()</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00012">lua_config.cc:12</a></div></div>
-<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a66417437d3a4c056937a811570c6fd30"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">HOWLING_NAMESPACE::LuaConfig::LuaConfig</a></div><div class="ttdeci">LuaConfig(const std::string &amp;scriptPath)</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00006">lua_config.cc:6</a></div></div>
-<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_aefa5c8ae7fdf2764b079209346898601"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">HOWLING_NAMESPACE::LuaConfig::getVector3</a></div><div class="ttdeci">static Vector3 getVector3(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00017">lua_config.cc:17</a></div></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">    9</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">LuaConfig::LuaConfig</a>(<span class="keyword">const</span> std::string&amp; scriptPath)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    : mScriptPath(scriptPath)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    sInstance = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102">runScript</a>(scriptPath);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ae3b4752595220a1d3c569b7d1b6cb178">registerLuaReloadCallback</a>([<span class="keyword">this</span>](<span class="keyword">const</span> std::filesystem::path&amp; file) {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">if</span> (sInstance) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordflow">if</span> (mScriptPath.ends_with(file.string())) {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                mCachedOptions.clear();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                spdlog::debug(<span class="stringliteral">&quot;Reset configuration cache&quot;</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            }</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    });</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">   25</a></span>&#160;<a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">LuaConfig::~LuaConfig</a>()</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    sInstance = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">   30</a></span>&#160;Vector3 <a class="code" href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">LuaConfig::getVector3</a>(<span class="keyword">const</span> std::string&amp; name)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    Vector3 result {};</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (ins().<a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">state</a>[<span class="stringliteral">&quot;config&quot;</span>][name].get_type() == sol::type::table) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        sol::table table = ins().<a class="code" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">state</a>[<span class="stringliteral">&quot;config&quot;</span>][name];</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span>&amp; [key,value] : table) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keyword">auto</span> keyStr = key.as&lt;std::string&gt;();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;x&quot;</span>) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                result.x = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;y&quot;</span>) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                result.y = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (keyStr == <span class="stringliteral">&quot;z&quot;</span>) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                result.z = value.as&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a297385d86455f1bca06fa11d87690dc6"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6">HOWLING_NAMESPACE::LuaConfig::~LuaConfig</a></div><div class="ttdeci">~LuaConfig()</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00025">lua_config.cc:25</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_a66417437d3a4c056937a811570c6fd30"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30">HOWLING_NAMESPACE::LuaConfig::LuaConfig</a></div><div class="ttdeci">LuaConfig(const std::string &amp;scriptPath)</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00009">lua_config.cc:9</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaConfig_html_aefa5c8ae7fdf2764b079209346898601"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601">HOWLING_NAMESPACE::LuaConfig::getVector3</a></div><div class="ttdeci">static Vector3 getVector3(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="lua__config_8cc_source.html#l00030">lua_config.cc:30</a></div></div>
 <div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html_a224163e458680dc7f219a09abfc8a102"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102">HOWLING_NAMESPACE::LuaMachine::runScript</a></div><div class="ttdeci">bool runScript(const std::string &amp;scriptPath, bool hotReload=true)</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8cc_source.html#l00043">lua_machine.cc:43</a></div></div>
-<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html_ad199a96246a60cd724dd1c07da82f132"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">HOWLING_NAMESPACE::LuaMachine::state</a></div><div class="ttdeci">sol::state state</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00113">lua_machine.hh:113</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html_ad199a96246a60cd724dd1c07da82f132"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132">HOWLING_NAMESPACE::LuaMachine::state</a></div><div class="ttdeci">sol::state state</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00135">lua_machine.hh:135</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html_ae3b4752595220a1d3c569b7d1b6cb178"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html#ae3b4752595220a1d3c569b7d1b6cb178">HOWLING_NAMESPACE::LuaMachine::registerLuaReloadCallback</a></div><div class="ttdeci">void registerLuaReloadCallback(const LuaReloader::ReloadCallback &amp;cb)</div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00126">lua_machine.hh:126</a></div></div>
 <div class="ttc" id="alua__config_8hh_html"><div class="ttname"><a href="lua__config_8hh.html">lua_config.hh</a></div></div>
 <div class="ttc" id="anamespaceHOWLING__NAMESPACE_html"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div><div class="ttdef"><b>Definition:</b> <a href="game__assets_8cc_source.html#l00006">game_assets.cc:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

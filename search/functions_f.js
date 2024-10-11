@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['worst_224',['worst',['../classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html#acd576744a0d5781fc1031d1dda6aac26',1,'HOWLING_NAMESPACE::profiler::ProfilerTask']]]
+  ['update_230',['update',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#a7a2b00cb51fffe43cb93a2d0e3d84e3f',1,'HOWLING_NAMESPACE::LuaDesktopReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a90be470be38a217cf9e3b60d51fdf4e5',1,'HOWLING_NAMESPACE::LuaReloader::update()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a24cace0b933e9097e00ecafa9035ec6f',1,'HOWLING_NAMESPACE::LuaMachine::update()']]]
 ];

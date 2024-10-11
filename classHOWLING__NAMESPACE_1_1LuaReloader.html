@@ -83,8 +83,10 @@ $(document).ready(function(){initNavTree('classHOWLING__NAMESPACE_1_1LuaReloader
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classHOWLING__NAMESPACE_1_1LuaReloader-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">HOWLING_NAMESPACE::LuaReloader Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -102,6 +104,11 @@ Inheritance diagram for HOWLING_NAMESPACE::LuaReloader:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a20a3ac78d5c677a9cb1fb92dc845e5f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a20a3ac78d5c677a9cb1fb92dc845e5f3">ReloadCallback</a> = std::function&lt; void(const std::filesystem::path &amp;)&gt;</td></tr>
+<tr class="separator:a20a3ac78d5c677a9cb1fb92dc845e5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a314f174fa40a74fdcf6c4d55f38a220e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a314f174fa40a74fdcf6c4d55f38a220e">~LuaReloader</a> ()=default</td></tr>
@@ -112,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a90be470be38a217cf9e3b60d51fdf4e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f1a5d8d0117a23a16d0de94b1b0dfb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a1f1a5d8d0117a23a16d0de94b1b0dfb2">pollUpdate</a> (<a class="el" href="classHOWLING__NAMESPACE_1_1LuaMachine.html">LuaMachine</a> &amp;machine, float delta)</td></tr>
 <tr class="separator:a1f1a5d8d0117a23a16d0de94b1b0dfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83d62a4692c47d0300c55058c3c66af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a83d62a4692c47d0300c55058c3c66af1">registerReloadCallback</a> (const <a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a20a3ac78d5c677a9cb1fb92dc845e5f3">ReloadCallback</a> &amp;callback)</td></tr>
+<tr class="memdesc:a83d62a4692c47d0300c55058c3c66af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a callback that triggers with the name of the file reloaded.  <a href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a83d62a4692c47d0300c55058c3c66af1">More...</a><br /></td></tr>
+<tr class="separator:a83d62a4692c47d0300c55058c3c66af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -119,11 +129,33 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a4eee2c10e273e1fc7b93dbb34847e54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fe994889cea071f5396528b7543e93"><td class="memItemLeft" align="right" valign="top">static std::weak_ptr&lt; <a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html">LuaReloader</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93">getInstance</a> ()</td></tr>
 <tr class="separator:aa1fe994889cea071f5396528b7543e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ac58ea6f9e96bc4b6f5ecb51896b16004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#ac58ea6f9e96bc4b6f5ecb51896b16004">notifyCallbacks</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="separator:ac58ea6f9e96bc4b6f5ecb51896b16004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00028">28</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00030">30</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a20a3ac78d5c677a9cb1fb92dc845e5f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a3ac78d5c677a9cb1fb92dc845e5f3">&#9670;&nbsp;</a></span>ReloadCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a20a3ac78d5c677a9cb1fb92dc845e5f3">HOWLING_NAMESPACE::LuaReloader::ReloadCallback</a> =  std::function&lt;void(const std::filesystem::path&amp;)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00033">33</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a314f174fa40a74fdcf6c4d55f38a220e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a314f174fa40a74fdcf6c4d55f38a220e">&#9670;&nbsp;</a></span>~LuaReloader()</h2>
 
@@ -173,7 +205,35 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00052">52</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00059">59</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+
+</div>
+</div>
+<a id="ac58ea6f9e96bc4b6f5ecb51896b16004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac58ea6f9e96bc4b6f5ecb51896b16004">&#9670;&nbsp;</a></span>notifyCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HOWLING_NAMESPACE::LuaReloader::notifyCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00065">65</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
 
 </div>
 </div>
@@ -211,7 +271,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00036">36</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00040">40</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -221,6 +281,28 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a90be470be38a217cf9e3b60d51fdf4e5" title=" " alt="" coords="236,5,417,47"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a83d62a4692c47d0300c55058c3c66af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83d62a4692c47d0300c55058c3c66af1">&#9670;&nbsp;</a></span>registerReloadCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HOWLING_NAMESPACE::LuaReloader::registerReloadCallback </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classHOWLING__NAMESPACE_1_1LuaReloader.html#a20a3ac78d5c677a9cb1fb92dc845e5f3">ReloadCallback</a> &amp;&#160;</td>
+          <td class="paramname"><em>callback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Registers a callback that triggers with the name of the file reloaded. </p>
+
+<p class="definition">Definition at line <a class="el" href="lua__machine_8cc_source.html#l00136">136</a> of file <a class="el" href="lua__machine_8cc_source.html">lua_machine.cc</a>.</p>
 
 </div>
 </div>
@@ -276,7 +358,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00046">46</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="lua__machine_8hh_source.html#l00053">53</a> of file <a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a>.</p>
 
 </div>
 </div>
@@ -317,8 +399,9 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="lua__machine_8hh_source.html">lua_machine.hh</a></li>
+<li>src/<a class="el" href="lua__machine_8cc_source.html">lua_machine.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

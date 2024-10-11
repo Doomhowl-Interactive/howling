@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['setdefaultluaincludedirs_98',['setDefaultLuaIncludeDirs',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a75162237054c4aadea8724511b4190ce',1,'HOWLING_NAMESPACE::LuaMachine']]],
-  ['setinstance_99',['setInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a4eee2c10e273e1fc7b93dbb34847e54a',1,'HOWLING_NAMESPACE::LuaReloader']]],
-  ['setuplogging_100',['setupLogging',['../namespaceHOWLING__NAMESPACE.html#a0b2c329932588df5b50f6df19b367d5e',1,'HOWLING_NAMESPACE']]],
-  ['sign_101',['sign',['../namespaceHOWLING__NAMESPACE.html#a104f8d9b4a5d7c371c3ef3578dcead0c',1,'HOWLING_NAMESPACE']]],
-  ['sol_5fall_5fsafeties_5fon_102',['SOL_ALL_SAFETIES_ON',['../lua__machine_8hh.html#af49a65454b3af6c3580a532b5f86028e',1,'lua_machine.hh']]],
-  ['sortinplace_103',['sortInplace',['../classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284',1,'howl::ordered_vector']]],
-  ['start_104',['start',['../classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html#abe7310a80cbf172b4af3115ae11b9ecc',1,'HOWLING_NAMESPACE::profiler::ProfilerTask']]],
-  ['state_105',['state',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#ad199a96246a60cd724dd1c07da82f132',1,'HOWLING_NAMESPACE::LuaMachine']]],
-  ['stringifyvector_106',['stringifyVector',['../namespaceHOWLING__NAMESPACE.html#a7e7542876d05b895cfb91d23eab088d8',1,'HOWLING_NAMESPACE']]]
+  ['registerluafunction_93',['registerLuaFunction',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['registerluaplugin_94',['registerLuaPlugin',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html#adc7437fd610379cea2cf183ae6b7aee2',1,'HOWLING_NAMESPACE::GuiPrimitives::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaPlugin.html#a80878cca375373c0198e4c9c393fce61',1,'HOWLING_NAMESPACE::LuaPlugin::registerLuaPlugin()'],['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8',1,'HOWLING_NAMESPACE::LuaMachine::registerLuaPlugin(LuaMachine &amp;machine) override']]],
+  ['registerluareloadcallback_95',['registerLuaReloadCallback',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#ae3b4752595220a1d3c569b7d1b6cb178',1,'HOWLING_NAMESPACE::LuaMachine']]],
+  ['registerreloadcallback_96',['registerReloadCallback',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a83d62a4692c47d0300c55058c3c66af1',1,'HOWLING_NAMESPACE::LuaReloader']]],
+  ['registerscript_97',['registerScript',['../classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#ad811162186e750d25caf16eb8f094925',1,'HOWLING_NAMESPACE::LuaDesktopReloader::registerScript()'],['../classHOWLING__NAMESPACE_1_1LuaReloader.html#ad6d98f17e62c93caf0f2b11038320e87',1,'HOWLING_NAMESPACE::LuaReloader::registerScript(const std::string &amp;scriptPath)=0']]],
+  ['reloadcallback_98',['ReloadCallback',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#a20a3ac78d5c677a9cb1fb92dc845e5f3',1,'HOWLING_NAMESPACE::LuaReloader']]],
+  ['ring_5fbuffer_99',['ring_buffer',['../classhowl_1_1ring__buffer.html',1,'howl::ring_buffer&lt; T, S &gt;'],['../classhowl_1_1ring__buffer.html#aad7baade431790f597143be6990b72ec',1,'howl::ring_buffer::ring_buffer()']]],
+  ['ring_5fbuffer_2ehh_100',['ring_buffer.hh',['../ring__buffer_8hh.html',1,'']]],
+  ['runscript_101',['runScript',['../classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102',1,'HOWLING_NAMESPACE::LuaMachine']]]
 ];
