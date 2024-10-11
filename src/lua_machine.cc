@@ -133,4 +133,9 @@ void LuaMachine::registerLuaPlugin(LuaMachine& machine)
     machine.registerLuaFunction("include", [this](std::string file) { this->include(file); });
 }
 
+void LuaReloader::registerReloadCallback(const LuaReloader::ReloadCallback& callback)
+{
+    mCallbacks.emplace_back(callback);
+}
+
 }

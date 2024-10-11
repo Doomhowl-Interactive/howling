@@ -32,6 +32,7 @@ public:
                 machine.runScript(p.string(), false);
                 savedWrite = lastWrite;
                 spdlog::info("Hot reloaded lua script: {}", p);
+                notifyCallbacks(p);
             }
         }
     }

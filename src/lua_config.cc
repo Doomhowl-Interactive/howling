@@ -1,12 +1,25 @@
+#include <filesystem>
+#include <spdlog/spdlog.h>
+
 #include "lua_config.hh"
 
 namespace HOWLING_NAMESPACE
 {
 
 LuaConfig::LuaConfig(const std::string& scriptPath)
+    : mScriptPath(scriptPath)
 {
     sInstance = this;
     runScript(scriptPath);
+
+    registerLuaReloadCallback([this](const std::filesystem::path& file) {
+        if (sInstance) {
+            if (mScriptPath.ends_with(file.string())) {
+                mCachedOptions.clear();
+                spdlog::debug("Reset configuration cache");
+            }
+        }
+    });
 }
 
 LuaConfig::~LuaConfig()

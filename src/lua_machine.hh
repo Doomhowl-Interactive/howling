@@ -5,6 +5,8 @@
 #include <optional>
 #include <string>
 #include <vector>
+#include <functional>
+#include <filesystem>
 #define SOL_ALL_SAFETIES_ON 1
 #include <boost/core/noncopyable.hpp>
 #include <initializer_list>
@@ -28,6 +30,8 @@ public:
 class LuaReloader
 {
 public:
+    using ReloadCallback = std::function<void(const std::filesystem::path&)>;
+
     virtual ~LuaReloader() = default;
     virtual void registerScript(const std::string& scriptPath) = 0;
 
@@ -43,6 +47,9 @@ public:
         }
     }
 
+    /// Registers a callback that triggers with the name of the file reloaded.
+    void registerReloadCallback(const ReloadCallback& callback);
+
     static void setInstance(LuaReloader* reloader)
     {
         assert(!sInstance && "LuaReloader instance already set");
@@ -54,8 +61,16 @@ public:
         return sInstance;
     }
 
+protected:
+    void notifyCallbacks(const std::filesystem::path& path) {
+        for (LuaReloader::ReloadCallback& cb : mCallbacks) {
+            cb(path);
+        }
+    }
+
 private:
     float mTimer {};
+    std::vector<ReloadCallback> mCallbacks{};
     constexpr static float CHECK_TIME = 1.f;
 
     static inline std::shared_ptr<LuaReloader> sInstance = nullptr;
@@ -106,6 +121,13 @@ public:
     void registerLuaFunction(const std::string& name, Func func)
     {
         state[name] = func;
+    }
+
+    void registerLuaReloadCallback(const LuaReloader::ReloadCallback& cb)
+    {
+        if (auto rel = mReload.lock()) {
+            rel->registerReloadCallback(cb);
+        }
     }
 
     void registerLuaPlugin(LuaMachine& machine) override;
