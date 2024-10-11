@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 option(HOWLING_NAMESPACE "Custom namespace to use. Same as the game for ease of use." "howling")
+option(HOWLING_COUNT_ALLOCATIONS "Enable memory_profiler.hh functions" OFF)
 
 set(BUILD_SHARED_LIBS OFF)
 
@@ -49,6 +50,12 @@ target_include_directories(${PROJECT_NAME} PUBLIC
   ${HOWLING_HEADERS}
   ${LUA_INCLUDE_DIR}
 )
+
+if (HOWLING_COUNT_ALLOCATIONS)
+  target_compile_definitions(${PROJECT_NAME} PUBLIC
+    LOG_ALLOCATIONS=ON
+  )
+endif()
 
 if (NOT HOWLING_NAMESPACE)
   set(HOWLING_NAMESPACE "howling")
