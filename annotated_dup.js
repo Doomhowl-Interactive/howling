@@ -14,6 +14,9 @@ var annotated_dup =
       [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
     ] ],
     [ "HOWLING_NAMESPACE", "namespaceHOWLING__NAMESPACE.html", [
+      [ "profiler", "namespaceHOWLING__NAMESPACE_1_1profiler.html", [
+        [ "ProfilerTask", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask" ]
+      ] ],
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],
       [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ],
       [ "LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", "classHOWLING__NAMESPACE_1_1LuaConfig" ],

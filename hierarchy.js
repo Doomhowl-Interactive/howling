@@ -22,6 +22,7 @@ var hierarchy =
     ] ],
     [ "howl::ordered_vector< T >", "classhowl_1_1ordered__vector.html", null ],
     [ "HOWLING_NAMESPACE::Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", null ],
+    [ "HOWLING_NAMESPACE::profiler::ProfilerTask", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html", null ],
     [ "howl::ring_buffer< T, S >", "classhowl_1_1ring__buffer.html", null ],
     [ "std::runtime_error", null, [
       [ "howl::formatted_error", "classhowl_1_1formatted__error.html", null ]
