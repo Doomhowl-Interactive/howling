@@ -18,6 +18,8 @@ file(GLOB THE_SOURCES CONFIGURE_DEPENDS
 
 find_package(magic_enum CONFIG REQUIRED)
 find_package(boost_core REQUIRED CONFIG)
+find_package(boost_container REQUIRED CONFIG)
+
 find_package(spdlog CONFIG REQUIRED)
 find_package(sol2 CONFIG REQUIRED)
 find_package(Lua REQUIRED)
@@ -35,6 +37,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
   mINI
   spdlog::spdlog
   Boost::core
+  Boost::container
   sol2
   ${LUA_LIBRARIES}
 )
