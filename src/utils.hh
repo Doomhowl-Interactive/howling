@@ -2,9 +2,11 @@
 #include <cstddef>
 #include <stdexcept>
 
+#include "hash_utils.hh"
+#include "math_operators.hh"
+
 #include "raylib.h"
 #include "raymath.h"
-#include "math_operators.hh"
 
 namespace HOWLING_NAMESPACE
 {
@@ -68,13 +70,12 @@ inline Vector3 colorToVec3(Color color)
 inline Color randomColor(int minElement, int maxElement, int opacity = 255)
 {
 
-return Color {
-    unsigned char(GetRandomValue(minElement, maxElement)),
-    unsigned char(GetRandomValue(minElement, maxElement)),
-    unsigned char(GetRandomValue(minElement, maxElement)),
-    unsigned char(opacity)
-};
-
+    return Color {
+        unsigned char(GetRandomValue(minElement, maxElement)),
+        unsigned char(GetRandomValue(minElement, maxElement)),
+        unsigned char(GetRandomValue(minElement, maxElement)),
+        unsigned char(opacity)
+    };
 }
 
 inline float mapValue(float value,
@@ -133,9 +134,7 @@ struct Point3D
 
 inline bool isVector3Zero(Vector3 vec)
 {
-    return FloatEquals(vec.x, 0.f) &&
-        FloatEquals(vec.y, 0.f) &&
-        FloatEquals(vec.z, 0.f);
+    return FloatEquals(vec.x, 0.f) && FloatEquals(vec.y, 0.f) && FloatEquals(vec.z, 0.f);
 }
 
 }
