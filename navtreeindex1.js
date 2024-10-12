@@ -1,5 +1,24 @@
 var NAVTREEINDEX1 =
 {
+"structfmt_1_1formatter_3_01Color_01_4.html#af19f650ce02db12de5c567687996e3f1":[1,0,0,2,0],
+"structfmt_1_1formatter_3_01Vector2_01_4.html":[1,0,0,3],
+"structfmt_1_1formatter_3_01Vector2_01_4.html#a42a4515ca9f24f96cf004542c1623913":[1,0,0,3,1],
+"structfmt_1_1formatter_3_01Vector2_01_4.html#a5323133be081f9e2c8da6a7808b909e4":[1,0,0,3,0],
+"structfmt_1_1formatter_3_01Vector3_01_4.html":[1,0,0,4],
+"structfmt_1_1formatter_3_01Vector3_01_4.html#a7409468e2d31ef811a3a5b563a944978":[1,0,0,4,0],
+"structfmt_1_1formatter_3_01Vector3_01_4.html#a941080fad69dcce575db10186067a9b4":[1,0,0,4,1],
+"structfmt_1_1formatter_3_01Vector4_01_4.html":[1,0,0,5],
+"structfmt_1_1formatter_3_01Vector4_01_4.html#a4f453f9010acbaedf1cb84a360c26fe3":[1,0,0,5,1],
+"structfmt_1_1formatter_3_01Vector4_01_4.html#a74f8146a84db03b3f5458449826e68cd":[1,0,0,5,0],
+"structfmt_1_1formatter_3_01std_1_1exception_01_4.html":[1,0,0,1],
+"structfmt_1_1formatter_3_01std_1_1exception_01_4.html#a2ffb3121156a5756e57c7fac1d3e12bc":[1,0,0,1,0],
+"structfmt_1_1formatter_3_01std_1_1exception_01_4.html#af4cd6c4742b5cf776990e1225ed13097":[1,0,0,1,1],
+"structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html":[1,0,0,0],
+"structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html#ac2ccbed5490eecdd2d98b3dbe0dff4e4":[1,0,0,0,1],
+"structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html#acb01c911bfb094e2114c2212a1e16317":[1,0,0,0,0],
+"structhowl_1_1detail_1_1max__alignof.html":[1,0,1,0,3],
+"structhowl_1_1detail_1_1max__alignof_3_01First_00_01Rest_8_8_8_01_4.html":[1,0,1,0,4],
+"structhowl_1_1detail_1_1max__alignof_3_4.html":[1,0,1,0,5],
 "structhowl_1_1detail_1_1max__sizeof.html":[1,0,1,0,0],
 "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html":[1,0,1,0,1],
 "structhowl_1_1detail_1_1max__sizeof_3_4.html":[1,0,1,0,2],
@@ -17,5 +36,6 @@ var NAVTREEINDEX1 =
 "utils_8hh.html#abd71360f1b3b57e029e9ed5f2269b1a1":[2,0,0,22,10],
 "utils_8hh.html#ad22f0e024302609992135a2add749efe":[2,0,0,22,1],
 "utils_8hh.html#aeb15519754745ca698815d4f1655c151":[2,0,0,22,9],
-"utils_8hh_source.html":[2,0,0,22]
+"utils_8hh_source.html":[2,0,0,22],
+"":[0,0,0]
 };
