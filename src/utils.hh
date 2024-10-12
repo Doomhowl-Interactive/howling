@@ -70,6 +70,27 @@ inline bool colorIsEqual(Color a, Color b, bool checkAlpha = true)
     return eq;
 }
 
+inline Vector3 colorToVec3(Color color)
+{
+    return {
+        static_cast<float>(color.r) / 255.f,
+        static_cast<float>(color.g) / 255.f,
+        static_cast<float>(color.b) / 255.f
+    };
+}
+
+inline Color randomColor(int minElement, int maxElement, int opacity = 255)
+{
+
+return Color {
+    unsigned char(GetRandomValue(minElement, maxElement)),
+    unsigned char(GetRandomValue(minElement, maxElement)),
+    unsigned char(GetRandomValue(minElement, maxElement)),
+    unsigned char(opacity)
+};
+
+}
+
 inline float mapValue(float value,
                       float istart,
                       float istop,
@@ -123,15 +144,6 @@ struct Point3D
         }
     }
 };
-
-inline Vector3 colorToVec3(Color color)
-{
-    return {
-        static_cast<float>(color.r) / 255.f,
-        static_cast<float>(color.g) / 255.f,
-        static_cast<float>(color.b) / 255.f
-    };
-}
 
 inline bool isVector3Zero(Vector3 vec)
 {
