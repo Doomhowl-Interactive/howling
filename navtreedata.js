@@ -56,7 +56,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-""
+"",
+"structhowl_1_1detail_1_1max__sizeof.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

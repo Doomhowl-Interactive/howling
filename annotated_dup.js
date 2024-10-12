@@ -9,9 +9,18 @@ var annotated_dup =
       [ "formatter< Vector4 >", "structfmt_1_1formatter_3_01Vector4_01_4.html", "structfmt_1_1formatter_3_01Vector4_01_4" ]
     ] ],
     [ "howl", "namespacehowl.html", [
+      [ "detail", "namespacehowl_1_1detail.html", [
+        [ "max_sizeof", "structhowl_1_1detail_1_1max__sizeof.html", null ],
+        [ "max_sizeof< First, Rest... >", "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+        [ "max_sizeof<>", "structhowl_1_1detail_1_1max__sizeof_3_4.html", null ],
+        [ "max_alignof", "structhowl_1_1detail_1_1max__alignof.html", null ],
+        [ "max_alignof< First, Rest... >", "structhowl_1_1detail_1_1max__alignof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+        [ "max_alignof<>", "structhowl_1_1detail_1_1max__alignof_3_4.html", null ]
+      ] ],
       [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ],
       [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ],
-      [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
+      [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ],
+      [ "unsafe_variant", "classhowl_1_1unsafe__variant.html", "classhowl_1_1unsafe__variant" ]
     ] ],
     [ "HOWLING_NAMESPACE", "namespaceHOWLING__NAMESPACE.html", [
       [ "profiler", "namespaceHOWLING__NAMESPACE_1_1profiler.html", [

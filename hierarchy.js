@@ -15,6 +15,12 @@ var hierarchy =
     [ "HOWLING_NAMESPACE::LuaReloader", "classHOWLING__NAMESPACE_1_1LuaReloader.html", [
       [ "HOWLING_NAMESPACE::LuaDesktopReloader", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html", null ]
     ] ],
+    [ "howl::detail::max_alignof< Types >", "structhowl_1_1detail_1_1max__alignof.html", null ],
+    [ "howl::detail::max_alignof< First, Rest... >", "structhowl_1_1detail_1_1max__alignof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+    [ "howl::detail::max_alignof<>", "structhowl_1_1detail_1_1max__alignof_3_4.html", null ],
+    [ "howl::detail::max_sizeof< Types >", "structhowl_1_1detail_1_1max__sizeof.html", null ],
+    [ "howl::detail::max_sizeof< First, Rest... >", "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+    [ "howl::detail::max_sizeof<>", "structhowl_1_1detail_1_1max__sizeof_3_4.html", null ],
     [ "HOWLING_NAMESPACE::MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", null ],
     [ "boost::noncopyable", null, [
       [ "HOWLING_NAMESPACE::GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", null ],
@@ -26,5 +32,6 @@ var hierarchy =
     [ "howl::ring_buffer< T, S >", "classhowl_1_1ring__buffer.html", null ],
     [ "std::runtime_error", null, [
       [ "howl::formatted_error", "classhowl_1_1formatted__error.html", null ]
-    ] ]
+    ] ],
+    [ "howl::unsafe_variant< Types >", "classhowl_1_1unsafe__variant.html", null ]
 ];

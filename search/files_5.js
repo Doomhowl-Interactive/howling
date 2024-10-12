@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ring_5fbuffer_2ehh_169',['ring_buffer.hh',['../ring__buffer_8hh.html',1,'']]]
+  ['profiler_2ecc_191',['profiler.cc',['../profiler_8cc.html',1,'']]],
+  ['profiler_2ehh_192',['profiler.hh',['../profiler_8hh.html',1,'']]]
 ];

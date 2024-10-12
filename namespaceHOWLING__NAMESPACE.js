@@ -26,6 +26,8 @@ var namespaceHOWLING__NAMESPACE =
     [ "drawSolidBoundingBox", "namespaceHOWLING__NAMESPACE.html#a0994a6d377cd8c0d8762ebe524525b94", null ],
     [ "isVector3Zero", "namespaceHOWLING__NAMESPACE.html#ab7d6c65ce661b148fdf020ce0a4dbd66", null ],
     [ "luaRect", "namespaceHOWLING__NAMESPACE.html#a558e275715f6da8d89c89725b7563c94", null ],
+    [ "makeHash", "namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e", null ],
+    [ "makeHash", "namespaceHOWLING__NAMESPACE.html#a23e4823c1b243440a4152e4c797d0129", null ],
     [ "mapValue", "namespaceHOWLING__NAMESPACE.html#aeb15519754745ca698815d4f1655c151", null ],
     [ "operator*", "namespaceHOWLING__NAMESPACE.html#aba68823ae67b9fdb1bf20477644ea928", null ],
     [ "operator*", "namespaceHOWLING__NAMESPACE.html#aec74f179a970eca103bc1b03bad73d05", null ],

@@ -8,6 +8,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "gui_primitives.hh", "gui__primitives_8hh.html", [
       [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ]
     ] ],
+    [ "hash_utils.hh", "hash__utils_8hh.html", "hash__utils_8hh" ],
     [ "logging.cc", "logging_8cc.html", "logging_8cc" ],
     [ "logging.hh", "logging_8hh.html", "logging_8hh" ],
     [ "lua_config.cc", "lua__config_8cc.html", null ],
@@ -33,6 +34,13 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "profiler.hh", "profiler_8hh.html", "profiler_8hh" ],
     [ "ring_buffer.hh", "ring__buffer_8hh.html", [
       [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
+    ] ],
+    [ "unsafe_variant.hh", "unsafe__variant_8hh.html", [
+      [ "max_sizeof< First, Rest... >", "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+      [ "max_sizeof<>", "structhowl_1_1detail_1_1max__sizeof_3_4.html", null ],
+      [ "max_alignof< First, Rest... >", "structhowl_1_1detail_1_1max__alignof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
+      [ "max_alignof<>", "structhowl_1_1detail_1_1max__alignof_3_4.html", null ],
+      [ "unsafe_variant", "classhowl_1_1unsafe__variant.html", "classhowl_1_1unsafe__variant" ]
     ] ],
     [ "utils.hh", "utils_8hh.html", "utils_8hh" ]
 ];
