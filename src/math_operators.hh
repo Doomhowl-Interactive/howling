@@ -45,12 +45,25 @@ inline Vector2 operator+(const Vector2& subj, const Vector2& vector2)
     return Vector2Add(subj, vector2);
 }
 
+inline Vector2& operator+=(Vector2& subj, const Vector2& vector2)
+{
+    subj = Vector2Add(subj, vector2);
+    return subj;
+}
+
 /**
  * Subtract two vectors (v1 - v2)
  */
-inline Vector2 operator-(const Vector2& subj, const Vector2& vector2)
+inline Vector2& operator-(Vector2& subj, const Vector2& vector2)
 {
-    return Vector2Subtract(subj, vector2);
+    subj = Vector2Subtract(subj, vector2);
+    return subj;
+}
+
+inline Vector2& operator-=(Vector2& subj, const Vector2& vector2)
+{
+    subj = Vector2Subtract(subj, vector2);
+    return subj;
 }
 
 /**
@@ -77,6 +90,18 @@ inline Vector2 operator*(const Vector2& subj, const float scale)
     return Vector2Scale(subj, scale);
 }
 
+inline Vector2& operator*=(Vector2& subj, const float scale)
+{
+    subj = Vector2Scale(subj, scale);
+    return subj;
+}
+
+inline Vector2& operator*=(Vector2& subj, const Vector2& vector2)
+{
+    subj = Vector2Multiply(subj, vector2);
+    return subj;
+}
+
 /**
  * Divide vector by vector
  */
@@ -93,6 +118,18 @@ inline Vector2 operator/(const Vector2& subj, const float div)
     return Vector2Scale(subj, 1.f / div);
 }
 
+inline Vector2& operator/=(Vector2& subj, const Vector2& vector2)
+{
+    subj = Vector2Divide(subj, vector2);
+    return subj;
+}
+
+inline Vector2& operator/=(Vector2& subj, const float div)
+{
+    subj = Vector2Scale(subj, 1.f / div);
+    return subj;
+}
+
 inline bool operator==(const Vector3& subj, const Vector3& other)
 {
     return subj.x == other.x && subj.y == other.y && subj.z == other.z;
@@ -104,6 +141,12 @@ inline bool operator==(const Vector3& subj, const Vector3& other)
 inline Vector3 operator+(const Vector3& subj, const Vector3& vector3)
 {
     return Vector3Add(subj, vector3);
+}
+
+inline Vector3& operator+=(Vector3& subj, const Vector3& vector3)
+{
+    subj = Vector3Add(subj, vector3);
+    return subj;
 }
 
 /**
@@ -122,6 +165,12 @@ inline Vector3 operator-(const Vector3& subj)
     return Vector3Negate(subj);
 }
 
+inline Vector3& operator-=(Vector3& subj, const Vector3& vector3)
+{
+    subj = Vector3Subtract(subj, vector3);
+    return subj;
+}
+
 /**
  * Multiply vector by vector
  */
@@ -136,6 +185,18 @@ inline Vector3 operator*(const Vector3& subj, const Vector3& vector3)
 inline Vector3 operator*(const Vector3& subj, const float scaler)
 {
     return Vector3Scale(subj, scaler);
+}
+
+inline Vector3& operator*=(Vector3& subj, const float scale)
+{
+    subj = Vector3Scale(subj, scale);
+    return subj;
+}
+
+inline Vector3& operator*=(Vector3& subj, const Vector3 vector3)
+{
+    subj = Vector3Multiply(subj, vector3);
+    return subj;
 }
 
 /**
