@@ -4,6 +4,7 @@
 
 #include "raylib.h"
 #include "raymath.h"
+#include "math_operators.hh"
 
 namespace HOWLING_NAMESPACE
 {
@@ -43,21 +44,6 @@ inline Vector3 boundingBoxSize(BoundingBox bounds)
 inline void drawSolidBoundingBox(BoundingBox bounds, Color color)
 {
     DrawCubeV(boundingBoxCenter(bounds), boundingBoxSize(bounds), color);
-}
-
-inline bool operator==(Vector2 a, Vector2 b)
-{
-    return Vector2Equals(a, b);
-}
-
-inline bool operator==(Vector3 a, Vector3 b)
-{
-    return Vector3Equals(a, b);
-}
-
-inline bool operator==(Vector4 a, Vector4 b)
-{
-    return Vector4Equals(a, b);
 }
 
 inline bool colorIsEqual(Color a, Color b, bool checkAlpha = true)
