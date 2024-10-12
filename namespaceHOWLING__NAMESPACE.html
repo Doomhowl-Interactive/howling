@@ -157,10 +157,12 @@ Functions</h2></td></tr>
 <tr class="separator:ad146c26eaeb74324b7c171dac51b7c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6503b09a4c63ef776581168568b241a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a6503b09a4c63ef776581168568b241a2">colorIsEqual</a> (Color a, Color b, bool checkAlpha=true)</td></tr>
 <tr class="separator:a6503b09a4c63ef776581168568b241a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb15519754745ca698815d4f1655c151"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#aeb15519754745ca698815d4f1655c151">mapValue</a> (float value, float istart, float istop, float ostart, float ostop)</td></tr>
-<tr class="separator:aeb15519754745ca698815d4f1655c151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65ecf154ab52db4e60f985e0a27adf24"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a65ecf154ab52db4e60f985e0a27adf24">colorToVec3</a> (Color color)</td></tr>
 <tr class="separator:a65ecf154ab52db4e60f985e0a27adf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd71360f1b3b57e029e9ed5f2269b1a1"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#abd71360f1b3b57e029e9ed5f2269b1a1">randomColor</a> (int minElement, int maxElement, int opacity=255)</td></tr>
+<tr class="separator:abd71360f1b3b57e029e9ed5f2269b1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb15519754745ca698815d4f1655c151"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#aeb15519754745ca698815d4f1655c151">mapValue</a> (float value, float istart, float istop, float ostart, float ostop)</td></tr>
+<tr class="separator:aeb15519754745ca698815d4f1655c151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d6c65ce661b148fdf020ce0a4dbd66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#ab7d6c65ce661b148fdf020ce0a4dbd66">isVector3Zero</a> (Vector3 vec)</td></tr>
 <tr class="separator:ab7d6c65ce661b148fdf020ce0a4dbd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -384,7 +386,7 @@ template&lt;typename T , typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00127">127</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00073">73</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
 
 </div>
 </div>
@@ -460,7 +462,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00136">136</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00148">148</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
 
 </div>
 </div>
@@ -536,7 +538,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00073">73</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00094">94</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
 
 </div>
 </div>
@@ -651,6 +653,50 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00058">58</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
+
+</div>
+</div>
+<a id="abd71360f1b3b57e029e9ed5f2269b1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd71360f1b3b57e029e9ed5f2269b1a1">&#9670;&nbsp;</a></span>randomColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color HOWLING_NAMESPACE::randomColor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>minElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>opacity</em> = <code>255</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="utils_8hh_source.html#l00082">82</a> of file <a class="el" href="utils_8hh_source.html">utils.hh</a>.</p>
 
 </div>
 </div>

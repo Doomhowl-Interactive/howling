@@ -30,6 +30,7 @@ var namespaceHOWLING__NAMESPACE =
     [ "operator==", "namespaceHOWLING__NAMESPACE.html#a6671d96fe96dbe6a79e6e3d01e9283ec", null ],
     [ "operator==", "namespaceHOWLING__NAMESPACE.html#a1cb1f7f5cb37f09e51f93c5606b8ab33", null ],
     [ "operator==", "namespaceHOWLING__NAMESPACE.html#ad146c26eaeb74324b7c171dac51b7c72", null ],
+    [ "randomColor", "namespaceHOWLING__NAMESPACE.html#abd71360f1b3b57e029e9ed5f2269b1a1", null ],
     [ "setupLogging", "namespaceHOWLING__NAMESPACE.html#a0b2c329932588df5b50f6df19b367d5e", null ],
     [ "sign", "namespaceHOWLING__NAMESPACE.html#a104f8d9b4a5d7c371c3ef3578dcead0c", null ],
     [ "stringifyVector", "namespaceHOWLING__NAMESPACE.html#a7e7542876d05b895cfb91d23eab088d8", null ]

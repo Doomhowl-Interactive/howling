@@ -13,5 +13,6 @@ var utils_8hh =
     [ "operator==", "utils_8hh.html#a6671d96fe96dbe6a79e6e3d01e9283ec", null ],
     [ "operator==", "utils_8hh.html#a1cb1f7f5cb37f09e51f93c5606b8ab33", null ],
     [ "operator==", "utils_8hh.html#ad146c26eaeb74324b7c171dac51b7c72", null ],
+    [ "randomColor", "utils_8hh.html#abd71360f1b3b57e029e9ed5f2269b1a1", null ],
     [ "sign", "utils_8hh.html#a104f8d9b4a5d7c371c3ef3578dcead0c", null ]
 ];
