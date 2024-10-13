@@ -17,7 +17,9 @@ var annotated_dup =
         [ "max_alignof< First, Rest... >", "structhowl_1_1detail_1_1max__alignof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
         [ "max_alignof<>", "structhowl_1_1detail_1_1max__alignof_3_4.html", null ]
       ] ],
+      [ "bucket", "classhowl_1_1bucket.html", "classhowl_1_1bucket" ],
       [ "formatted_error", "classhowl_1_1formatted__error.html", "classhowl_1_1formatted__error" ],
+      [ "observed_vector", "classhowl_1_1observed__vector.html", "classhowl_1_1observed__vector" ],
       [ "ordered_vector", "classhowl_1_1ordered__vector.html", "classhowl_1_1ordered__vector" ],
       [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ],
       [ "unsafe_variant", "classhowl_1_1unsafe__variant.html", "classhowl_1_1unsafe__variant" ]

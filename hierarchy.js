@@ -1,11 +1,13 @@
 var hierarchy =
 [
+    [ "howl::bucket< C >", "classhowl_1_1bucket.html", null ],
     [ "fmt::formatter< Color >", "structfmt_1_1formatter_3_01Color_01_4.html", null ],
     [ "fmt::formatter< std::exception >", "structfmt_1_1formatter_3_01std_1_1exception_01_4.html", null ],
     [ "fmt::formatter< std::filesystem::path >", "structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html", null ],
     [ "fmt::formatter< Vector2 >", "structfmt_1_1formatter_3_01Vector2_01_4.html", null ],
     [ "fmt::formatter< Vector3 >", "structfmt_1_1formatter_3_01Vector3_01_4.html", null ],
     [ "fmt::formatter< Vector4 >", "structfmt_1_1formatter_3_01Vector4_01_4.html", null ],
+    [ "howl::observed_vector< T >::listener", "classhowl_1_1observed__vector_1_1listener.html", null ],
     [ "HOWLING_NAMESPACE::LuaPlugin", "classHOWLING__NAMESPACE_1_1LuaPlugin.html", [
       [ "HOWLING_NAMESPACE::GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", [
@@ -26,6 +28,7 @@ var hierarchy =
       [ "HOWLING_NAMESPACE::GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", null ]
     ] ],
+    [ "howl::observed_vector< T >", "classhowl_1_1observed__vector.html", null ],
     [ "howl::ordered_vector< T >", "classhowl_1_1ordered__vector.html", null ],
     [ "HOWLING_NAMESPACE::Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", null ],
     [ "HOWLING_NAMESPACE::profiler::ProfilerTask", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unsafe_5fvariant_171',['unsafe_variant',['../classhowl_1_1unsafe__variant.html',1,'howl']]]
+  ['ring_5fbuffer_182',['ring_buffer',['../classhowl_1_1ring__buffer.html',1,'howl']]]
 ];

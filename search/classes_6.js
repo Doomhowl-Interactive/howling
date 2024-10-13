@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ring_5fbuffer_170',['ring_buffer',['../classhowl_1_1ring__buffer.html',1,'howl']]]
+  ['point3d_180',['Point3D',['../structHOWLING__NAMESPACE_1_1Point3D.html',1,'HOWLING_NAMESPACE']]],
+  ['profilertask_181',['ProfilerTask',['../classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html',1,'HOWLING_NAMESPACE::profiler']]]
 ];

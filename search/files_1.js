@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['hash_5futils_2ehh_181',['hash_utils.hh',['../hash__utils_8hh.html',1,'']]]
+  ['game_5fassets_2ecc_190',['game_assets.cc',['../game__assets_8cc.html',1,'']]],
+  ['game_5fassets_2ehh_191',['game_assets.hh',['../game__assets_8hh.html',1,'']]],
+  ['gui_5fprimitives_2ecc_192',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
+  ['gui_5fprimitives_2ehh_193',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]]
 ];

@@ -1,7 +1,9 @@
 <map id="src/ordered_vector.hh" name="src/ordered_vector.hh">
-<area shape="rect" id="node1" title=" " alt="" coords="105,5,267,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="93,80,178,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="203,80,273,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="297,80,384,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="143,5,305,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,91,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="115,80,186,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="193,155,279,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="399,155,462,181"/>
+<area shape="rect" id="node6" href="$observed__vector_8hh.html" title=" " alt="" coords="261,80,411,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="315,155,357,181"/>
 </map>

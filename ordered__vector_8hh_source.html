@@ -87,59 +87,68 @@ $(document).ready(function(){initNavTree('ordered__vector_8hh_source.html',''); 
 </div><!--header-->
 <div class="contents">
 <a href="ordered__vector_8hh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;cstddef&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;cstddef&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacehowl.html">howl</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="classhowl_1_1ordered__vector.html">ordered_vector</a></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">   24</a></span>&#160;    constexpr <a class="code" href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">ordered_vector</a>(std::size_t size, T defaultValue = {})</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        : mVec(size, defaultValue) {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a">   28</a></span>&#160;    constexpr <a class="code" href="classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a">ordered_vector</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a83da6983abd10714873e2365fafa8ce6">   30</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classhowl_1_1ordered__vector.html#a83da6983abd10714873e2365fafa8ce6">mutate</a>(<span class="keyword">const</span> std::function&lt;<span class="keywordtype">void</span>(std::vector&lt;T&gt;&amp;)&gt;&amp; mutateFunc) {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        mutateFunc(mVec);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284">sortInplace</a>();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a9505da28db23346dd00f6c8ecfda57e7">   36</a></span>&#160;    std::vector&lt;T&gt;&amp; <a class="code" href="classhowl_1_1ordered__vector.html#a9505da28db23346dd00f6c8ecfda57e7">bypass</a>() {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> mVec;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284">   40</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284">sortInplace</a>() {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        std::sort(mVec.begin(), mVec.end());</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a30de45d9fc1e1228199127adb147017a">   45</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;T&gt;&amp; <a class="code" href="classhowl_1_1ordered__vector.html#a30de45d9fc1e1228199127adb147017a">operator*</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> mVec;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a5143cf05035630c5231f3adc31491645">   50</a></span>&#160;    <span class="keyword">const</span> std::vector&lt;T&gt;* <a class="code" href="classhowl_1_1ordered__vector.html#a5143cf05035630c5231f3adc31491645">operator-&gt;</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> &amp;mVec;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    std::vector&lt;T&gt; mVec;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="observed__vector_8hh.html">observed_vector.hh</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacehowl.html">howl</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html">   24</a></span>&#160;<span class="keyword">class </span><a class="code" href="classhowl_1_1ordered__vector.html">ordered_vector</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">   27</a></span>&#160;    constexpr <a class="code" href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">ordered_vector</a>(std::size_t size, T defaultValue = {})</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        : mVec(size, defaultValue)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a">   32</a></span>&#160;    constexpr <a class="code" href="classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a">ordered_vector</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> Func&gt;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#ad1ba0443af5cf88dac9bb1f1105434b5">   35</a></span>&#160;    constexpr <span class="keywordtype">void</span> <a class="code" href="classhowl_1_1ordered__vector.html#ad1ba0443af5cf88dac9bb1f1105434b5">mutate</a>(Func mutateFunc)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        mutateFunc(mVec);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classhowl_1_1ordered__vector.html#a783b2d7cb6587e153942014b141731a4">sortInplace</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#aad24130ccdeb17ac3df289d68f24b13f">   42</a></span>&#160;    constexpr std::vector&lt;T&gt;&amp; <a class="code" href="classhowl_1_1ordered__vector.html#aad24130ccdeb17ac3df289d68f24b13f">bypass</a>()</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> mVec;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a783b2d7cb6587e153942014b141731a4">   47</a></span>&#160;    constexpr <span class="keywordtype">void</span> <a class="code" href="classhowl_1_1ordered__vector.html#a783b2d7cb6587e153942014b141731a4">sortInplace</a>()</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::sort(mVec.begin(), mVec.end());</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#a560e6473adeebf8fb40d9be6b0d5ecbc">   53</a></span>&#160;    constexpr <span class="keyword">const</span> std::vector&lt;T&gt;&amp; <a class="code" href="classhowl_1_1ordered__vector.html#a560e6473adeebf8fb40d9be6b0d5ecbc">operator*</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> mVec;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html"><div class="ttname"><a href="classhowl_1_1ordered__vector.html">howl::ordered_vector</a></div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00021">ordered_vector.hh:22</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a30de45d9fc1e1228199127adb147017a"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a30de45d9fc1e1228199127adb147017a">howl::ordered_vector::operator*</a></div><div class="ttdeci">const std::vector&lt; T &gt; &amp; operator*() const</div><div class="ttdoc">read only access to vector</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00045">ordered_vector.hh:45</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a5143cf05035630c5231f3adc31491645"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a5143cf05035630c5231f3adc31491645">howl::ordered_vector::operator-&gt;</a></div><div class="ttdeci">const std::vector&lt; T &gt; * operator-&gt;() const</div><div class="ttdoc">read only access to vector</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00050">ordered_vector.hh:50</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a83da6983abd10714873e2365fafa8ce6"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a83da6983abd10714873e2365fafa8ce6">howl::ordered_vector::mutate</a></div><div class="ttdeci">void mutate(const std::function&lt; void(std::vector&lt; T &gt; &amp;)&gt; &amp;mutateFunc)</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00030">ordered_vector.hh:30</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a909af721891d0faab9e7b3b533bd2304"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">howl::ordered_vector::ordered_vector</a></div><div class="ttdeci">constexpr ordered_vector(std::size_t size, T defaultValue={})</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00024">ordered_vector.hh:24</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a9505da28db23346dd00f6c8ecfda57e7"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a9505da28db23346dd00f6c8ecfda57e7">howl::ordered_vector::bypass</a></div><div class="ttdeci">std::vector&lt; T &gt; &amp; bypass()</div><div class="ttdoc">use this when not editing keys</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00036">ordered_vector.hh:36</a></div></div>
-<div class="ttc" id="aclasshowl_1_1ordered__vector_html_aa28726162acc0321c666264c128f1284"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#aa28726162acc0321c666264c128f1284">howl::ordered_vector::sortInplace</a></div><div class="ttdeci">void sortInplace()</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00040">ordered_vector.hh:40</a></div></div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classhowl_1_1ordered__vector.html#ad7b28a40b663cba1cdbeae8c0665e4fd">   59</a></span>&#160;    constexpr <span class="keyword">const</span> std::vector&lt;T&gt;* <a class="code" href="classhowl_1_1ordered__vector.html#ad7b28a40b663cba1cdbeae8c0665e4fd">operator-&gt;</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> &amp;mVec;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::vector&lt;T&gt; mVec;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html"><div class="ttname"><a href="classhowl_1_1ordered__vector.html">howl::ordered_vector</a></div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00024">ordered_vector.hh:25</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a560e6473adeebf8fb40d9be6b0d5ecbc"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a560e6473adeebf8fb40d9be6b0d5ecbc">howl::ordered_vector::operator*</a></div><div class="ttdeci">constexpr const std::vector&lt; T &gt; &amp; operator*() const</div><div class="ttdoc">read only access to vector</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00053">ordered_vector.hh:53</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a783b2d7cb6587e153942014b141731a4"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a783b2d7cb6587e153942014b141731a4">howl::ordered_vector::sortInplace</a></div><div class="ttdeci">constexpr void sortInplace()</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00047">ordered_vector.hh:47</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_a909af721891d0faab9e7b3b533bd2304"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#a909af721891d0faab9e7b3b533bd2304">howl::ordered_vector::ordered_vector</a></div><div class="ttdeci">constexpr ordered_vector(std::size_t size, T defaultValue={})</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00027">ordered_vector.hh:27</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_aad24130ccdeb17ac3df289d68f24b13f"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#aad24130ccdeb17ac3df289d68f24b13f">howl::ordered_vector::bypass</a></div><div class="ttdeci">constexpr std::vector&lt; T &gt; &amp; bypass()</div><div class="ttdoc">use this when not editing keys</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00042">ordered_vector.hh:42</a></div></div>
 <div class="ttc" id="aclasshowl_1_1ordered__vector_html_ac823faeca5863f648084ddb4268beb4a"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#ac823faeca5863f648084ddb4268beb4a">howl::ordered_vector::ordered_vector</a></div><div class="ttdeci">constexpr ordered_vector()=default</div></div>
-<div class="ttc" id="anamespacehowl_html"><div class="ttname"><a href="namespacehowl.html">howl</a></div><div class="ttdef"><b>Definition:</b> <a href="logging_8hh_source.html#l00079">logging.hh:80</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_ad1ba0443af5cf88dac9bb1f1105434b5"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#ad1ba0443af5cf88dac9bb1f1105434b5">howl::ordered_vector::mutate</a></div><div class="ttdeci">constexpr void mutate(Func mutateFunc)</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00035">ordered_vector.hh:35</a></div></div>
+<div class="ttc" id="aclasshowl_1_1ordered__vector_html_ad7b28a40b663cba1cdbeae8c0665e4fd"><div class="ttname"><a href="classhowl_1_1ordered__vector.html#ad7b28a40b663cba1cdbeae8c0665e4fd">howl::ordered_vector::operator-&gt;</a></div><div class="ttdeci">constexpr const std::vector&lt; T &gt; * operator-&gt;() const</div><div class="ttdoc">read only access to vector</div><div class="ttdef"><b>Definition:</b> <a href="ordered__vector_8hh_source.html#l00059">ordered_vector.hh:59</a></div></div>
+<div class="ttc" id="anamespacehowl_html"><div class="ttname"><a href="namespacehowl.html">howl</a></div><div class="ttdef"><b>Definition:</b> <a href="bucket_8hh_source.html#l00006">bucket.hh:7</a></div></div>
+<div class="ttc" id="aobserved__vector_8hh_html"><div class="ttname"><a href="observed__vector_8hh.html">observed_vector.hh</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
