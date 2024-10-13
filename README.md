@@ -2,7 +2,7 @@
 
 > Work in progress
 
-Shared code of Doomhowl games and apps (after Vortex)
+Open source shared code of Doomhowl games and apps (after Vortex)
 
 [Doxygen API](https://doomhowl-interactive.github.io/howling/)
 
