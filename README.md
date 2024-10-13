@@ -2,7 +2,7 @@
 
 > Work in progress
 
-Shared code of our apps (after Vortex)
+Shared code of Doomhowl games and apps (after Vortex)
 
 [Doxygen API](https://doomhowl-interactive.github.io/howling/)
 
@@ -10,6 +10,7 @@ Shared code of our apps (after Vortex)
 - Lua helper classes
 - Convenient fmt formatters
 - Raylib utility functions
+- Custom std-based containers
 
 ## Planned features
 - Gui library
@@ -24,4 +25,4 @@ This library is provided as-is, without support. Features may be added or remove
 
 Note that Howling is not a full game engine but rather a set of tools built on top of [Raylib](https://github.com/raysan5/raylib).
 
-Please refrain from submitting feature requests. Bug reports and fixes are appreciated however.
+Please refrain from submitting feature requests. Bug reports and (performance) fixes are appreciated however.
