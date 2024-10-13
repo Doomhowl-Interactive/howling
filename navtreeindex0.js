@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"":[0,0,0],
 "annotated.html":[1,0],
 "bucket_8hh.html":[2,0,0,0],
 "bucket_8hh_source.html":[2,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "observed__vector_8hh.html":[2,0,0,18],
 "observed__vector_8hh_source.html":[2,0,0,18],
 "ordered__vector_8hh.html":[2,0,0,19],
-"ordered__vector_8hh_source.html":[2,0,0,19],
-"pages.html":[]
+"ordered__vector_8hh_source.html":[2,0,0,19]
 };
