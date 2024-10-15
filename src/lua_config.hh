@@ -39,6 +39,7 @@ public:
     }
 
     [[nodiscard]] static Vector3 getVector3(const std::string& name);
+    [[nodiscard]] static Vector4 getVector4(const std::string& name);
 
 private:
     const std::string mScriptPath;
