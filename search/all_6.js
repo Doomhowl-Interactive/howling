@@ -10,7 +10,8 @@ var searchData=
   ['getinstance_40',['getInstance',['../classHOWLING__NAMESPACE_1_1LuaReloader.html#aa1fe994889cea071f5396528b7543e93',1,'HOWLING_NAMESPACE::LuaReloader']]],
   ['getvalue_41',['getValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a871b352c0d2feb746d32684c14cf3c36',1,'HOWLING_NAMESPACE::LuaConfig']]],
   ['getvector3_42',['getVector3',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['gui_5fprimitives_2ecc_43',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
-  ['gui_5fprimitives_2ehh_44',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]],
-  ['guiprimitives_45',['GuiPrimitives',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html',1,'HOWLING_NAMESPACE']]]
+  ['getvector4_43',['getVector4',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a950b5339eeee8252fbd760cff6f6f848',1,'HOWLING_NAMESPACE::LuaConfig']]],
+  ['gui_5fprimitives_2ecc_44',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
+  ['gui_5fprimitives_2ehh_45',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]],
+  ['guiprimitives_46',['GuiPrimitives',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html',1,'HOWLING_NAMESPACE']]]
 ];
