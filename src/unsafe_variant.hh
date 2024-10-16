@@ -57,7 +57,13 @@ class unsafe_variant
     Storage storage_;
 
 public:
-    // Constructor is not needed as it's implicit
+    unsafe_variant() = default;
+
+    template<typename T, typename std::enable_if_t<(... || std::is_same_v<std::decay_t<T>, Types>), int> = 0>
+    unsafe_variant(T&& value)
+    {
+        set(value);
+    }
 
     // Sets the variant with a new value of type T
     template<typename T, typename std::enable_if_t<(... || std::is_same_v<std::decay_t<T>, Types>), int> = 0>
