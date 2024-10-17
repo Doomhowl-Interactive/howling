@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"":[0,0,0],
 "annotated.html":[1,0],
 "bucket_8hh.html":[2,0,0,0],
 "bucket_8hh_source.html":[2,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "namespacehowl.html":[0,0,1],
 "namespacehowl_1_1detail.html":[0,0,1,0],
 "namespacemembers.html":[0,1,0],
-"namespacemembers_func.html":[0,1,1],
-"namespacemembers_type.html":[0,1,2]
+"namespacemembers_func.html":[0,1,1]
 };
