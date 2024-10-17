@@ -3,6 +3,8 @@
 #include <stdexcept>
 
 #include "hash_utils.hh"
+#include "howl_assert.hh"
+#include "logging.hh"
 #include "math_operators.hh"
 
 #include "raylib.h"
