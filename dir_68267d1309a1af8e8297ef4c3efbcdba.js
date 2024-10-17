@@ -12,6 +12,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
       [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ]
     ] ],
     [ "hash_utils.hh", "hash__utils_8hh.html", "hash__utils_8hh" ],
+    [ "howl_assert.hh", "howl__assert_8hh.html", "howl__assert_8hh" ],
     [ "logging.cc", "logging_8cc.html", "logging_8cc" ],
     [ "logging.hh", "logging_8hh.html", "logging_8hh" ],
     [ "lua_config.cc", "lua__config_8cc.html", null ],
