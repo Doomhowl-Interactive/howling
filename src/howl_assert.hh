@@ -9,11 +9,19 @@
 
 #else
 
+inline void breakOnWindows()
+{
+#ifdef WIN32
+    __debugbreak();
+#endif
+}
+
 #define H_ASSERT(B)                                                                 \
     {                                                                               \
         if (!(B))                                                                   \
         {                                                                           \
             spdlog::error("Boolean assertion failed at {}:{}", __FILE__, __LINE__); \
+            breakOnWindows();                                                       \
             assert(0 && "Assertion failed");                                        \
         }                                                                           \
     }
@@ -24,6 +32,7 @@
         {                                                                                    \
             spdlog::error("Assertion failed at {}:{} - {} {} {} failed", __FILE__, __LINE__, \
                           (X), #S, (Y));                                                     \
+            breakOnWindows();                                                                \
             assert(0 && "Assertion failed");                                                 \
         }                                                                                    \
     }
