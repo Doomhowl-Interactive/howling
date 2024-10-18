@@ -83,7 +83,8 @@ $(document).ready(function(){initNavTree('howl__assert_8hh.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">howl_assert.hh File Reference</div>  </div>
 </div><!--header-->
@@ -119,6 +120,11 @@ Macros</h2></td></tr>
 <tr class="separator:ad665bf297c8e8743c0f766bb11bf31d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3bdfd3cfa340365cbd394d53fb3061b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="howl__assert_8hh.html#ae3bdfd3cfa340365cbd394d53fb3061b">H_ASSERT_EX</a>(X,  S,  Y)</td></tr>
 <tr class="separator:ae3bdfd3cfa340365cbd394d53fb3061b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a36c720f1a8ceba440b7232de12166c26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="howl__assert_8hh.html#a36c720f1a8ceba440b7232de12166c26">breakOnWindows</a> ()</td></tr>
+<tr class="separator:a36c720f1a8ceba440b7232de12166c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad665bf297c8e8743c0f766bb11bf31d4"></a>
@@ -140,11 +146,12 @@ Macros</h2></td></tr>
 <div class="line">        if (!(B))                                                                   \</div>
 <div class="line">        {                                                                           \</div>
 <div class="line">            spdlog::error(<span class="stringliteral">&quot;Boolean assertion failed at {}:{}&quot;</span>, __FILE__, __LINE__); \</div>
+<div class="line">            breakOnWindows();                                                       \</div>
 <div class="line">            assert(0 &amp;&amp; <span class="stringliteral">&quot;Assertion failed&quot;</span>);                                        \</div>
 <div class="line">        }                                                                           \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="howl__assert_8hh_source.html#l00012">12</a> of file <a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="howl__assert_8hh_source.html#l00019">19</a> of file <a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>.</p>
 
 </div>
 </div>
@@ -184,11 +191,40 @@ Macros</h2></td></tr>
 <div class="line">        {                                                                                    \</div>
 <div class="line">            spdlog::error(<span class="stringliteral">&quot;Assertion failed at {}:{} - {} {} {} failed&quot;</span>, __FILE__, __LINE__, \</div>
 <div class="line">                          (X), #S, (Y));                                                     \</div>
+<div class="line">            breakOnWindows();                                                                \</div>
 <div class="line">            assert(0 &amp;&amp; <span class="stringliteral">&quot;Assertion failed&quot;</span>);                                                 \</div>
 <div class="line">        }                                                                                    \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="howl__assert_8hh_source.html#l00021">21</a> of file <a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="howl__assert_8hh_source.html#l00029">29</a> of file <a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a36c720f1a8ceba440b7232de12166c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36c720f1a8ceba440b7232de12166c26">&#9670;&nbsp;</a></span>breakOnWindows()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void breakOnWindows </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="howl__assert_8hh_source.html#l00012">12</a> of file <a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>.</p>
 
 </div>
 </div>

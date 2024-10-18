@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"namespacemembers_func.html":[0,1,1],
+"namespacemembers_type.html":[0,1,2],
 "namespaces.html":[0,0],
 "observed__vector_8hh.html":[2,0,0,19],
 "observed__vector_8hh_source.html":[2,0,0,19],

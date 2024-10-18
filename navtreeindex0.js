@@ -109,7 +109,8 @@ var NAVTREEINDEX0 =
 "game__assets_8hh.html":[2,0,0,2],
 "game__assets_8hh_source.html":[2,0,0,2],
 "globals.html":[2,1,0],
-"globals_defs.html":[2,1,1],
+"globals_defs.html":[2,1,2],
+"globals_func.html":[2,1,1],
 "gui__primitives_8cc.html":[2,0,0,3],
 "gui__primitives_8cc.html#a552879888248435c19b1a14fdeb86bd8":[2,0,0,3,0],
 "gui__primitives_8cc.html#a558e275715f6da8d89c89725b7563c94":[2,0,0,3,1],
@@ -122,6 +123,7 @@ var NAVTREEINDEX0 =
 "hash__utils_8hh_source.html":[2,0,0,5],
 "hierarchy.html":[1,2],
 "howl__assert_8hh.html":[2,0,0,6],
+"howl__assert_8hh.html#a36c720f1a8ceba440b7232de12166c26":[2,0,0,6,2],
 "howl__assert_8hh.html#ad665bf297c8e8743c0f766bb11bf31d4":[2,0,0,6,0],
 "howl__assert_8hh.html#ae3bdfd3cfa340365cbd394d53fb3061b":[2,0,0,6,1],
 "howl__assert_8hh_source.html":[2,0,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceHOWLING__NAMESPACE_1_1profiler.html#aebe3fe59ef9849c1d669d3914fec00a8":[0,0,2,1,3],
 "namespacehowl.html":[0,0,1],
 "namespacehowl_1_1detail.html":[0,0,1,0],
-"namespacemembers.html":[0,1,0],
-"namespacemembers_func.html":[0,1,1],
-"namespacemembers_type.html":[0,1,2]
+"namespacemembers.html":[0,1,0]
 };
