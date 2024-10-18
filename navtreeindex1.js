@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"namespacemembers_type.html":[0,1,2],
 "namespaces.html":[0,0],
 "observed__vector_8hh.html":[2,0,0,19],
 "observed__vector_8hh_source.html":[2,0,0,19],
@@ -64,5 +63,6 @@ var NAVTREEINDEX1 =
 "utils_8hh.html#abd71360f1b3b57e029e9ed5f2269b1a1":[2,0,0,25,10],
 "utils_8hh.html#ad22f0e024302609992135a2add749efe":[2,0,0,25,1],
 "utils_8hh.html#aeb15519754745ca698815d4f1655c151":[2,0,0,25,9],
-"utils_8hh_source.html":[2,0,0,25]
+"utils_8hh_source.html":[2,0,0,25],
+"":[0,0,0]
 };
