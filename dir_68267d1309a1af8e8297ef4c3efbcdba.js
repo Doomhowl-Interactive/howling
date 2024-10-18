@@ -43,6 +43,10 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "ring_buffer.hh", "ring__buffer_8hh.html", [
       [ "ring_buffer", "classhowl_1_1ring__buffer.html", "classhowl_1_1ring__buffer" ]
     ] ],
+    [ "rng_machine.cc", "rng__machine_8cc.html", null ],
+    [ "rng_machine.hh", "rng__machine_8hh.html", [
+      [ "RngMachine", "classHOWLING__NAMESPACE_1_1RngMachine.html", "classHOWLING__NAMESPACE_1_1RngMachine" ]
+    ] ],
     [ "unsafe_variant.hh", "unsafe__variant_8hh.html", [
       [ "max_sizeof< First, Rest... >", "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
       [ "max_sizeof<>", "structhowl_1_1detail_1_1max__sizeof_3_4.html", null ],

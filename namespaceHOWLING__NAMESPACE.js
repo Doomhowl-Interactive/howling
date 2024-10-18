@@ -15,6 +15,7 @@ var namespaceHOWLING__NAMESPACE =
     [ "LuaReloader", "classHOWLING__NAMESPACE_1_1LuaReloader.html", "classHOWLING__NAMESPACE_1_1LuaReloader" ],
     [ "LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", "classHOWLING__NAMESPACE_1_1LuaMachine" ],
     [ "MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", "classHOWLING__NAMESPACE_1_1MeshBuilder" ],
+    [ "RngMachine", "classHOWLING__NAMESPACE_1_1RngMachine.html", "classHOWLING__NAMESPACE_1_1RngMachine" ],
     [ "Point3D", "structHOWLING__NAMESPACE_1_1Point3D.html", "structHOWLING__NAMESPACE_1_1Point3D" ],
     [ "LuaRectangle", "namespaceHOWLING__NAMESPACE.html#a552879888248435c19b1a14fdeb86bd8", null ],
     [ "boundingBoxCenter", "namespaceHOWLING__NAMESPACE.html#ad22f0e024302609992135a2add749efe", null ],
