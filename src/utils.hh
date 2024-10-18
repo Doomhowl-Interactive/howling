@@ -10,6 +10,12 @@
 #include "raylib.h"
 #include "raymath.h"
 
+// macros for unit testing
+#ifdef I_WANT_TO_BREAK_FREE
+#define protected public
+#define private public
+#endif
+
 namespace HOWLING_NAMESPACE
 {
 
