@@ -54,10 +54,9 @@ inline Vector2& operator+=(Vector2& subj, const Vector2& vector2)
 /**
  * Subtract two vectors (v1 - v2)
  */
-inline Vector2& operator-(Vector2& subj, const Vector2& vector2)
+inline Vector2 operator-(const Vector2& subj, const Vector2& vector2)
 {
-    subj = Vector2Subtract(subj, vector2);
-    return subj;
+    return Vector2Subtract(subj, vector2);
 }
 
 inline Vector2& operator-=(Vector2& subj, const Vector2& vector2)
