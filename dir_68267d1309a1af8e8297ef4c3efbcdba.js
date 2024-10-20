@@ -7,10 +7,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "game_assets.hh", "game__assets_8hh.html", [
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ]
     ] ],
-    [ "gui_primitives.cc", "gui__primitives_8cc.html", "gui__primitives_8cc" ],
-    [ "gui_primitives.hh", "gui__primitives_8hh.html", [
-      [ "GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", "classHOWLING__NAMESPACE_1_1GuiPrimitives" ]
-    ] ],
     [ "hash_utils.hh", "hash__utils_8hh.html", "hash__utils_8hh" ],
     [ "howl_assert.hh", "howl__assert_8hh.html", "howl__assert_8hh" ],
     [ "logging.cc", "logging_8cc.html", "logging_8cc" ],

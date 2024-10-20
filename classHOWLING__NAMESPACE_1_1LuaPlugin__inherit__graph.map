@@ -1,7 +1,6 @@
 <map id="HOWLING_NAMESPACE::LuaPlugin" name="HOWLING_NAMESPACE::LuaPlugin">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,187,112"/>
-<area shape="rect" id="node2" href="$classHOWLING__NAMESPACE_1_1GuiPrimitives.html" title=" " alt="" coords="235,5,416,47"/>
-<area shape="rect" id="node3" href="$classHOWLING__NAMESPACE_1_1LuaMachine.html" title=" " alt="" coords="235,71,416,112"/>
-<area shape="rect" id="node5" href="$classHOWLING__NAMESPACE_1_1LuaRaylibPlugin.html" title=" " alt="" coords="235,136,416,177"/>
-<area shape="rect" id="node4" href="$classHOWLING__NAMESPACE_1_1LuaConfig.html" title=" " alt="" coords="464,71,645,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="108,5,289,47"/>
+<area shape="rect" id="node2" href="$classHOWLING__NAMESPACE_1_1LuaMachine.html" title=" " alt="" coords="5,95,187,136"/>
+<area shape="rect" id="node4" href="$classHOWLING__NAMESPACE_1_1LuaRaylibPlugin.html" title=" " alt="" coords="211,95,392,136"/>
+<area shape="rect" id="node3" href="$classHOWLING__NAMESPACE_1_1LuaConfig.html" title=" " alt="" coords="5,184,187,225"/>
 </map>

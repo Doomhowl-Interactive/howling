@@ -12,8 +12,5 @@ var searchData=
   ['getvalue_43',['getValue',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a871b352c0d2feb746d32684c14cf3c36',1,'HOWLING_NAMESPACE::LuaConfig']]],
   ['getvector3_44',['getVector3',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#aefa5c8ae7fdf2764b079209346898601',1,'HOWLING_NAMESPACE::LuaConfig']]],
   ['getvector4_45',['getVector4',['../classHOWLING__NAMESPACE_1_1LuaConfig.html#a950b5339eeee8252fbd760cff6f6f848',1,'HOWLING_NAMESPACE::LuaConfig']]],
-  ['global_46',['global',['../classHOWLING__NAMESPACE_1_1RngMachine.html#a2f33d2a0a356d4c9d7d8718f48c1b3bc',1,'HOWLING_NAMESPACE::RngMachine']]],
-  ['gui_5fprimitives_2ecc_47',['gui_primitives.cc',['../gui__primitives_8cc.html',1,'']]],
-  ['gui_5fprimitives_2ehh_48',['gui_primitives.hh',['../gui__primitives_8hh.html',1,'']]],
-  ['guiprimitives_49',['GuiPrimitives',['../classHOWLING__NAMESPACE_1_1GuiPrimitives.html',1,'HOWLING_NAMESPACE']]]
+  ['global_46',['global',['../classHOWLING__NAMESPACE_1_1RngMachine.html#a2f33d2a0a356d4c9d7d8718f48c1b3bc',1,'HOWLING_NAMESPACE::RngMachine']]]
 ];

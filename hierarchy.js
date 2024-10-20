@@ -9,7 +9,6 @@ var hierarchy =
     [ "fmt::formatter< Vector4 >", "structfmt_1_1formatter_3_01Vector4_01_4.html", null ],
     [ "howl::observed_vector< T >::listener", "classhowl_1_1observed__vector_1_1listener.html", null ],
     [ "HOWLING_NAMESPACE::LuaPlugin", "classHOWLING__NAMESPACE_1_1LuaPlugin.html", [
-      [ "HOWLING_NAMESPACE::GuiPrimitives", "classHOWLING__NAMESPACE_1_1GuiPrimitives.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", [
         [ "HOWLING_NAMESPACE::LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", null ]
       ] ],
