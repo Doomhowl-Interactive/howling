@@ -11,6 +11,10 @@ set(BUILD_SHARED_LIBS OFF)
 
 if (MSVC)
   add_compile_options("/MP")
+  add_compile_options("/Zi")
+  add_compile_options("/bigobj")
+else()
+  add_compile_options("-mbig-obj")
 endif()
 
 file(GLOB THE_SOURCES CONFIGURE_DEPENDS
@@ -28,6 +32,7 @@ find_package(Lua REQUIRED)
 set(RAYLIB_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(RAYLIB_BUILD_GAMES OFF CACHE BOOL "" FORCE)
 
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/Doomhowl-Interactive/raylib-lua-sol")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/raysan5/raylib")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/metayeti/mINI")
 
@@ -41,6 +46,7 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
   Boost::container
   sol2
   ${LUA_LIBRARIES}
+  raylib-lua-sol-hpp
 )
 
 set(HOWLING_HEADERS "${CMAKE_CURRENT_SOURCE_DIR}/src" CACHE INTERNAL "")

@@ -6,6 +6,9 @@
         },
         "raysan5/raylib": {
             "tag": "master"
-        }
+        },
+		"Doomhowl-Interactive/raylib-lua-sol": {
+			"tag": "master"
+		}
     }
 }
