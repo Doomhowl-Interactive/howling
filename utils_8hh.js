@@ -4,7 +4,7 @@ var utils_8hh =
     [ "boundingBoxCenter", "utils_8hh.html#ad22f0e024302609992135a2add749efe", null ],
     [ "boundingBoxSize", "utils_8hh.html#aa38290de75fd54f6473dbc2d7d0a5d69", null ],
     [ "boundsWithCenter", "utils_8hh.html#a05d2d66a782f00e76bea932fab808b57", null ],
-    [ "cmalloc", "utils_8hh.html#a9fd2495f517c4c747365fc57b4b76e98", null ],
+    [ "cmalloc", "utils_8hh.html#a5b3598edaf3cc7dc5665dac87dd03001", null ],
     [ "colorIsEqual", "utils_8hh.html#a6503b09a4c63ef776581168568b241a2", null ],
     [ "colorToVec3", "utils_8hh.html#a65ecf154ab52db4e60f985e0a27adf24", null ],
     [ "drawSolidBoundingBox", "utils_8hh.html#a0994a6d377cd8c0d8762ebe524525b94", null ],

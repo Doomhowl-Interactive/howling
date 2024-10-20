@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('utils_8hh.html',''); initResizable(); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &quot;<a class="el" href="hash__utils_8hh_source.html">hash_utils.hh</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="howl__assert_8hh_source.html">howl_assert.hh</a>&quot;</code><br />
@@ -103,21 +104,22 @@ Include dependency graph for utils.hh:</div>
 <div class="dyncontent">
 <div class="center"><img src="utils_8hh__incl.png" border="0" usemap="#asrc_2utils_8hh" alt=""/></div>
 <map name="asrc_2utils_8hh" id="asrc_2utils_8hh">
-<area shape="rect" title=" " alt="" coords="523,5,616,32"/>
-<area shape="rect" title=" " alt="" coords="51,80,122,107"/>
+<area shape="rect" title=" " alt="" coords="464,5,557,32"/>
+<area shape="rect" title=" " alt="" coords="86,80,157,107"/>
+<area shape="rect" title=" " alt="" coords="181,80,246,107"/>
 <area shape="rect" title=" " alt="" coords="247,155,334,181"/>
 <area shape="rect" href="hash__utils_8hh.html" title=" " alt="" coords="931,80,1039,107"/>
-<area shape="rect" href="howl__assert_8hh.html" title=" " alt="" coords="147,80,267,107"/>
-<area shape="rect" href="logging_8hh.html" title=" " alt="" coords="464,80,555,107"/>
-<area shape="rect" title=" " alt="" coords="661,155,731,181"/>
+<area shape="rect" href="howl__assert_8hh.html" title=" " alt="" coords="271,80,391,107"/>
+<area shape="rect" href="logging_8hh.html" title=" " alt="" coords="465,80,556,107"/>
+<area shape="rect" title=" " alt="" coords="743,155,814,181"/>
 <area shape="rect" href="math__operators_8hh.html" title=" " alt="" coords="686,80,831,107"/>
-<area shape="rect" title=" " alt="" coords="839,155,929,181"/>
-<area shape="rect" title=" " alt="" coords="953,155,1039,181"/>
+<area shape="rect" title=" " alt="" coords="838,155,927,181"/>
+<area shape="rect" title=" " alt="" coords="951,155,1038,181"/>
 <area shape="rect" title=" " alt="" coords="5,155,75,181"/>
 <area shape="rect" title=" " alt="" coords="99,155,223,181"/>
 <area shape="rect" title=" " alt="" coords="359,155,449,181"/>
 <area shape="rect" title=" " alt="" coords="474,155,537,181"/>
-<area shape="rect" title=" " alt="" coords="756,155,815,181"/>
+<area shape="rect" title=" " alt="" coords="660,155,719,181"/>
 <area shape="rect" title=" " alt="" coords="561,155,636,181"/>
 </map>
 </div>
@@ -148,9 +150,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a104f8d9b4a5d7c371c3ef3578dcead0c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a104f8d9b4a5d7c371c3ef3578dcead0c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a104f8d9b4a5d7c371c3ef3578dcead0c">HOWLING_NAMESPACE::sign</a> (T val)</td></tr>
 <tr class="separator:a104f8d9b4a5d7c371c3ef3578dcead0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fd2495f517c4c747365fc57b4b76e98"><td class="memTemplParams" colspan="2">template&lt;typename T , typename C &gt; </td></tr>
-<tr class="memitem:a9fd2495f517c4c747365fc57b4b76e98"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a9fd2495f517c4c747365fc57b4b76e98">HOWLING_NAMESPACE::cmalloc</a> (C items)</td></tr>
-<tr class="separator:a9fd2495f517c4c747365fc57b4b76e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b3598edaf3cc7dc5665dac87dd03001"><td class="memTemplParams" colspan="2">template&lt;typename T , typename C &gt; </td></tr>
+<tr class="memitem:a5b3598edaf3cc7dc5665dac87dd03001"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a5b3598edaf3cc7dc5665dac87dd03001">HOWLING_NAMESPACE::cmalloc</a> (C count)</td></tr>
+<tr class="separator:a5b3598edaf3cc7dc5665dac87dd03001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22f0e024302609992135a2add749efe"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#ad22f0e024302609992135a2add749efe">HOWLING_NAMESPACE::boundingBoxCenter</a> (const BoundingBox &amp;bb)</td></tr>
 <tr class="separator:ad22f0e024302609992135a2add749efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d2d66a782f00e76bea932fab808b57"><td class="memItemLeft" align="right" valign="top">BoundingBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a05d2d66a782f00e76bea932fab808b57">HOWLING_NAMESPACE::boundsWithCenter</a> (Vector3 pos, Vector3 size)</td></tr>
