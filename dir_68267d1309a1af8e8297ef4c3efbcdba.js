@@ -26,7 +26,7 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "lua_machine.hh", "lua__machine_8hh.html", "lua__machine_8hh" ],
     [ "lua_raylib_plugin.cc", "lua__raylib__plugin_8cc.html", null ],
     [ "lua_raylib_plugin.hh", "lua__raylib__plugin_8hh.html", [
-      [ "LuaRaylibPlugin", "classbreakout_1_1LuaRaylibPlugin.html", "classbreakout_1_1LuaRaylibPlugin" ]
+      [ "LuaRaylibPlugin", "classHOWLING__NAMESPACE_1_1LuaRaylibPlugin.html", "classHOWLING__NAMESPACE_1_1LuaRaylibPlugin" ]
     ] ],
     [ "math_operators.hh", "math__operators_8hh.html", "math__operators_8hh" ],
     [ "memory_profiler.cc", "memory__profiler_8cc.html", "memory__profiler_8cc" ],
