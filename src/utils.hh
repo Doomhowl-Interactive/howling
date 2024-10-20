@@ -1,5 +1,6 @@
 #pragma once
 #include <cstddef>
+#include <cstdlib>
 #include <stdexcept>
 
 #include "hash_utils.hh"
@@ -26,9 +27,9 @@ int sign(T val)
 }
 
 template<typename T, typename C>
-T* cmalloc(C items)
+T* cmalloc(C count)
 {
-    return reinterpret_cast<T*>(std::malloc(sizeof(T) * items));
+    return reinterpret_cast<T*>(std::calloc(static_cast<std::size_t>(count), sizeof(T)));
 }
 
 inline Vector3 boundingBoxCenter(const BoundingBox& bb)
