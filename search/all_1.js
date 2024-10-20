@@ -9,7 +9,8 @@ var searchData=
   ['boundingboxsize_10',['boundingBoxSize',['../namespaceHOWLING__NAMESPACE.html#aa38290de75fd54f6473dbc2d7d0a5d69',1,'HOWLING_NAMESPACE']]],
   ['boundswithcenter_11',['boundsWithCenter',['../namespaceHOWLING__NAMESPACE.html#a05d2d66a782f00e76bea932fab808b57',1,'HOWLING_NAMESPACE']]],
   ['breakonwindows_12',['breakOnWindows',['../howl__assert_8hh.html#a36c720f1a8ceba440b7232de12166c26',1,'howl_assert.hh']]],
-  ['bucket_13',['bucket',['../classhowl_1_1bucket.html#a5edc1f4a617bc89c69a1ab3a8e6fde74',1,'howl::bucket::bucket()'],['../classhowl_1_1bucket.html',1,'howl::bucket&lt; C &gt;']]],
-  ['bucket_2ehh_14',['bucket.hh',['../bucket_8hh.html',1,'']]],
-  ['bypass_15',['bypass',['../classhowl_1_1observed__vector.html#aff0f3302698b55b3499e3c0c844786d6',1,'howl::observed_vector::bypass()'],['../classhowl_1_1ordered__vector.html#aad24130ccdeb17ac3df289d68f24b13f',1,'howl::ordered_vector::bypass()']]]
+  ['breakout_13',['breakout',['../namespacebreakout.html',1,'']]],
+  ['bucket_14',['bucket',['../classhowl_1_1bucket.html#a5edc1f4a617bc89c69a1ab3a8e6fde74',1,'howl::bucket::bucket()'],['../classhowl_1_1bucket.html',1,'howl::bucket&lt; C &gt;']]],
+  ['bucket_2ehh_15',['bucket.hh',['../bucket_8hh.html',1,'']]],
+  ['bypass_16',['bypass',['../classhowl_1_1observed__vector.html#aff0f3302698b55b3499e3c0c844786d6',1,'howl::observed_vector::bypass()'],['../classhowl_1_1ordered__vector.html#aad24130ccdeb17ac3df289d68f24b13f',1,'howl::ordered_vector::bypass()']]]
 ];

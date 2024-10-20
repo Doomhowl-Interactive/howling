@@ -14,6 +14,9 @@ var hierarchy =
         [ "HOWLING_NAMESPACE::LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", null ]
       ] ]
     ] ],
+    [ "LuaPlugin", null, [
+      [ "breakout::LuaRaylibPlugin", "classbreakout_1_1LuaRaylibPlugin.html", null ]
+    ] ],
     [ "HOWLING_NAMESPACE::LuaReloader", "classHOWLING__NAMESPACE_1_1LuaReloader.html", [
       [ "HOWLING_NAMESPACE::LuaDesktopReloader", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html", null ]
     ] ],
