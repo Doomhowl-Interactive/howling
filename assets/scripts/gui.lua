@@ -1,22 +1,28 @@
 
-function rect(x,y,w,h)
-   return {x=x,y=y,w=w,h=h}
-end
-
 function perc_w(perc)
-   return get_screen_size().w * perc
+   return GetScreenWidth() * perc
 end
 
 function perc_h(perc)
-   return get_screen_size().h * perc
+   return GetScreenHeight() * perc
 end
 
 function perc_min(perc)
-   local size = get_screen_size()
-   return min(size.x, size.y)
+   return min(GetScreenWidth(), GetScreenHeight()) * perc
 end
 
 function perc_max(perc)
-   local size = get_screen_size()
-   return max(size.x, size.y)
+   return max(GetScreenWidth(), GetScreenHeight()) * perc
+end
+
+function draw_text_button(rect, text)
+   DrawRectangleRec(rect, LIGHTGRAY);
+   DrawTextEx(GetFontDefault(), text, Vector2(rect.x + rect.width / 2, rect.y + rect.height / 2), 12, 1.0, WHITE)
+
+   local hover = CheckCollisionPointRec(GetMousePosition(), rect)
+
+   if hover and IsMouseButtonPressed(MOUSE_LEFT_BUTTON) then
+      return true
+   end
+   return false
 end

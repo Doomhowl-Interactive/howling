@@ -1,8 +1,8 @@
 #include "lua_machine.hh"
 #include "logging.hh"
 
-#include <sstream>
 #include <cassert>
+#include <sstream>
 
 namespace HOWLING_NAMESPACE
 {
@@ -46,9 +46,12 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
     const fs::path path = fs::path(scriptPath);
     if (path.is_relative() && !fs::exists(path))
     {
-        if (auto res = resolveLuaFile(scriptPath)) {
+        if (auto res = resolveLuaFile(scriptPath))
+        {
             resolved = *res;
-        } else {
+        }
+        else
+        {
             assert(0 && "Failed to resolve script file");
         }
     }
@@ -91,9 +94,11 @@ std::optional<std::string> LuaMachine::resolveLuaFile(const std::string& scriptP
     else
     {
         // slower, disk checks needed
-        for (const std::string& dir : mLuaIncludeDirs) {
+        for (const std::string& dir : mLuaIncludeDirs)
+        {
             auto path = fs::path(dir) / scriptPath;
-            if (fs::is_regular_file(path)) {
+            if (fs::is_regular_file(path))
+            {
                 // script found
                 result = path.string();
                 goto end;
@@ -120,7 +125,8 @@ LUAFUNC static void debug(std::string msg)
 
 LUAFUNC void LuaMachine::include(std::string& file)
 {
-    if (auto resolved = resolveLuaFile(file); resolved) {
+    if (auto resolved = resolveLuaFile(file); resolved)
+    {
         runScript(*resolved);
     }
 }
@@ -130,7 +136,8 @@ void LuaMachine::registerLuaPlugin(LuaMachine& machine)
     // callable functions from lua
     machine.registerLuaFunction("info", info);
     machine.registerLuaFunction("debug", debug);
-    machine.registerLuaFunction("include", [this](std::string file) { this->include(file); });
+    machine.registerLuaFunction("include", [this](std::string file)
+                                { this->include(file); });
 }
 
 void LuaReloader::registerReloadCallback(const LuaReloader::ReloadCallback& callback)
