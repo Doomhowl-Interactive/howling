@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['listener_58',['listener',['../classhowl_1_1observed__vector_1_1listener.html',1,'howl::observed_vector']]],
-  ['loadfont_59',['loadFont',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['loadmodel_60',['loadModel',['../classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0',1,'HOWLING_NAMESPACE::GameAssets']]],
-  ['loadtexture_61',['loadTexture',['../classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a',1,'HOWLING_NAMESPACE::GameAssets']]],
+  ['listener_61',['listener',['../classhowl_1_1observed__vector_1_1listener.html',1,'howl::observed_vector']]],
   ['logging_2ecc_62',['logging.cc',['../logging_8cc.html',1,'']]],
   ['logging_2ehh_63',['logging.hh',['../logging_8hh.html',1,'']]],
   ['lua_5fconfig_2ecc_64',['lua_config.cc',['../lua__config_8cc.html',1,'']]],

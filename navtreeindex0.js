@@ -1,17 +1,19 @@
 var NAVTREEINDEX0 =
 {
-"":[0,0,0],
 "annotated.html":[1,0],
 "bucket_8hh.html":[2,0,0,0],
 "bucket_8hh_source.html":[2,0,0,0],
 "classHOWLING__NAMESPACE_1_1GameAssets.html":[1,0,2,1],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090":[1,0,2,1,1],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#a27590751b65ec48141a752caff89a886":[1,0,2,1,4],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a":[1,0,2,1,3],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a18e18a9fedc643f19014d588756c08d4":[1,0,2,1,5],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a2417ebaaf5193cad0101033e325dfc58":[1,0,2,1,4],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a262d4486a5305d4e4fe7d10b20a7148c":[1,0,2,1,6],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a27590751b65ec48141a752caff89a886":[1,0,2,1,7],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a6b16ab83831dff740d65969dec232df4":[1,0,2,1,3],
 "classHOWLING__NAMESPACE_1_1GameAssets.html#a7764224749794df6ce1382edcc93e8f2":[1,0,2,1,0],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#ad820327c30110b5bdba2df6f434716f2":[1,0,2,1,6],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#aef3b9a9987326ef6ea04320f06185a22":[1,0,2,1,5],
-"classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0":[1,0,2,1,2],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#a813dff160dba801b131b32d45f2114d1":[1,0,2,1,1],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#ad820327c30110b5bdba2df6f434716f2":[1,0,2,1,9],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#aec258150ef77615d9222b974b4af028d":[1,0,2,1,2],
+"classHOWLING__NAMESPACE_1_1GameAssets.html#aef3b9a9987326ef6ea04320f06185a22":[1,0,2,1,8],
 "classHOWLING__NAMESPACE_1_1LuaConfig.html":[1,0,2,2],
 "classHOWLING__NAMESPACE_1_1LuaConfig.html#a297385d86455f1bca06fa11d87690dc6":[1,0,2,2,1],
 "classHOWLING__NAMESPACE_1_1LuaConfig.html#a66417437d3a4c056937a811570c6fd30":[1,0,2,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a2d8e9cc6a5788dad4d8326ca6747c362":[0,0,2,0,1],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a74dd18bdb62a641fd46673bfc771ae8d":[0,0,2,0,3],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687":[0,0,2,0,0],
-"namespaceHOWLING__NAMESPACE_1_1profiler.html":[0,0,2,1],
-"namespaceHOWLING__NAMESPACE_1_1profiler.html#a2ca850ac9bd06a66f697051afad3ef39":[0,0,2,1,2],
-"namespaceHOWLING__NAMESPACE_1_1profiler.html#a86759d3966de3c71955d33e146261ef9":[0,0,2,1,4]
+"namespaceHOWLING__NAMESPACE_1_1profiler.html":[0,0,2,1]
 };

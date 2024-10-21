@@ -100,8 +100,9 @@ Inheritance diagram for HOWLING_NAMESPACE::GameAssets:</div>
 <div class="dyncontent">
 <div class="center"><img src="classHOWLING__NAMESPACE_1_1GameAssets__inherit__graph.png" border="0" usemap="#aHOWLING__NAMESPACE_1_1GameAssets_inherit__map" alt="Inheritance graph"/></div>
 <map name="aHOWLING__NAMESPACE_1_1GameAssets_inherit__map" id="aHOWLING__NAMESPACE_1_1GameAssets_inherit__map">
-<area shape="rect" title="Game should inherit this class and call load functions in constructor." alt="" coords="5,80,187,121"/>
-<area shape="rect" title=" " alt="" coords="21,5,171,32"/>
+<area shape="rect" title="Game should inherit this class and call load functions in constructor." alt="" coords="100,95,281,136"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" title=" " alt="" coords="211,13,360,39"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -109,8 +110,9 @@ Collaboration diagram for HOWLING_NAMESPACE::GameAssets:</div>
 <div class="dyncontent">
 <div class="center"><img src="classHOWLING__NAMESPACE_1_1GameAssets__coll__graph.png" border="0" usemap="#aHOWLING__NAMESPACE_1_1GameAssets_coll__map" alt="Collaboration graph"/></div>
 <map name="aHOWLING__NAMESPACE_1_1GameAssets_coll__map" id="aHOWLING__NAMESPACE_1_1GameAssets_coll__map">
-<area shape="rect" title="Game should inherit this class and call load functions in constructor." alt="" coords="5,80,187,121"/>
-<area shape="rect" title=" " alt="" coords="21,5,171,32"/>
+<area shape="rect" title="Game should inherit this class and call load functions in constructor." alt="" coords="100,95,281,136"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" title=" " alt="" coords="211,13,360,39"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -118,15 +120,22 @@ Collaboration diagram for HOWLING_NAMESPACE::GameAssets:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7764224749794df6ce1382edcc93e8f2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a7764224749794df6ce1382edcc93e8f2">~GameAssets</a> ()</td></tr>
 <tr class="separator:a7764224749794df6ce1382edcc93e8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7486055eaac95b38837719ad95064c0"><td class="memItemLeft" align="right" valign="top">Model&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0">loadModel</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:af7486055eaac95b38837719ad95064c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets model.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#af7486055eaac95b38837719ad95064c0">More...</a><br /></td></tr>
-<tr class="separator:af7486055eaac95b38837719ad95064c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1173e58cfbdec3caff940962db4e5090"><td class="memItemLeft" align="right" valign="top">Font&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090">loadFont</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:a1173e58cfbdec3caff940962db4e5090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets asset.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#a1173e58cfbdec3caff940962db4e5090">More...</a><br /></td></tr>
-<tr class="separator:a1173e58cfbdec3caff940962db4e5090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65f1c05fab5b46efa8f4afa64a9a413a"><td class="memItemLeft" align="right" valign="top">Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a">loadTexture</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:a65f1c05fab5b46efa8f4afa64a9a413a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets asset.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#a65f1c05fab5b46efa8f4afa64a9a413a">More...</a><br /></td></tr>
-<tr class="separator:a65f1c05fab5b46efa8f4afa64a9a413a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec258150ef77615d9222b974b4af028d"><td class="memItemLeft" align="right" valign="top">Model&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#aec258150ef77615d9222b974b4af028d">getOrLoadModel</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:aec258150ef77615d9222b974b4af028d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets model.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#aec258150ef77615d9222b974b4af028d">More...</a><br /></td></tr>
+<tr class="separator:aec258150ef77615d9222b974b4af028d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813dff160dba801b131b32d45f2114d1"><td class="memItemLeft" align="right" valign="top">Font&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a813dff160dba801b131b32d45f2114d1">getOrLoadFont</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:a813dff160dba801b131b32d45f2114d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets asset.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#a813dff160dba801b131b32d45f2114d1">More...</a><br /></td></tr>
+<tr class="separator:a813dff160dba801b131b32d45f2114d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b16ab83831dff740d65969dec232df4"><td class="memItemLeft" align="right" valign="top">Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a6b16ab83831dff740d65969dec232df4">getOrLoadTexture</a> (const std::string &amp;path)</td></tr>
+<tr class="memdesc:a6b16ab83831dff740d65969dec232df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads or gets asset.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#a6b16ab83831dff740d65969dec232df4">More...</a><br /></td></tr>
+<tr class="separator:a6b16ab83831dff740d65969dec232df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2417ebaaf5193cad0101033e325dfc58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a2417ebaaf5193cad0101033e325dfc58">registerLuaPlugin</a> (<a class="el" href="classHOWLING__NAMESPACE_1_1LuaMachine.html">LuaMachine</a> &amp;machine) override</td></tr>
+<tr class="separator:a2417ebaaf5193cad0101033e325dfc58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18e18a9fedc643f19014d588756c08d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a18e18a9fedc643f19014d588756c08d4">setAssetsDir</a> (const std::string &amp;assetsDir)</td></tr>
+<tr class="separator:a18e18a9fedc643f19014d588756c08d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classHOWLING__NAMESPACE_1_1LuaPlugin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classHOWLING__NAMESPACE_1_1LuaPlugin')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html">HOWLING_NAMESPACE::LuaPlugin</a></td></tr>
+<tr class="memitem:a03062d06268e31ac0faa193efbc03977 inherit pub_methods_classHOWLING__NAMESPACE_1_1LuaPlugin"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html#a03062d06268e31ac0faa193efbc03977">~LuaPlugin</a> ()=default</td></tr>
+<tr class="separator:a03062d06268e31ac0faa193efbc03977 inherit pub_methods_classHOWLING__NAMESPACE_1_1LuaPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -136,11 +145,13 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a27590751b65ec48141a752caff89a886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad820327c30110b5bdba2df6f434716f2"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, Texture &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#ad820327c30110b5bdba2df6f434716f2">mTextures</a> {}</td></tr>
 <tr class="separator:ad820327c30110b5bdba2df6f434716f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262d4486a5305d4e4fe7d10b20a7148c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a262d4486a5305d4e4fe7d10b20a7148c">mAssetsDir</a> = &quot;&quot;</td></tr>
+<tr class="separator:a262d4486a5305d4e4fe7d10b20a7148c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Game should inherit this class and call load functions in constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00013">13</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00019">19</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7764224749794df6ce1382edcc93e8f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7764224749794df6ce1382edcc93e8f2">&#9670;&nbsp;</a></span>~GameAssets()</h2>
@@ -170,14 +181,14 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1173e58cfbdec3caff940962db4e5090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1173e58cfbdec3caff940962db4e5090">&#9670;&nbsp;</a></span>loadFont()</h2>
+<a id="a813dff160dba801b131b32d45f2114d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a813dff160dba801b131b32d45f2114d1">&#9670;&nbsp;</a></span>getOrLoadFont()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Font HOWLING_NAMESPACE::GameAssets::loadFont </td>
+          <td class="memname">Font HOWLING_NAMESPACE::GameAssets::getOrLoadFont </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -188,18 +199,18 @@ Protected Attributes</h2></td></tr>
 
 <p>Loads or gets asset. </p>
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00042">42</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00029">29</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
 
 </div>
 </div>
-<a id="af7486055eaac95b38837719ad95064c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7486055eaac95b38837719ad95064c0">&#9670;&nbsp;</a></span>loadModel()</h2>
+<a id="aec258150ef77615d9222b974b4af028d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec258150ef77615d9222b974b4af028d">&#9670;&nbsp;</a></span>getOrLoadModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Model HOWLING_NAMESPACE::GameAssets::loadModel </td>
+          <td class="memname">Model HOWLING_NAMESPACE::GameAssets::getOrLoadModel </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -210,18 +221,27 @@ Protected Attributes</h2></td></tr>
 
 <p>Loads or gets model. </p>
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00037">37</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00024">24</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHOWLING__NAMESPACE_1_1GameAssets_aec258150ef77615d9222b974b4af028d_icgraph.png" border="0" usemap="#aclassHOWLING__NAMESPACE_1_1GameAssets_aec258150ef77615d9222b974b4af028d_icgraph" alt=""/></div>
+<map name="aclassHOWLING__NAMESPACE_1_1GameAssets_aec258150ef77615d9222b974b4af028d_icgraph" id="aclassHOWLING__NAMESPACE_1_1GameAssets_aec258150ef77615d9222b974b4af028d_icgraph">
+<area shape="rect" title="Loads or gets model." alt="" coords="279,5,497,47"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a2417ebaaf5193cad0101033e325dfc58" title=" " alt="" coords="5,5,231,47"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a65f1c05fab5b46efa8f4afa64a9a413a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65f1c05fab5b46efa8f4afa64a9a413a">&#9670;&nbsp;</a></span>loadTexture()</h2>
+<a id="a6b16ab83831dff740d65969dec232df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b16ab83831dff740d65969dec232df4">&#9670;&nbsp;</a></span>getOrLoadTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Texture HOWLING_NAMESPACE::GameAssets::loadTexture </td>
+          <td class="memname">Texture HOWLING_NAMESPACE::GameAssets::getOrLoadTexture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -232,11 +252,113 @@ Protected Attributes</h2></td></tr>
 
 <p>Loads or gets asset. </p>
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00047">47</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00034">34</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHOWLING__NAMESPACE_1_1GameAssets_a6b16ab83831dff740d65969dec232df4_icgraph.png" border="0" usemap="#aclassHOWLING__NAMESPACE_1_1GameAssets_a6b16ab83831dff740d65969dec232df4_icgraph" alt=""/></div>
+<map name="aclassHOWLING__NAMESPACE_1_1GameAssets_a6b16ab83831dff740d65969dec232df4_icgraph" id="aclassHOWLING__NAMESPACE_1_1GameAssets_a6b16ab83831dff740d65969dec232df4_icgraph">
+<area shape="rect" title="Loads or gets asset." alt="" coords="279,5,505,47"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a2417ebaaf5193cad0101033e325dfc58" title=" " alt="" coords="5,5,231,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2417ebaaf5193cad0101033e325dfc58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2417ebaaf5193cad0101033e325dfc58">&#9670;&nbsp;</a></span>registerLuaPlugin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HOWLING_NAMESPACE::GameAssets::registerLuaPlugin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classHOWLING__NAMESPACE_1_1LuaMachine.html">LuaMachine</a> &amp;&#160;</td>
+          <td class="paramname"><em>machine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html#a80878cca375373c0198e4c9c393fce61">HOWLING_NAMESPACE::LuaPlugin</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="game__assets_8cc_source.html#l00039">39</a> of file <a class="el" href="game__assets_8cc_source.html">game_assets.cc</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHOWLING__NAMESPACE_1_1GameAssets_a2417ebaaf5193cad0101033e325dfc58_cgraph.png" border="0" usemap="#aclassHOWLING__NAMESPACE_1_1GameAssets_a2417ebaaf5193cad0101033e325dfc58_cgraph" alt=""/></div>
+<map name="aclassHOWLING__NAMESPACE_1_1GameAssets_a2417ebaaf5193cad0101033e325dfc58_cgraph" id="aclassHOWLING__NAMESPACE_1_1GameAssets_a2417ebaaf5193cad0101033e325dfc58_cgraph">
+<area shape="rect" title=" " alt="" coords="5,71,231,112"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1GameAssets.html#aec258150ef77615d9222b974b4af028d" title="Loads or gets model." alt="" coords="287,5,506,47"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a6b16ab83831dff740d65969dec232df4" title="Loads or gets asset." alt="" coords="283,71,510,112"/>
+<area shape="rect" href="classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea" title=" " alt="" coords="279,136,515,177"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a18e18a9fedc643f19014d588756c08d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18e18a9fedc643f19014d588756c08d4">&#9670;&nbsp;</a></span>setAssetsDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HOWLING_NAMESPACE::GameAssets::setAssetsDir </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>assetsDir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00036">36</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a262d4486a5305d4e4fe7d10b20a7148c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262d4486a5305d4e4fe7d10b20a7148c">&#9670;&nbsp;</a></span>mAssetsDir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string HOWLING_NAMESPACE::GameAssets::mAssetsDir = &quot;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00046">46</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
+
+</div>
+</div>
 <a id="a27590751b65ec48141a752caff89a886"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27590751b65ec48141a752caff89a886">&#9670;&nbsp;</a></span>mFonts</h2>
 
@@ -257,7 +379,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00029">29</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00043">43</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
 
 </div>
 </div>
@@ -281,7 +403,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00028">28</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00042">42</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
 
 </div>
 </div>
@@ -305,7 +427,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00030">30</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
+<p class="definition">Definition at line <a class="el" href="game__assets_8hh_source.html#l00044">44</a> of file <a class="el" href="game__assets_8hh_source.html">game_assets.hh</a>.</p>
 
 </div>
 </div>

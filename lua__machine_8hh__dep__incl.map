@@ -1,9 +1,11 @@
 <map id="src/lua_machine.hh" name="src/lua_machine.hh">
-<area shape="rect" id="node1" title=" " alt="" coords="289,5,437,32"/>
-<area shape="rect" id="node2" href="$lua__config_8hh.html" title=" " alt="" coords="5,80,136,107"/>
-<area shape="rect" id="node4" href="$lua__desktop__reloader_8hh.html" title=" " alt="" coords="161,80,365,107"/>
-<area shape="rect" id="node5" href="$lua__machine_8cc.html" title=" " alt="" coords="389,80,536,107"/>
-<area shape="rect" id="node6" href="$lua__raylib__plugin_8hh.html" title=" " alt="" coords="560,80,736,107"/>
-<area shape="rect" id="node3" href="$lua__config_8cc.html" title=" " alt="" coords="6,155,135,181"/>
-<area shape="rect" id="node7" href="$lua__raylib__plugin_8cc.html" title=" " alt="" coords="561,155,735,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="364,5,512,32"/>
+<area shape="rect" id="node2" href="$game__assets_8hh.html" title=" " alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node4" href="$lua__config_8hh.html" title=" " alt="" coords="181,80,311,107"/>
+<area shape="rect" id="node6" href="$lua__desktop__reloader_8hh.html" title=" " alt="" coords="336,80,540,107"/>
+<area shape="rect" id="node7" href="$lua__machine_8cc.html" title=" " alt="" coords="565,80,711,107"/>
+<area shape="rect" id="node8" href="$lua__raylib__plugin_8hh.html" title=" " alt="" coords="735,80,911,107"/>
+<area shape="rect" id="node3" href="$game__assets_8cc.html" title=" " alt="" coords="6,155,155,181"/>
+<area shape="rect" id="node5" href="$lua__config_8cc.html" title=" " alt="" coords="181,155,311,181"/>
+<area shape="rect" id="node9" href="$lua__raylib__plugin_8cc.html" title=" " alt="" coords="736,155,911,181"/>
 </map>

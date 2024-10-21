@@ -1,4 +1,5 @@
 <map id="HOWLING_NAMESPACE::GameAssets" name="HOWLING_NAMESPACE::GameAssets">
-<area shape="rect" id="node1" title="Game should inherit this class and call load functions in constructor." alt="" coords="5,80,187,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="21,5,171,32"/>
+<area shape="rect" id="node1" title="Game should inherit this class and call load functions in constructor." alt="" coords="100,95,281,136"/>
+<area shape="rect" id="node2" href="$classHOWLING__NAMESPACE_1_1LuaPlugin.html" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="211,13,360,39"/>
 </map>
