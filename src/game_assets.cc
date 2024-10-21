@@ -21,32 +21,29 @@ GameAssets::~GameAssets()
     unloadAssets(mFonts, UnloadFont);
 }
 
-template <typename Type, typename Map, typename LoadFunc>
-static Type getOrLoadAsset(const std::string& path, Map& map, LoadFunc loadFunc)
-{
-    Type asset;
-    try {
-        asset = map[path];
-    } catch (std::out_of_range&) {
-        asset = loadFunc(path.c_str());
-        map.emplace(path, asset);
-    }
-    return asset;
-}
-
-Model GameAssets::loadModel(const std::string& path)
+Model GameAssets::getOrLoadModel(const std::string& path)
 {
     return getOrLoadAsset<Model>(path, mModels, LoadModel);
 }
 
-Font GameAssets::loadFont(const std::string& path)
+Font GameAssets::getOrLoadFont(const std::string& path)
 {
     return getOrLoadAsset<Font>(path, mFonts, LoadFont);
 }
 
-Texture GameAssets::loadTexture(const std::string& path)
+Texture GameAssets::getOrLoadTexture(const std::string& path)
 {
    return getOrLoadAsset<Texture>(path, mTextures, LoadTexture);
+}
+
+void GameAssets::registerLuaPlugin(LuaMachine& machine)
+{
+    machine.registerLuaFunction("get_or_load_asset_texture", [this](std::string path)
+        { return getOrLoadTexture(mAssetsDir + path); });
+    machine.registerLuaFunction("get_or_load_asset_model", [this](std::string path)
+        { return getOrLoadModel(mAssetsDir + path); });
+    machine.registerLuaFunction("get_or_load_asset_font", [this](std::string path)
+        { return getOrLoadModel(mAssetsDir + path); });
 }
 
 }
