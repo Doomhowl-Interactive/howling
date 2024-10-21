@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"":[0,0,0],
 "annotated.html":[1,0],
 "bucket_8hh.html":[2,0,0,0],
 "bucket_8hh_source.html":[2,0,0,0],
@@ -22,10 +23,10 @@ var NAVTREEINDEX0 =
 "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html#ad811162186e750d25caf16eb8f094925":[1,0,2,3,0],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html":[1,0,2,6],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a0f2140aa59db07cd1050d06ba0ffedb8":[1,0,2,6,5],
-"classHOWLING__NAMESPACE_1_1LuaMachine.html#a224163e458680dc7f219a09abfc8a102":[1,0,2,6,7],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a24cace0b933e9097e00ecafa9035ec6f":[1,0,2,6,8],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a2f38a8a88d8659c9835922f015788ce3":[1,0,2,6,2],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a4490c8a6c5a5b8ea7dd8c2917d738d65":[1,0,2,6,0],
+"classHOWLING__NAMESPACE_1_1LuaMachine.html#a487bbf1738b5e73a15737b9e3dd65e99":[1,0,2,6,7],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a54e56649015b438ca2d335b09b77e1d9":[1,0,2,6,1],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a5ab47cdabf8990a6df93b8525bf659ee":[1,0,2,6,3],
 "classHOWLING__NAMESPACE_1_1LuaMachine.html#a7010bb205cdec98971a562ec12ec3fea":[1,0,2,6,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a150149a2c578bdf1ff1df0c2aaf33a26":[0,0,2,0,2],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a2d8e9cc6a5788dad4d8326ca6747c362":[0,0,2,0,1],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a74dd18bdb62a641fd46673bfc771ae8d":[0,0,2,0,3],
-"namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687":[0,0,2,0,0],
-"namespaceHOWLING__NAMESPACE_1_1profiler.html":[0,0,2,1]
+"namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687":[0,0,2,0,0]
 };
