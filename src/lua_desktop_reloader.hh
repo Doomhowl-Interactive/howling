@@ -29,7 +29,7 @@ public:
             const auto lastWrite = std::filesystem::last_write_time(p);
             if (lastWrite > savedWrite)
             {
-                machine.runScript(p.string(), false);
+                machine.runScript(p.string(), false, false);
                 savedWrite = lastWrite;
                 spdlog::info("Hot reloaded lua script: {}", p);
                 notifyCallbacks(p);

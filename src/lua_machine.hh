@@ -85,7 +85,7 @@ public:
     void addLuaIncludeDirs(const std::initializer_list<std::string>& dirs);
     static void setDefaultLuaIncludeDirs(const std::initializer_list<std::string>& dirs);
 
-    bool runScript(const std::string& scriptPath, bool hotReload = true);
+    bool runScript(const std::string& scriptPath, bool hotReload = true, bool assertOnError = true);
 
     void update(float delta)
     {

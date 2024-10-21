@@ -40,7 +40,7 @@ void LuaMachine::setDefaultLuaIncludeDirs(const std::initializer_list<std::strin
     sDefaultLuaIncludeDirs.insert(sDefaultLuaIncludeDirs.end(), dirs.begin(), dirs.end());
 }
 
-bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
+bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload, bool assertOnError)
 {
     std::string resolved;
     const fs::path path = fs::path(scriptPath);
@@ -77,7 +77,7 @@ bool LuaMachine::runScript(const std::string& scriptPath, bool hotReload)
     catch (const sol::error& err)
     {
         spdlog::error("Lua syntax error: {}", err.what());
-        assert(0);
+        assert(!assertOnError);
         return false;
     }
 }
