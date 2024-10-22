@@ -20,6 +20,7 @@ endif()
 file(GLOB THE_SOURCES CONFIGURE_DEPENDS
   ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cc
   ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hh)
+file(GLOB THE_LUA_SOURCES CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/assets/scripts/*.lua)
 
 find_package(magic_enum CONFIG REQUIRED)
 find_package(boost_core REQUIRED CONFIG)
@@ -36,7 +37,7 @@ add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/Doomhowl-Interactive/ray
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/raysan5/raylib")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/metayeti/mINI")
 
-add_library(${PROJECT_NAME} STATIC ${THE_SOURCES})
+add_library(${PROJECT_NAME} STATIC ${THE_SOURCES} ${THE_LUA_SOURCES})
 target_link_libraries(${PROJECT_NAME} PUBLIC
   raylib
   magic_enum::magic_enum
