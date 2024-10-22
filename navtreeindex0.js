@@ -1,6 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[0,0,0],
 "annotated.html":[1,0],
 "bucket_8hh.html":[2,0,0,0],
 "bucket_8hh_source.html":[2,0,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a150149a2c578bdf1ff1df0c2aaf33a26":[0,0,2,0,2],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a2d8e9cc6a5788dad4d8326ca6747c362":[0,0,2,0,1],
 "namespaceHOWLING__NAMESPACE_1_1memory.html#a74dd18bdb62a641fd46673bfc771ae8d":[0,0,2,0,3],
-"namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687":[0,0,2,0,0]
+"namespaceHOWLING__NAMESPACE_1_1memory.html#a84c2e5c658b355bb7d40414a516c2687":[0,0,2,0,0],
+"namespaceHOWLING__NAMESPACE_1_1profiler.html":[0,0,2,1]
 };
