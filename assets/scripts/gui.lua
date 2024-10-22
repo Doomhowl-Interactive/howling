@@ -78,6 +78,45 @@ function color_brightness(color, scale)
     return color
 end
 
+local used_font = nil
+
+--- Set font to use, is Raylib's GetFontDefault result by default
+function set_used_font(font)
+    used_font = font
+end
+
+function get_used_font()
+    if used_font == nil then
+        used_font = GetFontDefault()
+    end
+    return used_font
+end
+
+--- Draw text around center
+--- @param text string text
+--- @param pos Vector2 pos
+--- @param size number Font size
+--- @param color Color Text color
+--- @param spacing number Space between chars
+--- @param font Font Raylib font to use
+function draw_text_centered_ex(text, pos, size, color, spacing, font)
+    local text_size = MeasureTextEx(font, text, size, spacing)
+    local text_pos = Vector2(
+        pos.x - text_size.x * 0.5,
+        pos.y - text_size.y * 0.5
+    )
+    DrawTextEx(font, text, text_pos, size, spacing, color)
+end
+
+--- Draw text around center
+--- @param text string text
+--- @param pos Vector2 pos
+--- @param size number Font size
+--- @param color Text color
+function draw_text_centered(text, pos, size, color)
+    draw_text_centered_ex(text, pos, size, color, 1.0, get_used_font())
+end
+
 --- Draws a text button and checks for mouse clicks.
 --- @param rect Rectangle The rectangle (x, y, width, height) defining the button's position and size.
 --- @param color Color Background color of the button.
@@ -98,9 +137,7 @@ function draw_text_button_ex(rect, text, color, roundness, segments)
        DrawRectangleRounded(rect, roundness, segments, color)
    end
 
-   DrawTextEx(GetFontDefault(), text, Vector2(rect.x + rect.width / 2, rect.y + rect.height / 2),
-              perc_min(0.1), 1.0, WHITE)
-
+   draw_text_centered(text, Vector2(rect.x + rect.width / 2, rect.y + rect.height / 2), perc_min(0.05), WHITE)
 
    if hover and IsMouseButtonPressed(MOUSE_LEFT_BUTTON) then
       return true
