@@ -1,21 +1,16 @@
 #pragma once
 #include <functional>
+#include <string_view>
 
 namespace HOWLING_NAMESPACE
 {
 
-template<typename T>
-inline std::size_t makeHash(const T& value)
+template<typename... Args>
+inline constexpr std::size_t makeHash(const Args&... args)
 {
-    return std::hash<T> {}(value);
-}
-
-template<typename T, typename... Rest>
-inline std::size_t makeHash(const T& value, const Rest&... rest)
-{
-    std::size_t hash1 = std::hash<T> {}(value);
-    std::size_t hash_rest = makeHash(rest...);
-    return hash1 ^ (hash_rest << 1);
+    std::size_t hash = 0;
+    (..., (hash = hash * 31 + std::hash<Args> {}(args)));
+    return hash;
 }
 
 }
