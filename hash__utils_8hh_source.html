@@ -88,27 +88,22 @@ $(document).ready(function(){initNavTree('hash__utils_8hh_source.html',''); init
 <div class="contents">
 <a href="hash__utils_8hh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;functional&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">    8</a></span>&#160;<span class="keyword">inline</span> std::size_t <a class="code" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">makeHash</a>(<span class="keyword">const</span> T&amp; value)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> std::hash&lt;T&gt; {}(value);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span>... Rest&gt;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespaceHOWLING__NAMESPACE.html#a23e4823c1b243440a4152e4c797d0129">   14</a></span>&#160;<span class="keyword">inline</span> std::size_t <a class="code" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">makeHash</a>(<span class="keyword">const</span> T&amp; value, <span class="keyword">const</span> Rest&amp;... rest)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    std::size_t hash1 = std::hash&lt;T&gt; {}(value);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    std::size_t hash_rest = <a class="code" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">makeHash</a>(rest...);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> hash1 ^ (hash_rest &lt;&lt; 1);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="anamespaceHOWLING__NAMESPACE_html"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div><div class="ttdef"><b>Definition:</b> <a href="game__assets_8cc_source.html#l00006">game_assets.cc:7</a></div></div>
-<div class="ttc" id="anamespaceHOWLING__NAMESPACE_html_a5fd605b6ba3c02dbdb4002f95d8e074e"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">HOWLING_NAMESPACE::makeHash</a></div><div class="ttdeci">std::size_t makeHash(const T &amp;value)</div><div class="ttdef"><b>Definition:</b> <a href="hash__utils_8hh_source.html#l00008">hash_utils.hh:8</a></div></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string_view&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="namespaceHOWLING__NAMESPACE.html#a8651bcfd72b1e884c2b2cee30c937f2c">    9</a></span>&#160;<span class="keyword">inline</span> constexpr std::size_t <a class="code" href="namespaceHOWLING__NAMESPACE.html#a8651bcfd72b1e884c2b2cee30c937f2c">makeHash</a>(<span class="keyword">const</span> Args&amp;... args)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    std::size_t hash = 0;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    (..., (hash = hash * 31 + std::hash&lt;Args&gt; {}(args)));</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> hash;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="ttc" id="anamespaceHOWLING__NAMESPACE_html"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div><div class="ttdef"><b>Definition:</b> <a href="color__sequence_8cc_source.html#l00003">color_sequence.cc:4</a></div></div>
+<div class="ttc" id="anamespaceHOWLING__NAMESPACE_html_a8651bcfd72b1e884c2b2cee30c937f2c"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html#a8651bcfd72b1e884c2b2cee30c937f2c">HOWLING_NAMESPACE::makeHash</a></div><div class="ttdeci">constexpr std::size_t makeHash(const Args &amp;... args)</div><div class="ttdef"><b>Definition:</b> <a href="hash__utils_8hh_source.html#l00009">hash_utils.hh:9</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

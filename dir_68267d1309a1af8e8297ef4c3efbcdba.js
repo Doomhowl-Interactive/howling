@@ -3,6 +3,13 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "bucket.hh", "bucket_8hh.html", [
       [ "bucket", "classhowl_1_1bucket.html", "classhowl_1_1bucket" ]
     ] ],
+    [ "color_sequence.cc", "color__sequence_8cc.html", null ],
+    [ "color_sequence.hh", "color__sequence_8hh.html", [
+      [ "ColorSequence", "classHOWLING__NAMESPACE_1_1ColorSequence.html", "classHOWLING__NAMESPACE_1_1ColorSequence" ],
+      [ "RainbowColorSequence", "classHOWLING__NAMESPACE_1_1RainbowColorSequence.html", null ],
+      [ "RandomColorSequence", "classHOWLING__NAMESPACE_1_1RandomColorSequence.html", "classHOWLING__NAMESPACE_1_1RandomColorSequence" ],
+      [ "GradientColorSequence", "classHOWLING__NAMESPACE_1_1GradientColorSequence.html", "classHOWLING__NAMESPACE_1_1GradientColorSequence" ]
+    ] ],
     [ "game_assets.cc", "game__assets_8cc.html", null ],
     [ "game_assets.hh", "game__assets_8hh.html", [
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ]

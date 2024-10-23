@@ -28,6 +28,10 @@ var annotated_dup =
       [ "profiler", "namespaceHOWLING__NAMESPACE_1_1profiler.html", [
         [ "ProfilerTask", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html", "classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask" ]
       ] ],
+      [ "ColorSequence", "classHOWLING__NAMESPACE_1_1ColorSequence.html", "classHOWLING__NAMESPACE_1_1ColorSequence" ],
+      [ "RainbowColorSequence", "classHOWLING__NAMESPACE_1_1RainbowColorSequence.html", null ],
+      [ "RandomColorSequence", "classHOWLING__NAMESPACE_1_1RandomColorSequence.html", "classHOWLING__NAMESPACE_1_1RandomColorSequence" ],
+      [ "GradientColorSequence", "classHOWLING__NAMESPACE_1_1GradientColorSequence.html", "classHOWLING__NAMESPACE_1_1GradientColorSequence" ],
       [ "GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", "classHOWLING__NAMESPACE_1_1GameAssets" ],
       [ "LuaConfig", "classHOWLING__NAMESPACE_1_1LuaConfig.html", "classHOWLING__NAMESPACE_1_1LuaConfig" ],
       [ "LuaDesktopReloader", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader.html", "classHOWLING__NAMESPACE_1_1LuaDesktopReloader" ],

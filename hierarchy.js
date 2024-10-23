@@ -1,6 +1,11 @@
 var hierarchy =
 [
     [ "howl::bucket< C >", "classhowl_1_1bucket.html", null ],
+    [ "HOWLING_NAMESPACE::ColorSequence", "classHOWLING__NAMESPACE_1_1ColorSequence.html", [
+      [ "HOWLING_NAMESPACE::GradientColorSequence", "classHOWLING__NAMESPACE_1_1GradientColorSequence.html", null ],
+      [ "HOWLING_NAMESPACE::RainbowColorSequence", "classHOWLING__NAMESPACE_1_1RainbowColorSequence.html", null ],
+      [ "HOWLING_NAMESPACE::RandomColorSequence", "classHOWLING__NAMESPACE_1_1RandomColorSequence.html", null ]
+    ] ],
     [ "fmt::formatter< Color >", "structfmt_1_1formatter_3_01Color_01_4.html", null ],
     [ "fmt::formatter< std::exception >", "structfmt_1_1formatter_3_01std_1_1exception_01_4.html", null ],
     [ "fmt::formatter< std::filesystem::path >", "structfmt_1_1formatter_3_01std_1_1filesystem_1_1path_01_4.html", null ],

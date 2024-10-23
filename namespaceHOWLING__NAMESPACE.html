@@ -100,6 +100,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1ColorSequence.html">ColorSequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1RainbowColorSequence.html">RainbowColorSequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1RandomColorSequence.html">RandomColorSequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GradientColorSequence.html">GradientColorSequence</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHOWLING__NAMESPACE_1_1GameAssets.html">GameAssets</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Game should inherit this class and call load functions in constructor.  <a href="classHOWLING__NAMESPACE_1_1GameAssets.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,12 +132,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5fd605b6ba3c02dbdb4002f95d8e074e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a5fd605b6ba3c02dbdb4002f95d8e074e"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e">makeHash</a> (const T &amp;value)</td></tr>
-<tr class="separator:a5fd605b6ba3c02dbdb4002f95d8e074e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23e4823c1b243440a4152e4c797d0129"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Rest&gt; </td></tr>
-<tr class="memitem:a23e4823c1b243440a4152e4c797d0129"><td class="memTemplItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a23e4823c1b243440a4152e4c797d0129">makeHash</a> (const T &amp;value, const Rest &amp;... rest)</td></tr>
-<tr class="separator:a23e4823c1b243440a4152e4c797d0129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8651bcfd72b1e884c2b2cee30c937f2c"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a8651bcfd72b1e884c2b2cee30c937f2c"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a8651bcfd72b1e884c2b2cee30c937f2c">makeHash</a> (const Args &amp;... args)</td></tr>
+<tr class="separator:a8651bcfd72b1e884c2b2cee30c937f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b2c329932588df5b50f6df19b367d5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceHOWLING__NAMESPACE.html#a0b2c329932588df5b50f6df19b367d5e">setupLogging</a> (const std::string &amp;gameName)</td></tr>
 <tr class="separator:a0b2c329932588df5b50f6df19b367d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e7542876d05b895cfb91d23eab088d8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -497,91 +502,33 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a5fd605b6ba3c02dbdb4002f95d8e074e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fd605b6ba3c02dbdb4002f95d8e074e">&#9670;&nbsp;</a></span>makeHash() <span class="overload">[1/2]</span></h2>
+<a id="a8651bcfd72b1e884c2b2cee30c937f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8651bcfd72b1e884c2b2cee30c937f2c">&#9670;&nbsp;</a></span>makeHash()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t HOWLING_NAMESPACE::makeHash </td>
+          <td class="memname">constexpr std::size_t HOWLING_NAMESPACE::makeHash </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramtype">const Args &amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="hash__utils_8hh_source.html#l00008">8</a> of file <a class="el" href="hash__utils_8hh_source.html">hash_utils.hh</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespaceHOWLING__NAMESPACE_a5fd605b6ba3c02dbdb4002f95d8e074e_icgraph.png" border="0" usemap="#anamespaceHOWLING__NAMESPACE_a5fd605b6ba3c02dbdb4002f95d8e074e_icgraph" alt=""/></div>
-<map name="anamespaceHOWLING__NAMESPACE_a5fd605b6ba3c02dbdb4002f95d8e074e_icgraph" id="anamespaceHOWLING__NAMESPACE_a5fd605b6ba3c02dbdb4002f95d8e074e_icgraph">
-<area shape="rect" title=" " alt="" coords="235,5,416,47"/>
-<area shape="rect" href="namespaceHOWLING__NAMESPACE.html#a23e4823c1b243440a4152e4c797d0129" title=" " alt="" coords="5,5,187,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a23e4823c1b243440a4152e4c797d0129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23e4823c1b243440a4152e4c797d0129">&#9670;&nbsp;</a></span>makeHash() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Rest&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t HOWLING_NAMESPACE::makeHash </td>
-          <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Rest &amp;...&#160;</td>
-          <td class="paramname"><em>rest</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="hash__utils_8hh_source.html#l00014">14</a> of file <a class="el" href="hash__utils_8hh_source.html">hash_utils.hh</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="namespaceHOWLING__NAMESPACE_a23e4823c1b243440a4152e4c797d0129_cgraph.png" border="0" usemap="#anamespaceHOWLING__NAMESPACE_a23e4823c1b243440a4152e4c797d0129_cgraph" alt=""/></div>
-<map name="anamespaceHOWLING__NAMESPACE_a23e4823c1b243440a4152e4c797d0129_cgraph" id="anamespaceHOWLING__NAMESPACE_a23e4823c1b243440a4152e4c797d0129_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,187,47"/>
-<area shape="rect" href="namespaceHOWLING__NAMESPACE.html#a5fd605b6ba3c02dbdb4002f95d8e074e" title=" " alt="" coords="235,5,416,47"/>
-</map>
-</div>
+<p class="definition">Definition at line <a class="el" href="hash__utils_8hh_source.html#l00009">9</a> of file <a class="el" href="hash__utils_8hh_source.html">hash_utils.hh</a>.</p>
 
 </div>
 </div>

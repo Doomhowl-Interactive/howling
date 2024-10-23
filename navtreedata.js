@@ -57,7 +57,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"namespaceHOWLING__NAMESPACE_1_1profiler.html#a2ca850ac9bd06a66f697051afad3ef39"
+"namespaceHOWLING__NAMESPACE.html#ad22f0e024302609992135a2add749efe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
