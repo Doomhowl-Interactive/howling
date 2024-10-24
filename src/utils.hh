@@ -80,10 +80,10 @@ inline Color randomColor(int minElement, int maxElement, int opacity = 255)
 {
 
     return Color {
-        unsigned char(GetRandomValue(minElement, maxElement)),
-        unsigned char(GetRandomValue(minElement, maxElement)),
-        unsigned char(GetRandomValue(minElement, maxElement)),
-        unsigned char(opacity)
+        static_cast<unsigned char>(GetRandomValue(minElement, maxElement)),
+        static_cast<unsigned char>(GetRandomValue(minElement, maxElement)),
+        static_cast<unsigned char>(GetRandomValue(minElement, maxElement)),
+        static_cast<unsigned char>(opacity)
     };
 }
 

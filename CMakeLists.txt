@@ -13,8 +13,6 @@ if (MSVC)
   add_compile_options("/MP")
   add_compile_options("/Zi")
   add_compile_options("/bigobj")
-else()
-  add_compile_options("-mbig-obj")
 endif()
 
 file(GLOB THE_SOURCES CONFIGURE_DEPENDS
@@ -27,7 +25,7 @@ set(RAYLIB_BUILD_GAMES OFF CACHE BOOL "" FORCE)
 set(LUA_ENABLE_SHARED OFF CACHE BOOL "" FORCE)
 
 function(add_vendor_library lib_name)
-    set(VENDOR_DIR "${CMAKE_SOURCE_DIR}/../howling-vendor")
+    set(VENDOR_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../howling-vendor")
     set(BINARY_DIR "${CMAKE_BINARY_DIR}/${lib_name}")
     add_subdirectory("${VENDOR_DIR}/${lib_name}" "${BINARY_DIR}")
 endfunction()

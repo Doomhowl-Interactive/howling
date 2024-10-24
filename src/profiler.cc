@@ -1,4 +1,3 @@
-#pragma once
 #include "profiler.hh"
 #include "logging.hh"
 #include "raymath.h"
