@@ -30,7 +30,7 @@ var hierarchy =
     [ "howl::detail::max_sizeof< First, Rest... >", "structhowl_1_1detail_1_1max__sizeof_3_01First_00_01Rest_8_8_8_01_4.html", null ],
     [ "howl::detail::max_sizeof<>", "structhowl_1_1detail_1_1max__sizeof_3_4.html", null ],
     [ "HOWLING_NAMESPACE::MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", null ],
-    [ "boost::noncopyable", null, [
+    [ "howl::noncopyable", "classhowl_1_1noncopyable.html", [
       [ "HOWLING_NAMESPACE::GameAssets", "classHOWLING__NAMESPACE_1_1GameAssets.html", null ],
       [ "HOWLING_NAMESPACE::LuaMachine", "classHOWLING__NAMESPACE_1_1LuaMachine.html", null ]
     ] ],

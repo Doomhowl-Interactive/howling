@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['rainbowcolorsequence_204',['RainbowColorSequence',['../classHOWLING__NAMESPACE_1_1RainbowColorSequence.html',1,'HOWLING_NAMESPACE']]],
-  ['randomcolorsequence_205',['RandomColorSequence',['../classHOWLING__NAMESPACE_1_1RandomColorSequence.html',1,'HOWLING_NAMESPACE']]],
-  ['ring_5fbuffer_206',['ring_buffer',['../classhowl_1_1ring__buffer.html',1,'howl']]],
-  ['rngmachine_207',['RngMachine',['../classHOWLING__NAMESPACE_1_1RngMachine.html',1,'HOWLING_NAMESPACE']]]
+  ['point3d_207',['Point3D',['../structHOWLING__NAMESPACE_1_1Point3D.html',1,'HOWLING_NAMESPACE']]],
+  ['profilertask_208',['ProfilerTask',['../classHOWLING__NAMESPACE_1_1profiler_1_1ProfilerTask.html',1,'HOWLING_NAMESPACE::profiler']]]
 ];

@@ -38,6 +38,9 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "mesh_builder.hh", "mesh__builder_8hh.html", [
       [ "MeshBuilder", "classHOWLING__NAMESPACE_1_1MeshBuilder.html", "classHOWLING__NAMESPACE_1_1MeshBuilder" ]
     ] ],
+    [ "noncopyable.hh", "noncopyable_8hh.html", [
+      [ "noncopyable", "classhowl_1_1noncopyable.html", "classhowl_1_1noncopyable" ]
+    ] ],
     [ "observed_vector.hh", "observed__vector_8hh.html", [
       [ "observed_vector", "classhowl_1_1observed__vector.html", "classhowl_1_1observed__vector" ],
       [ "listener", "classhowl_1_1observed__vector_1_1listener.html", "classhowl_1_1observed__vector_1_1listener" ]

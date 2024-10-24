@@ -89,9 +89,9 @@ $(document).ready(function(){initNavTree('game__assets_8hh_source.html',''); ini
 <a href="game__assets_8hh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="howl__assert_8hh.html">howl_assert.hh</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lua__machine_8hh.html">lua_machine.hh</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;raylib.h&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;boost/core/noncopyable.hpp&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="noncopyable_8hh.html">noncopyable.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;raylib.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('game__assets_8hh_source.html',''); ini
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classHOWLING__NAMESPACE_1_1GameAssets.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classHOWLING__NAMESPACE_1_1GameAssets.html">GameAssets</a> : <span class="keyword">public</span> <a class="code" href="classHOWLING__NAMESPACE_1_1LuaPlugin.html">LuaPlugin</a>,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                   <span class="keyword">private</span> boost::noncopyable</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                   <span class="keyword">private</span> <a class="code" href="classhowl_1_1noncopyable.html">howl::noncopyable</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classHOWLING__NAMESPACE_1_1GameAssets.html#a7764224749794df6ce1382edcc93e8f2">~GameAssets</a>();</div>
@@ -160,11 +160,13 @@ $(document).ready(function(){initNavTree('game__assets_8hh_source.html',''); ini
 <div class="ttc" id="aclassHOWLING__NAMESPACE_1_1GameAssets_html_ad820327c30110b5bdba2df6f434716f2"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1GameAssets.html#ad820327c30110b5bdba2df6f434716f2">HOWLING_NAMESPACE::GameAssets::mTextures</a></div><div class="ttdeci">std::unordered_map&lt; std::string, Texture &gt; mTextures</div><div class="ttdef"><b>Definition:</b> <a href="game__assets_8hh_source.html#l00044">game_assets.hh:44</a></div></div>
 <div class="ttc" id="aclassHOWLING__NAMESPACE_1_1GameAssets_html_aec258150ef77615d9222b974b4af028d"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1GameAssets.html#aec258150ef77615d9222b974b4af028d">HOWLING_NAMESPACE::GameAssets::getOrLoadModel</a></div><div class="ttdeci">Model getOrLoadModel(const std::string &amp;path)</div><div class="ttdoc">Loads or gets model.</div><div class="ttdef"><b>Definition:</b> <a href="game__assets_8cc_source.html#l00024">game_assets.cc:24</a></div></div>
 <div class="ttc" id="aclassHOWLING__NAMESPACE_1_1GameAssets_html_aef3b9a9987326ef6ea04320f06185a22"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1GameAssets.html#aef3b9a9987326ef6ea04320f06185a22">HOWLING_NAMESPACE::GameAssets::mModels</a></div><div class="ttdeci">std::unordered_map&lt; std::string, Model &gt; mModels</div><div class="ttdef"><b>Definition:</b> <a href="game__assets_8hh_source.html#l00042">game_assets.hh:42</a></div></div>
-<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html">HOWLING_NAMESPACE::LuaMachine</a></div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00079">lua_machine.hh:80</a></div></div>
+<div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaMachine_html"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaMachine.html">HOWLING_NAMESPACE::LuaMachine</a></div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00081">lua_machine.hh:82</a></div></div>
 <div class="ttc" id="aclassHOWLING__NAMESPACE_1_1LuaPlugin_html"><div class="ttname"><a href="classHOWLING__NAMESPACE_1_1LuaPlugin.html">HOWLING_NAMESPACE::LuaPlugin</a></div><div class="ttdef"><b>Definition:</b> <a href="lua__machine_8hh_source.html#l00023">lua_machine.hh:24</a></div></div>
+<div class="ttc" id="aclasshowl_1_1noncopyable_html"><div class="ttname"><a href="classhowl_1_1noncopyable.html">howl::noncopyable</a></div><div class="ttdef"><b>Definition:</b> <a href="noncopyable_8hh_source.html#l00008">noncopyable.hh:9</a></div></div>
 <div class="ttc" id="ahowl__assert_8hh_html"><div class="ttname"><a href="howl__assert_8hh.html">howl_assert.hh</a></div></div>
 <div class="ttc" id="alua__machine_8hh_html"><div class="ttname"><a href="lua__machine_8hh.html">lua_machine.hh</a></div></div>
 <div class="ttc" id="anamespaceHOWLING__NAMESPACE_html"><div class="ttname"><a href="namespaceHOWLING__NAMESPACE.html">HOWLING_NAMESPACE</a></div><div class="ttdef"><b>Definition:</b> <a href="color__sequence_8cc_source.html#l00003">color_sequence.cc:4</a></div></div>
+<div class="ttc" id="anoncopyable_8hh_html"><div class="ttname"><a href="noncopyable_8hh.html">noncopyable.hh</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
