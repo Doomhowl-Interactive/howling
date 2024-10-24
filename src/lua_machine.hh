@@ -1,18 +1,18 @@
 #pragma once
 
 #include <cassert>
+#include <filesystem>
+#include <functional>
 #include <memory>
 #include <optional>
 #include <string>
 #include <vector>
-#include <functional>
-#include <filesystem>
 #define SOL_ALL_SAFETIES_ON 1
-#include <boost/core/noncopyable.hpp>
 #include <initializer_list>
 #include <sol/sol.hpp>
 
 #include "logging.hh"
+#include "noncopyable.hh"
 
 #define LUAFUNC
 
@@ -62,21 +62,23 @@ public:
     }
 
 protected:
-    void notifyCallbacks(const std::filesystem::path& path) {
-        for (LuaReloader::ReloadCallback& cb : mCallbacks) {
+    void notifyCallbacks(const std::filesystem::path& path)
+    {
+        for (LuaReloader::ReloadCallback& cb : mCallbacks)
+        {
             cb(path);
         }
     }
 
 private:
     float mTimer {};
-    std::vector<ReloadCallback> mCallbacks{};
+    std::vector<ReloadCallback> mCallbacks {};
     constexpr static float CHECK_TIME = 1.f;
 
     static inline std::shared_ptr<LuaReloader> sInstance = nullptr;
 };
 
-class LuaMachine : public LuaPlugin, private boost::noncopyable
+class LuaMachine : public LuaPlugin, private howl::noncopyable
 {
 public:
     LuaMachine();
@@ -125,7 +127,8 @@ public:
 
     void registerLuaReloadCallback(const LuaReloader::ReloadCallback& cb)
     {
-        if (auto rel = mReload.lock()) {
+        if (auto rel = mReload.lock())
+        {
             rel->registerReloadCallback(cb);
         }
     }
@@ -133,6 +136,7 @@ public:
     void registerLuaPlugin(LuaMachine& machine) override;
 
     sol::state state {};
+
 private:
     [[nodiscard]] std::optional<std::string> resolveLuaFile(const std::string& scriptPath) const;
 
@@ -140,7 +144,7 @@ private:
 
     std::weak_ptr<LuaReloader> mReload;
     std::vector<std::string> mLuaIncludeDirs;
-    static inline std::vector<std::string> sDefaultLuaIncludeDirs{};
+    static inline std::vector<std::string> sDefaultLuaIncludeDirs {};
 };
 
 }

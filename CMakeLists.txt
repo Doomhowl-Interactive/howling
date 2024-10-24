@@ -22,20 +22,23 @@ file(GLOB THE_SOURCES CONFIGURE_DEPENDS
   ${CMAKE_CURRENT_SOURCE_DIR}/src/*.hh)
 file(GLOB THE_LUA_SOURCES CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/assets/scripts/*.lua)
 
-find_package(magic_enum CONFIG REQUIRED)
-find_package(boost_core REQUIRED CONFIG)
-find_package(boost_container REQUIRED CONFIG)
-
-find_package(spdlog CONFIG REQUIRED)
-find_package(sol2 CONFIG REQUIRED)
-find_package(Lua REQUIRED)
-
 set(RAYLIB_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(RAYLIB_BUILD_GAMES OFF CACHE BOOL "" FORCE)
+set(LUA_ENABLE_SHARED OFF CACHE BOOL "" FORCE)
 
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/Doomhowl-Interactive/raylib-lua-sol")
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/raysan5/raylib")
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/.wolfpack/metayeti/mINI")
+function(add_vendor_library lib_name)
+    set(VENDOR_DIR "${CMAKE_SOURCE_DIR}/../howling-vendor")
+    set(BINARY_DIR "${CMAKE_BINARY_DIR}/${lib_name}")
+    add_subdirectory("${VENDOR_DIR}/${lib_name}" "${BINARY_DIR}")
+endfunction()
+
+add_vendor_library("raylib-lua-sol")
+add_vendor_library("magic_enum")
+add_vendor_library("raylib")
+add_vendor_library("mINI")
+add_vendor_library("spdlog")
+add_vendor_library("sol2")
+add_vendor_library("Lua")
 
 add_library(${PROJECT_NAME} STATIC ${THE_SOURCES} ${THE_LUA_SOURCES})
 target_link_libraries(${PROJECT_NAME} PUBLIC
@@ -43,10 +46,8 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
   magic_enum::magic_enum
   mINI
   spdlog::spdlog
-  Boost::core
-  Boost::container
   sol2
-  ${LUA_LIBRARIES}
+  lua_include
   raylib-lua-sol-hpp
 )
 

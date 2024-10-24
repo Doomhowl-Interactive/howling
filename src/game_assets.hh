@@ -1,9 +1,9 @@
 #pragma once
 #include "howl_assert.hh"
 #include "lua_machine.hh"
+#include "noncopyable.hh"
 #include "raylib.h"
 
-#include <boost/core/noncopyable.hpp>
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -17,7 +17,7 @@ namespace HOWLING_NAMESPACE
 
 /// Game should inherit this class and call load functions in constructor.
 class GameAssets : public LuaPlugin,
-                   private boost::noncopyable
+                   private howl::noncopyable
 {
 public:
     virtual ~GameAssets();
